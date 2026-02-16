@@ -1,0 +1,21 @@
+rule key,start line,end line,severity,message,type
+java:S1104,41,41,MINOR,Make name a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,42,42,MINOR,Make id a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,43,43,MINOR,Make context a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,44,44,MINOR,Make output a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,45,45,MINOR,Make publication a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,61,61,MINOR,Make ditavals a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,72,72,MINOR,Make name a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,73,73,MINOR,Make id a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,74,74,MINOR,Make idref a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,75,75,MINOR,Make input a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,76,76,MINOR,Make profiles a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,93,93,MINOR,Make name a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,94,94,MINOR,Make id a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,95,95,MINOR,Make idref a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,96,96,MINOR,Make transtype a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,97,97,MINOR,Make params a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,113,113,MINOR,Make name a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,114,114,MINOR,Make value a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,115,115,MINOR,Make href a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,116,116,MINOR,Make file a static final constant or non-public and provide accessors if needed.,CODE_SMELL

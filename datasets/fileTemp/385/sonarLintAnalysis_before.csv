@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1940,67,67,MINOR,Use the opposite operator ("<=") instead.,CODE_SMELL

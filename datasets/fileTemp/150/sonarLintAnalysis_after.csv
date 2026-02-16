@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S3358,59,59,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL

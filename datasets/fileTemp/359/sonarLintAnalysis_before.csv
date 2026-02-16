@@ -1,0 +1,13 @@
+rule key,start line,end line,severity,message,type
+java:S1192,238,238,CRITICAL,Define a constant instead of duplicating this literal "close" 3 times.,CODE_SMELL
+java:S1192,238,238,CRITICAL,Define a constant instead of duplicating this literal "Connection" 3 times.,CODE_SMELL
+java:S2629,231,231,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,254,254,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,275,275,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,285,285,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,321,321,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S3457,231,231,MAJOR,Format specifiers or lambda should be used instead of string concatenation.,CODE_SMELL
+java:S3457,254,254,MAJOR,Format specifiers or lambda should be used instead of string concatenation.,CODE_SMELL
+java:S3457,275,275,MAJOR,Format specifiers or lambda should be used instead of string concatenation.,CODE_SMELL
+java:S3457,285,285,MAJOR,Format specifiers or lambda should be used instead of string concatenation.,CODE_SMELL
+java:S3457,321,321,MAJOR,Format specifiers or lambda should be used instead of string concatenation.,CODE_SMELL

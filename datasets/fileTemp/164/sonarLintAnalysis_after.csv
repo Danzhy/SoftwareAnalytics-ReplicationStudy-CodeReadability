@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1117,138,138,MAJOR,Rename "entry" which hides the field declared at line 88.,CODE_SMELL

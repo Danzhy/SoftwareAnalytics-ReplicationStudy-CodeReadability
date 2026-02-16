@@ -1,0 +1,13 @@
+rule key,start line,end line,severity,message,type
+java:S1186,55,55,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,67,67,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,93,93,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,101,101,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,115,115,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,138,138,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,145,145,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,153,153,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1133,163,163,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1135,174,174,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3457,180,180,MAJOR,Lambda should be used to defer string concatenation.,CODE_SMELL
+java:S3457,210,210,MAJOR,Lambda should be used to defer string concatenation.,CODE_SMELL

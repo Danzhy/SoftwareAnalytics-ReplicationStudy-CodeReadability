@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S1192,333,333,CRITICAL,Define a constant instead of duplicating this literal "A stream ID must be zero." 3 times.,CODE_SMELL
+java:S1192,316,316,CRITICAL,Define a constant instead of duplicating this literal "Invalid frame length %d." 3 times.,CODE_SMELL
+java:S1192,294,294,CRITICAL,Define a constant instead of duplicating this literal "Frame length %d too small." 3 times.,CODE_SMELL

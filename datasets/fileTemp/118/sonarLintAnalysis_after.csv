@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1172,65,65,MAJOR,Remove this unused method parameter "name".,CODE_SMELL
+java:S1172,108,108,MAJOR,Remove this unused method parameter "name".,CODE_SMELL
+java:S1133,249,249,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,249,249,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL

@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1192,200,200,CRITICAL,Define a constant instead of duplicating this literal "config" 3 times.,CODE_SMELL
+java:S3776,102,102,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.,CODE_SMELL
+java:S1135,119,119,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1452,289,289,CRITICAL,Remove usage of generic wildcard type.,CODE_SMELL

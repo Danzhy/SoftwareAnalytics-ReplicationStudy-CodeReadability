@@ -1,0 +1,7 @@
+rule key,start line,end line,severity,message,type
+java:S1135,129,129,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,140,140,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,158,158,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,199,199,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S1135,195,195,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,196,196,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

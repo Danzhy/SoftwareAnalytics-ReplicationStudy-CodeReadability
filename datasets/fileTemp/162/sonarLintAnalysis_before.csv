@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S135,315,315,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL

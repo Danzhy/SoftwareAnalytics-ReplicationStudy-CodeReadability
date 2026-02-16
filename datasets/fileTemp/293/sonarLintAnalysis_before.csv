@@ -1,0 +1,19 @@
+rule key,start line,end line,severity,message,type
+java:S112,294,294,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,301,301,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S116,64,64,MINOR,Rename this field "_config" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,65,65,MINOR,Rename this field "_routingTable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,66,66,MINOR,Rename this field "_timeBoundaryService" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,67,67,MINOR,Rename this field "_accessControlFactory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,68,68,MINOR,Rename this field "_tableQueryQuotaManager" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,69,69,MINOR,Rename this field "_brokerMetrics" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,71,71,MINOR,Rename this field "_requestIdGenerator" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,72,72,MINOR,Rename this field "_brokerRequestOptimizer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,73,73,MINOR,Rename this field "_brokerReduceService" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,75,75,MINOR,Rename this field "_brokerId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,76,76,MINOR,Rename this field "_brokerTimeoutMs" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,77,77,MINOR,Rename this field "_queryResponseLimit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,78,78,MINOR,Rename this field "_queryLogLength" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S5993,80,80,MAJOR,Change the visibility of this constructor to "protected".,CODE_SMELL
+java:S3776,110,110,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S1135,208,208,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

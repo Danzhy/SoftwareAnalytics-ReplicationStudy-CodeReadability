@@ -1,0 +1,9 @@
+rule key,start line,end line,severity,message,type
+java:S112,239,239,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1134,83,83,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S1134,84,84,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S1135,147,147,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1133,200,200,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1135,238,238,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1134,262,262,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S1068,53,53,MAJOR,Remove this unused "logger" private field.,CODE_SMELL

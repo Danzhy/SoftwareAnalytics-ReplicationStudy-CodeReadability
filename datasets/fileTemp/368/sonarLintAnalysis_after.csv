@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S3740,146,146,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL

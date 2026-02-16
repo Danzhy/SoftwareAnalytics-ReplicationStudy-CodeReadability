@@ -1,0 +1,28 @@
+rule key,start line,end line,severity,message,type
+java:S112,828,828,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1518,1518,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S2293,640,640,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1192,239,239,CRITICAL,Define a constant instead of duplicating this literal "buffers" 4 times.,CODE_SMELL
+java:S1121,1810,1810,MAJOR,Extract the assignment out of this expression.,CODE_SMELL
+java:S135,1290,1290,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,1331,1331,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,1377,1377,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S127,588,588,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S127,614,614,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S127,762,762,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S127,820,820,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S127,822,822,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S127,1509,1509,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S127,1511,1511,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S1301,1555,1555,MINOR,Replace this "switch" statement by "if" statements to increase readability.,CODE_SMELL
+java:S2589,2216,2216,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S1659,313,313,MINOR,Declare "len" on a separate line.,CODE_SMELL
+java:S1659,349,349,MINOR,Declare "count" on a separate line.,CODE_SMELL
+java:S1135,421,421,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1659,605,605,MINOR,Declare "localIndex" on a separate line.,CODE_SMELL
+java:S1659,740,740,MINOR,Declare "oldCapacity" on a separate line.,CODE_SMELL
+java:S1134,746,746,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S131,1555,1555,CRITICAL,Add a default case to this switch.,CODE_SMELL
+java:S125,1675,1675,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1713,1713,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1659,2203,2203,MINOR,Declare "newSize" on a separate line.,CODE_SMELL

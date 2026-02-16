@@ -1,0 +1,12 @@
+rule key,start line,end line,severity,message,type
+java:S112,53,53,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,106,106,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,112,112,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,182,182,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,188,188,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,219,219,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,238,238,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1192,100,100,CRITICAL,Define a constant instead of duplicating this literal "EPSG:" 5 times.,CODE_SMELL
+java:S1488,83,83,MINOR,Immediately return this expression instead of assigning it to the temporary variable "result".,CODE_SMELL
+java:S2130,46,46,MINOR,Use "Integer.parseInt" for this string-to-int conversion.,CODE_SMELL
+java:S2139,217,217,MAJOR,Either log this exception and handle it, or rethrow it with some contextual information.,CODE_SMELL

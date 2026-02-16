@@ -1,0 +1,20 @@
+rule key,start line,end line,severity,message,type
+java:S135,322,322,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,128,128,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1141,285,285,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,302,302,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,345,345,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,365,365,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S107,65,65,MAJOR,Constructor has 13 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S1172,67,67,MAJOR,Remove this unused method parameter "timeout".,CODE_SMELL
+java:S108,162,162,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S3776,185,185,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 55 to the 15 allowed.,CODE_SMELL
+java:S1197,205,205,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S1134,213,213,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S1135,221,221,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1858,238,238,MINOR,"agentSetupScript" is already a string, there's no need to call "toString()" on it.,CODE_SMELL
+java:S1197,249,249,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S2142,356,356,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2142,347,347,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2142,367,367,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2093,423,423,CRITICAL,Change this "try" to a try-with-resources. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL

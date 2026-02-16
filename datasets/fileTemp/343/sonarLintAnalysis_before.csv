@@ -1,0 +1,25 @@
+rule key,start line,end line,severity,message,type
+java:S3740,539,539,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,539,539,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1172,119,119,MAJOR,Remove this unused method parameter "request".,CODE_SMELL
+java:S3599,182,184,MINOR,Use another way to initialize this instance.,BUG
+java:S1171,182,182,MAJOR,Move the contents of this initializer to a standard constructor or to field initializers.,CODE_SMELL
+java:S1124,220,220,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S3599,407,409,MINOR,Use another way to initialize this instance.,BUG
+java:S1171,407,407,MAJOR,Move the contents of this initializer to a standard constructor or to field initializers.,CODE_SMELL
+java:S3599,421,423,MINOR,Use another way to initialize this instance.,BUG
+java:S1171,421,421,MAJOR,Move the contents of this initializer to a standard constructor or to field initializers.,CODE_SMELL
+java:S125,525,525,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1124,528,528,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S1610,539,539,MINOR,Convert the abstract class "CollectionAndEnumeration" into an interface. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1150,539,539,MAJOR,Implement Iterator rather than Enumeration.,CODE_SMELL
+java:S1124,539,539,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S125,581,581,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1161,607,607,MAJOR,Add the "@Override" annotation above this method signature,CODE_SMELL
+java:S1161,610,610,MAJOR,Add the "@Override" annotation above this method signature,CODE_SMELL
+java:S1161,615,615,MAJOR,Add the "@Override" annotation above this method signature,CODE_SMELL
+java:S125,651,651,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,650,650,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,729,729,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,728,728,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1144,74,74,MAJOR,Remove this unused private "getPrivate" method.,CODE_SMELL

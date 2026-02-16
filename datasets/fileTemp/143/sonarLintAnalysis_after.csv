@@ -1,0 +1,17 @@
+rule key,start line,end line,severity,message,type
+java:S112,696,696,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1604,287,287,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S2184,506,506,MINOR,Cast one of the operands of this multiplication operation to a "double".,BUG
+java:S1186,859,859,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,890,890,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S3776,362,362,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.,CODE_SMELL
+java:S1135,385,385,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,443,443,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,634,634,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,688,688,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S2142,695,695,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1135,828,828,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,880,880,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,953,953,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL
+java:S1135,1034,1034,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3398,502,502,MINOR,Move this method into "RenderTask".,CODE_SMELL

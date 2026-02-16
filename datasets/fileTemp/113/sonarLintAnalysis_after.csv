@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S135,312,312,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S5993,66,66,MAJOR,Change the visibility of this constructor to "protected".,CODE_SMELL
+java:S1117,85,85,MAJOR,Rename "connectionFactory" which hides the field declared at line 61.,CODE_SMELL
+java:S3776,251,251,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S3776,325,325,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.,CODE_SMELL
+java:S1117,327,327,MAJOR,Rename "client" which hides the field declared at line 55.,CODE_SMELL
+java:S1117,419,419,MAJOR,Rename "client" which hides the field declared at line 55.,CODE_SMELL

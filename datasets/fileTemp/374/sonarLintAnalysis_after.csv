@@ -1,0 +1,60 @@
+rule key,start line,end line,severity,message,type
+java:S3740,201,201,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,302,302,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,317,317,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,434,434,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,436,436,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,440,440,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,452,452,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,453,453,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,453,453,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,484,484,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,486,486,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,503,503,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,506,506,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,514,514,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,565,565,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,566,566,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,586,586,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,634,634,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,637,637,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,673,673,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,716,716,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,803,803,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1066,844,844,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1301,330,330,MINOR,Replace this "switch" statement by "if" statements to increase readability.,CODE_SMELL
+java:S1301,959,959,MINOR,Replace this "switch" statement by "if" statements to increase readability.,CODE_SMELL
+java:S1488,552,552,MINOR,Immediately return this expression instead of assigning it to the temporary variable "arraySchema".,CODE_SMELL
+java:S2259,256,256,MAJOR,A "NullPointerException" could be thrown; "getAccessorForField()" can return null.,BUG
+java:S2259,239,239,MAJOR,A "NullPointerException" could be thrown; "getAccessorForField()" can return null.,BUG
+java:S116,69,69,MINOR,Rename this field "STRING_OUTER_PARENT_REFERENCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1170,69,69,MINOR,Make this final field static too.,CODE_SMELL
+java:S3011,177,177,MAJOR,This accessibility update should be removed.,CODE_SMELL
+java:S108,183,183,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S3011,202,202,MAJOR,This accessibility update should be removed.,CODE_SMELL
+java:S6213,228,228,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,233,233,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,246,246,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,251,251,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,262,262,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,322,322,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S1133,426,426,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,429,429,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,432,432,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S128,520,520,BLOCKER,End this switch case with an unconditional break, return or throw statement.,CODE_SMELL
+java:S1874,503,503,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,514,514,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,521,521,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,586,586,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S3776,624,624,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 129 to the 15 allowed.,CODE_SMELL
+java:S1874,640,640,MINOR,Remove this use of "KEY_CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,644,644,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,651,651,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,656,656,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,660,660,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,664,664,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,676,676,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,680,680,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,711,711,MINOR,Remove this use of "CLASS_PROP"; it is deprecated.,CODE_SMELL
+java:S1874,797,797,MINOR,Remove this use of "ELEMENT_PROP"; it is deprecated.,CODE_SMELL
+java:S6213,985,985,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL

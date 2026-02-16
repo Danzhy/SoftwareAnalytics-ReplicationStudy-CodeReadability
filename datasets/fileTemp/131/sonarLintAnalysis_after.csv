@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S4144,146,146,MAJOR,Update this method so that its implementation is not identical to "getPendingString" on line 106.,CODE_SMELL
+java:S108,90,90,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S108,101,101,MAJOR,Either remove or fill this block of code.,CODE_SMELL

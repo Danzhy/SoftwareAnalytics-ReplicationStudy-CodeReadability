@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S2142,60,60,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG

@@ -1,0 +1,127 @@
+rule key,start line,end line,severity,message,type
+java:S1192,830,830,CRITICAL,Define a constant instead of duplicating this literal "no longer master" 3 times.,CODE_SMELL
+java:S1192,702,702,CRITICAL,Define a constant instead of duplicating this literal "] was deleted during a snapshot but snapshot was not partial." 3 times.,CODE_SMELL
+java:S1192,2435,2435,CRITICAL,Define a constant instead of duplicating this literal " on [" 5 times.,CODE_SMELL
+java:S135,531,531,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,1032,1032,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,2486,2486,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1186,2420,2420,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S107,2291,2291,MAJOR,Method has 8 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S3776,221,221,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.,CODE_SMELL
+java:S1135,225,225,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,241,241,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1854,280,280,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,275,276,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,272,272,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,271,271,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,288,288,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,318,319,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,317,317,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,315,316,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,310,311,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,321,321,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1125,294,294,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,320,320,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,327,327,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,376,376,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,387,387,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1854,410,411,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,405,409,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,401,401,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,400,400,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,417,417,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,423,424,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S3776,478,478,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 72 to the 15 allowed.,CODE_SMELL
+java:S1135,492,492,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1854,530,530,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,529,529,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,528,528,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,526,526,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,524,525,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,532,532,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,540,541,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,538,539,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,552,552,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,551,551,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1125,533,533,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,541,541,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,553,553,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,564,564,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1854,586,586,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,585,585,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,588,588,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,592,592,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1125,664,664,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,679,679,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,682,682,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,714,714,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.,CODE_SMELL
+java:S1125,716,716,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,743,743,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,770,770,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.,CODE_SMELL
+java:S1125,782,782,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,785,785,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,798,798,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,801,801,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S4274,838,838,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,839,839,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1125,821,821,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,824,824,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,844,844,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,889,889,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,908,908,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 62 to the 15 allowed.,CODE_SMELL
+java:S1125,909,909,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,909,909,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1002,1002,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1011,1011,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,1027,1027,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S1125,1073,1073,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,1077,1077,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,1097,1097,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.,CODE_SMELL
+java:S1125,1137,1137,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,1204,1204,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.,CODE_SMELL
+java:S1125,1216,1216,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1224,1224,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1346,1346,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1354,1354,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,1422,1422,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S4274,1431,1432,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1125,1473,1473,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,1613,1613,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 89 to the 15 allowed.,CODE_SMELL
+java:S1854,1639,1641,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1638,1638,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1637,1637,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1645,1649,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1658,1659,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1656,1657,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1664,1664,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1677,1698,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1676,1676,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1704,1706,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1708,1711,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1125,1724,1724,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1742,1742,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,1772,1772,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S4274,1854,1856,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1135,2092,2092,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,2123,2123,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 90 to the 15 allowed.,CODE_SMELL
+java:S1125,2141,2141,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,2142,2142,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,2149,2149,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,2153,2153,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,2165,2165,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2181,2181,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2200,2200,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,2291,2291,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.,CODE_SMELL
+java:S1125,2299,2299,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2302,2302,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2326,2326,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2348,2348,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2352,2352,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2374,2374,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2391,2391,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1854,2433,2433,MAJOR,Remove this useless assignment to local variable "localNode".,CODE_SMELL
+java:S1125,2490,2490,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2704,2704,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2756,2756,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2969,2969,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3398,2734,2734,MINOR,Move this method into "UpdateSnapshotStatusAction".,CODE_SMELL

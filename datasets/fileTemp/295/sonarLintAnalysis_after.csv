@@ -1,0 +1,12 @@
+rule key,start line,end line,severity,message,type
+java:S1066,146,146,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,701,701,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1118,65,65,MAJOR,Add a private constructor to hide the implicit public one.,CODE_SMELL
+java:S3776,153,153,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL
+java:S108,196,196,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S3626,225,225,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S1135,292,292,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,375,375,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL
+java:S1126,414,414,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S3776,670,670,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.,CODE_SMELL
+java:S125,712,712,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL

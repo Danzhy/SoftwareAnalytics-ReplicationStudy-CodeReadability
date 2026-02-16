@@ -1,0 +1,10 @@
+rule key,start line,end line,severity,message,type
+java:S3740,197,197,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S2293,256,256,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S5411,217,217,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S1157,127,127,MINOR,Replace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.,CODE_SMELL
+java:S1157,133,133,MINOR,Replace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.,CODE_SMELL
+java:S1874,173,173,MINOR,Remove this use of "newInstance"; it is deprecated.,CODE_SMELL
+java:S3776,211,211,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S2147,266,266,MINOR,Combine this catch with the one at line 263, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1117,256,256,MAJOR,Rename "reader" which hides the field declared at line 88.,CODE_SMELL

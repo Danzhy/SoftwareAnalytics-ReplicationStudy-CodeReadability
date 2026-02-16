@@ -1,0 +1,32 @@
+rule key,start line,end line,severity,message,type
+java:S3740,531,531,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,543,543,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S117,125,125,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,125,125,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S115,145,145,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,511,511,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S1170,121,121,MINOR,Make this final field static too.,CODE_SMELL
+java:S1124,146,146,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S1124,147,147,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S3010,161,161,MAJOR,Remove this assignment of "counterTokenSum".,CODE_SMELL
+java:S3010,162,162,MAJOR,Remove this assignment of "counterToken0".,CODE_SMELL
+java:S3776,187,187,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.,CODE_SMELL
+java:S1155,205,205,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S125,206,206,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,262,262,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,295,295,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,299,299,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,298,298,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,321,321,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1134,320,320,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S1135,381,381,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,466,466,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1134,478,478,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S125,480,480,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1854,516,516,MAJOR,Remove this useless assignment to local variable "lastSavedTail".,CODE_SMELL
+java:S1117,533,533,MAJOR,Rename "streamTailMap" which hides the field declared at line 103.,CODE_SMELL
+java:S1117,545,545,MAJOR,Rename "streamTailToGlobalTailMap" which hides the field declared at line 108.,CODE_SMELL
+java:S1144,526,526,MAJOR,Remove this unused private "saveStreamTailMap" method.,CODE_SMELL
+java:S1144,530,530,MAJOR,Remove this unused private "restoreStreamTailMap" method.,CODE_SMELL
+java:S1144,538,538,MAJOR,Remove this unused private "saveStreamTailToGlobalTailMap" method.,CODE_SMELL
+java:S1144,542,542,MAJOR,Remove this unused private "restoreStreamTailToGlobalTailMap" method.,CODE_SMELL

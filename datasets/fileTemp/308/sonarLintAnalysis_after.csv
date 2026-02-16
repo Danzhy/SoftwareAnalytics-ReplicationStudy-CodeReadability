@@ -1,0 +1,3 @@
+rule key,start line,end line,severity,message,type
+java:S6213,31,31,MAJOR,Rename this method to not match a restricted identifier.,CODE_SMELL
+java:S1068,118,118,MAJOR,Remove this unused "max" private field.,CODE_SMELL

@@ -1,0 +1,15 @@
+rule key,start line,end line,severity,message,type
+java:S112,715,715,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1066,328,328,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S107,585,585,MAJOR,Method has 8 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S125,121,121,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3457,266,268,MAJOR,Format specifiers or lambda should be used instead of string concatenation.,CODE_SMELL
+java:S125,275,275,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,278,278,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,320,320,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.,CODE_SMELL
+java:S3776,446,446,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S3776,484,484,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.,CODE_SMELL
+java:S3776,770,770,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S1854,789,789,MAJOR,Remove this useless assignment to local variable "username".,CODE_SMELL
+java:S3776,819,819,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.,CODE_SMELL
+java:S3776,887,887,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL

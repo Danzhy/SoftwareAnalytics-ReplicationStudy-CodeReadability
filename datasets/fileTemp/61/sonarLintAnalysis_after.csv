@@ -1,0 +1,7 @@
+rule key,start line,end line,severity,message,type
+java:S4973,253,253,MAJOR,Strings and Boxed types should be compared using "equals()".,BUG
+java:S1700,282,282,MAJOR,Rename field "stage",CODE_SMELL
+java:S5998,37,37,MAJOR,Refactor this repetition that can lead to a stack overflow for large inputs.,BUG
+java:S3776,215,215,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S1210,308,308,MINOR,Override "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.,CODE_SMELL
+java:S5843,37,37,MAJOR,Simplify this regular expression to reduce its complexity from 23 to the 20 allowed.,CODE_SMELL

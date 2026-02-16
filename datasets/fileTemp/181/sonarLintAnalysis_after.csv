@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S2293,80,80,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1604,82,82,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S2184,26,26,MINOR,Cast one of the operands of this multiplication operation to a "long".,BUG
+java:S1130,31,31,MINOR,Remove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from constructor's body.,CODE_SMELL
+java:S1155,61,61,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S899,64,64,MINOR,Do something with the "boolean" value returned by "delete".,BUG
+java:S4042,64,64,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S1075,68,68,MINOR,Remove this hard-coded path-delimiter.,CODE_SMELL
+java:S1075,70,70,MINOR,Remove this hard-coded path-delimiter.,CODE_SMELL
+java:S125,100,100,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL

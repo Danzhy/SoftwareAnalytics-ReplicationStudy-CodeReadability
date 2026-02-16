@@ -1,0 +1,13 @@
+rule key,start line,end line,severity,message,type
+java:S1192,1286,1286,CRITICAL,Define a constant instead of duplicating this literal "Not required" 4 times.,CODE_SMELL
+java:S1192,718,718,CRITICAL,Define a constant instead of duplicating this literal "value" 3 times.,CODE_SMELL
+java:S1170,149,149,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,150,150,MINOR,Make this final field static too.,CODE_SMELL
+java:S1117,185,185,MAJOR,Rename "updater" which hides the field declared at line 153.,CODE_SMELL
+java:S1117,240,240,MAJOR,Rename "updater" which hides the field declared at line 153.,CODE_SMELL
+java:S1117,288,288,MAJOR,Rename "updater" which hides the field declared at line 153.,CODE_SMELL
+java:S1854,421,423,MAJOR,Remove this useless assignment to local variable "indexing".,CODE_SMELL
+java:S1481,421,421,MINOR,Remove this unused "indexing" local variable.,CODE_SMELL
+java:S1117,726,726,MAJOR,Rename "accessor" which hides the field declared at line 155.,CODE_SMELL
+java:S1117,727,727,MAJOR,Rename "index" which hides the field declared at line 151.,CODE_SMELL
+java:S1117,756,756,MAJOR,Rename "populator" which hides the field declared at line 152.,CODE_SMELL

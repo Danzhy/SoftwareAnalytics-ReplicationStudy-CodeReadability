@@ -1,0 +1,26 @@
+rule key,start line,end line,severity,message,type
+java:S2293,57,57,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,134,134,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,765,765,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,778,778,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S135,803,803,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,854,854,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,880,880,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1604,472,472,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,560,560,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,863,863,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,891,891,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,1150,1150,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1186,1177,1177,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,1184,1184,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,1219,1219,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,1237,1237,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1117,131,131,MAJOR,Rename "childExecutors" which hides the field declared at line 72.,CODE_SMELL
+java:S1117,853,853,MAJOR,Rename "tail" which hides the field declared at line 65.,CODE_SMELL
+java:S1117,879,879,MAJOR,Rename "head" which hides the field declared at line 64.,CODE_SMELL
+java:S1117,1110,1110,MAJOR,Rename "pendingHandlerCallbackHead" which hides the field declared at line 84.,CODE_SMELL
+java:S1186,1270,1270,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,1273,1273,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,1291,1291,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,1294,1294,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S3398,847,847,MINOR,Move this method into "HeadContext".,CODE_SMELL

@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S112,385,385,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,437,437,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S3740,370,370,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1192,671,671,CRITICAL,Define a constant instead of duplicating this literal "No name" 3 times.,CODE_SMELL
+java:S1066,814,814,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1141,852,852,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1124,27,27,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S1135,157,157,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S5993,940,940,MAJOR,Change the visibility of this constructor to "protected".,CODE_SMELL
+java:S1124,936,936,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL

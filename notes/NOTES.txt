@@ -1,0 +1,121 @@
+So the original study seems to use a local instance of mysql db. 
+
+Gave me an error: As-Is_mysql_error file in the logs folder
+
+
+They used 
+
+
+
+Used reaper-dataset.csv to select 5 repos. New script - modification of importReaper.py because if not changed, it would import all of the repos.
+
+Need mysql server - local mysql instance with the gh_graphql_api
+create a requirements.txt based on imports in scripts
+
+
+PostgreSQL is used instead of mysql. python scripts were changed to accomodate PostgreSQL.
+
+There are some caveates with using PostgreSQL.
+
+
+
+
+FOR RQ2 - file CountOccurrences needs refactoring because it uses a filepath that starts with "F: .... " which is not compatible with the
+what I have on my computer. Changed the path.
+
+Run these files with: 
+javac replication_scripts/RQ2/CountOccurrences.java
+
+then 
+
+java -cp replication_scripts/RQ2 CountOccurrence
+
+
+Acknowledge AI usage with the .sql files changes going from mysql specific to postgresql
+
+
+
+CREATE DATABASE gh_graphql_api;
+
+then psql -U postgres -d gh_graphql_api -f schema.sql
+
+ 30193 - rows or repositories were imported in the 1.1 step
+
+
+
+
+The failure came from the literal string "None" in the CSV stars column. 
+PostgreSQL expects either a number or SQL NULL for an integer column, not the text "None".
+There is a photo!
+
+Change made:
+Change made: A sanitize_value() helper was added to turn "None", "null", and empty strings into Python None before insert, so PostgreSQL stores them as NULL. This is applied to all numeric columns (indices 2–15: architecture through randomforest_utl).
+
+
+filter out only 5 repos in the importPullRequests.py file
+
+in repoInfo.py added better error logging
+
+_________
+
+
+DatatypeMismatch column "isFork" is of type smallint but expression is of type boolean
+LINE 3:                         "isFork" = false,
+                                           ^
+HINT:  You will need to rewrite or cast the expression.`
+
+
+For basically all of the repos. 
+
+In the @REPLICATION/replication_scripts/1.1 import reaper dataset/script_schema.sql 
+
+the line "isFork" SMALLINT, was TINYINT(1) previously with mysql. However, now it apparently causes issues. 
+
+
+2. TypeError: 'NoneType' object is not subscriptable
+What’s happening: For some repos (e.g. esacinc/phiz, lafourchette/solrmeter), the GraphQL response has repository or repositoryOwner as null (repo removed, renamed, or private). The code then does result["data"]["repositoryOwner"]["repository"]["isFork"], and if repository is None, None["isFork"] raises this error.
+Fix: Add a null check before using the result:
+
+Updates in repoInfo.py:
+Null checks – Before using the GraphQL result, the code now checks:
+result.get("data") is not None
+result["data"].get("repositoryOwner") is not None
+result["data"]["repositoryOwner"].get("repository") is not None
+If any is None, it prints a short message and returns instead of raising.
+isFork conversion – isFork is converted to 0/1 before the DB update:
+   isForkInt = 1 if isFork else 0
+This keeps the SMALLINT column and works with "isFork" = 0 in importPullRequests.py.
+
+
+
+
+Running changedFiles doesn't output anything.
+
+
+
+random.seed(42) 
+
+Produced only 1 pull request
+
+changeFiles.py didn't print anything initially because it printed once per 100 PRs, so I added
+
+print(f"Done. Processed {count} PRs.")
+
+
+
+_________
+site_admin field in db - same issues as isFork;   in collaborators.py; similar in the reviews.py
+
+account for that site_admin_int = 1 if site_admin else 0
+
+
+
+Initially query.sql did not produce a single line. The csv  file  was empty
+
+Why? 
+
+FROM "pullRequests" WHERE state = 'merged' However, The state column is never populated by importPullRequests.py.
+
+We had to change this:
+
+

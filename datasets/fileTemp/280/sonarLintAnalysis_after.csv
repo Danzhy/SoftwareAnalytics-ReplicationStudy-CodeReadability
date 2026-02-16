@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1068,47,47,MAJOR,Remove this unused "LOG" private field.,CODE_SMELL

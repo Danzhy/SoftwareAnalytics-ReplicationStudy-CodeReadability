@@ -1,0 +1,28 @@
+rule key,start line,end line,severity,message,type
+java:S112,706,706,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1192,587,587,CRITICAL,Define a constant instead of duplicating this literal "INPUT_SAMPLE_FILE_MAP" 3 times.,CODE_SMELL
+java:S116,253,253,MINOR,Rename this field "INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,261,261,MINOR,Rename this field "INPUT_SAMPLE_MAP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,271,271,MINOR,Rename this field "INPUT_SAMPLE_FILE_MAP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,280,280,MINOR,Rename this field "SECOND_INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,289,289,MINOR,Rename this field "SECOND_INPUT_SAMPLE_MAP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,292,292,MINOR,Rename this field "CROSSCHECK_MODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,296,296,MINOR,Rename this field "OUTPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,302,302,MINOR,Rename this field "MATRIX_OUTPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,306,306,MINOR,Rename this field "HAPLOTYPE_MAP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,318,318,MINOR,Rename this field "LOD_THRESHOLD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,323,323,MINOR,Rename this field "CROSSCHECK_BY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,326,326,MINOR,Rename this field "NUM_THREADS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,330,330,MINOR,Rename this field "CALCULATE_TUMOR_AWARE_RESULTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,334,334,MINOR,Rename this field "ALLOW_DUPLICATE_READS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,338,338,MINOR,Rename this field "GENOTYPING_ERROR_RATE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,341,341,MINOR,Rename this field "OUTPUT_ERRORS_ONLY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,345,345,MINOR,Rename this field "LOSS_OF_HET_RATE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,350,350,MINOR,Rename this field "EXPECT_ALL_GROUPS_TO_MATCH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,353,353,MINOR,Rename this field "EXIT_CODE_WHEN_MISMATCH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,356,356,MINOR,Rename this field "EXIT_CODE_WHEN_NO_VALID_CHECKS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,360,360,MINOR,Rename this field "TEST_INPUT_READABILITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3776,398,398,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.,CODE_SMELL
+java:S106,509,509,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S3776,750,750,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S3776,795,795,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.,CODE_SMELL

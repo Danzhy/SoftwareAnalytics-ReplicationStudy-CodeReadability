@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S1192,26,26,CRITICAL,Define a constant instead of duplicating this literal "latest" 6 times.,CODE_SMELL
+java:S106,112,112,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S1075,151,151,MINOR,Refactor your code to get this URI from a customizable parameter.,CODE_SMELL

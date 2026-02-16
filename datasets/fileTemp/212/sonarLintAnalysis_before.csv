@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S1488,116,116,MINOR,Immediately return this expression instead of assigning it to the temporary variable "f".,CODE_SMELL
+java:S1854,46,47,MAJOR,Remove this useless assignment to local variable "cleanup".,CODE_SMELL
+java:S1854,42,44,MAJOR,Remove this useless assignment to local variable "resolution".,CODE_SMELL
+java:S1125,107,107,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,112,112,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL

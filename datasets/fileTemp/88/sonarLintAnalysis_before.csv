@@ -1,0 +1,9 @@
+rule key,start line,end line,severity,message,type
+java:S2293,265,265,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1149,351,351,MAJOR,Replace the synchronized class "Stack" by an unsynchronized one such as "Deque".,CODE_SMELL
+java:S1149,362,362,MAJOR,Replace the synchronized class "Stack" by an unsynchronized one such as "Deque".,CODE_SMELL
+java:S5164,77,77,MAJOR,Call "remove()" on "applicationEnvironments".,BUG
+java:S5164,78,78,MAJOR,Call "remove()" on "webServiceMethods".,BUG
+java:S1161,93,93,MAJOR,Add the "@Override" annotation above this method signature,CODE_SMELL
+java:S1135,273,273,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S2160,311,311,MINOR,Override the "equals" method in this class.,CODE_SMELL

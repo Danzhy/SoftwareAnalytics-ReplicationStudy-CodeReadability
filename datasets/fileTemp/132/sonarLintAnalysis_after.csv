@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S2259,228,228,MAJOR,"NullPointerException" will be thrown when invoking method "calculateForwardUrl()".,BUG
+java:S1135,45,45,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,89,89,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.,CODE_SMELL
+java:S3776,252,252,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 64 to the 15 allowed.,CODE_SMELL
+java:S1871,458,461,MAJOR,This branch's code block is the same as the block for the branch on line 453.,CODE_SMELL

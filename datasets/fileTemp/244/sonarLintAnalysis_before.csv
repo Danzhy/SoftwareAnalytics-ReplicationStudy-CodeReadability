@@ -1,0 +1,37 @@
+rule key,start line,end line,severity,message,type
+java:S1192,2127,2127,CRITICAL,Define a constant instead of duplicating this literal "External viewer called" 3 times.,CODE_SMELL
+java:S1192,387,387,CRITICAL,Define a constant instead of duplicating this literal "Autogenerate BibTeX keys" 3 times.,CODE_SMELL
+java:S1192,854,854,CRITICAL,Define a constant instead of duplicating this literal "None of the selected entries have BibTeX keys." 3 times.,CODE_SMELL
+java:S1192,864,864,CRITICAL,Define a constant instead of duplicating this literal "Copied keys" 3 times.,CODE_SMELL
+java:S1192,864,864,CRITICAL,Define a constant instead of duplicating this literal "Copied key" 3 times.,CODE_SMELL
+java:S1192,866,866,CRITICAL,Define a constant instead of duplicating this literal "Warning: %0 out of %1 entries have undefined BibTeX key." 3 times.,CODE_SMELL
+java:S1066,403,403,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1604,2143,2143,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1450,185,185,MINOR,Remove the "tableFormat" field and declare it as a local variable in the relevant methods.,CODE_SMELL
+java:S1948,161,161,CRITICAL,Make "undoAction" transient or serializable.,CODE_SMELL
+java:S1948,162,162,CRITICAL,Make "redoAction" transient or serializable.,CODE_SMELL
+java:S3776,294,294,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.,CODE_SMELL
+java:S1602,301,301,MINOR,Remove useless curly braces around statement (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,301,301,MINOR,Replace this lambda with method reference 'mainTable::requestFocus'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,319,319,MINOR,Replace this lambda with method reference '!unknown!.this::!unknownMethod!'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,335,335,MINOR,Replace this lambda with method reference '!unknown!.this::!unknownMethod!'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,476,476,MINOR,Replace this lambda with method reference '!unknown!.this::!unknownMethod!'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,479,479,MINOR,Replace this lambda with method reference '!unknown!.this::!unknownMethod!'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,482,482,MINOR,Replace this lambda with method reference '!unknown!.this::!unknownMethod!'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,485,485,MINOR,Replace this lambda with method reference '!unknown!.this::!unknownMethod!'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,500,500,MINOR,Replace this lambda with method reference '!unknown!.this::!unknownMethod!'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1135,694,694,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,899,899,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S3776,1022,1022,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S1134,1040,1040,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S3776,1217,1217,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S1135,1232,1232,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1854,1299,1300,MAJOR,Remove this useless assignment to local variable "node".,CODE_SMELL
+java:S1481,1299,1299,MINOR,Remove this unused "node" local variable.,CODE_SMELL
+java:S4201,1433,1433,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S2142,1623,1623,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1612,1622,1622,MINOR,Replace this lambda with method reference 'this::markBasedChangedInternal'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3776,2082,2082,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S4201,2270,2270,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S3776,2294,2294,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.,CODE_SMELL
+java:S4201,2350,2350,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL

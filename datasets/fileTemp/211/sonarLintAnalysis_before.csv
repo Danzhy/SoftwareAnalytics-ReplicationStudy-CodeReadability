@@ -1,0 +1,29 @@
+rule key,start line,end line,severity,message,type
+java:S1192,223,223,CRITICAL,Use already-defined constant 'INDEX_ANALYSIS_FILTER' instead of duplicating its value here.,CODE_SMELL
+java:S1192,242,242,CRITICAL,Use already-defined constant 'INDEX_ANALYSIS_CHAR_FILTER' instead of duplicating its value here.,CODE_SMELL
+java:S1192,205,205,CRITICAL,Use already-defined constant 'INDEX_ANALYSIS_TOKENIZER' instead of duplicating its value here.,CODE_SMELL
+java:S135,290,290,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,326,326,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,311,311,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S107,69,69,MAJOR,Constructor has 10 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S1611,131,131,MINOR,Remove the parentheses around the "key" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1135,192,192,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,285,285,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.,CODE_SMELL
+java:S1854,289,289,MAJOR,Remove this useless assignment to local variable "factories".,CODE_SMELL
+java:S1854,288,288,MAJOR,Remove this useless assignment to local variable "defaultSettings".,CODE_SMELL
+java:S1854,293,293,MAJOR,Remove this useless assignment to local variable "typeName".,CODE_SMELL
+java:S1854,292,292,MAJOR,Remove this useless assignment to local variable "currentSettings".,CODE_SMELL
+java:S1854,291,291,MAJOR,Remove this useless assignment to local variable "name".,CODE_SMELL
+java:S1854,312,312,MAJOR,Remove this useless assignment to local variable "factory".,CODE_SMELL
+java:S1854,317,317,MAJOR,Remove this useless assignment to local variable "type".,CODE_SMELL
+java:S1854,321,321,MAJOR,Remove this useless assignment to local variable "factory".,CODE_SMELL
+java:S1854,327,327,MAJOR,Remove this useless assignment to local variable "name".,CODE_SMELL
+java:S1854,348,348,MAJOR,Remove this useless assignment to local variable "name".,CODE_SMELL
+java:S1854,351,351,MAJOR,Remove this useless assignment to local variable "instance".,CODE_SMELL
+java:S1125,350,350,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,352,352,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1611,418,418,MINOR,Remove the parentheses around the "a" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,418,418,MINOR,Replace this lambda with method reference 'PreBuiltAnalyzerProviderFactory.class::cast'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1117,431,431,MAJOR,Rename "analyzers" which hides the field declared at line 66.,CODE_SMELL
+java:S1117,432,432,MAJOR,Rename "normalizers" which hides the field declared at line 67.,CODE_SMELL
+java:S1612,444,444,MINOR,Replace this lambda with method reference '!Unknown!::new'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

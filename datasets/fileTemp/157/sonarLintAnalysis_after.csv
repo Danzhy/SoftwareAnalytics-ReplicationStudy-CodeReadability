@@ -1,0 +1,9 @@
+rule key,start line,end line,severity,message,type
+java:S5164,68,68,MAJOR,Call "remove()" on "cache".,BUG
+java:S1133,226,226,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,280,280,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1181,383,383,MAJOR,Catch Exception instead of Throwable.,CODE_SMELL
+java:S1117,599,599,MAJOR,Rename "closed" which hides the field declared at line 70.,CODE_SMELL
+java:S1117,626,626,MAJOR,Rename "closed" which hides the field declared at line 70.,CODE_SMELL
+java:S1117,713,713,MAJOR,Rename "state" which hides the field declared at line 509.,CODE_SMELL
+java:S3358,713,713,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL

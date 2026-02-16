@@ -1,0 +1,90 @@
+rule key,start line,end line,severity,message,type
+java:S1192,259,259,CRITICAL,Define a constant instead of duplicating this literal "bar.field3" 7 times.,CODE_SMELL
+java:S1192,254,254,CRITICAL,Define a constant instead of duplicating this literal "bar.field2" 8 times.,CODE_SMELL
+java:S1192,253,253,CRITICAL,Define a constant instead of duplicating this literal "bar.field1" 8 times.,CODE_SMELL
+java:S1192,125,125,CRITICAL,Define a constant instead of duplicating this literal "topic-1" 4 times.,CODE_SMELL
+java:S1192,258,258,CRITICAL,Define a constant instead of duplicating this literal "bar.test.foobar.field1" 7 times.,CODE_SMELL
+java:S1192,263,263,CRITICAL,Define a constant instead of duplicating this literal "bar.test2.foobar.field1" 6 times.,CODE_SMELL
+java:S1192,125,125,CRITICAL,Define a constant instead of duplicating this literal "persistent" 12 times.,CODE_SMELL
+java:S1192,250,250,CRITICAL,Define a constant instead of duplicating this literal "timestamp" 8 times.,CODE_SMELL
+java:S1192,260,260,CRITICAL,Define a constant instead of duplicating this literal "bar.test2.field4" 7 times.,CODE_SMELL
+java:S1192,262,262,CRITICAL,Define a constant instead of duplicating this literal "bar.test2.field6" 7 times.,CODE_SMELL
+java:S1192,261,261,CRITICAL,Define a constant instead of duplicating this literal "bar.test2.field5" 7 times.,CODE_SMELL
+java:S1192,255,255,CRITICAL,Define a constant instead of duplicating this literal "bar.test.field4" 7 times.,CODE_SMELL
+java:S1192,257,257,CRITICAL,Define a constant instead of duplicating this literal "bar.test.field6" 7 times.,CODE_SMELL
+java:S1192,256,256,CRITICAL,Define a constant instead of duplicating this literal "bar.test.field5" 7 times.,CODE_SMELL
+java:S1192,479,479,CRITICAL,Define a constant instead of duplicating this literal "test2" 4 times.,CODE_SMELL
+java:S1192,244,244,CRITICAL,Define a constant instead of duplicating this literal "field1" 13 times.,CODE_SMELL
+java:S1192,133,133,CRITICAL,Define a constant instead of duplicating this literal "partitioned-topic-1" 4 times.,CODE_SMELL
+java:S1192,265,265,CRITICAL,Define a constant instead of duplicating this literal "field7" 8 times.,CODE_SMELL
+java:S1192,249,249,CRITICAL,Define a constant instead of duplicating this literal "field6" 10 times.,CODE_SMELL
+java:S1192,246,246,CRITICAL,Define a constant instead of duplicating this literal "field3" 9 times.,CODE_SMELL
+java:S1192,245,245,CRITICAL,Define a constant instead of duplicating this literal "field2" 9 times.,CODE_SMELL
+java:S1192,248,248,CRITICAL,Define a constant instead of duplicating this literal "field5" 10 times.,CODE_SMELL
+java:S1192,247,247,CRITICAL,Define a constant instead of duplicating this literal "field4" 10 times.,CODE_SMELL
+java:S117,395,395,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,396,396,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,407,407,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,408,408,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,419,419,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,420,420,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,431,431,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,432,432,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,443,443,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,444,444,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,455,455,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,456,456,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,467,467,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,468,468,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,479,479,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,480,480,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,491,491,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,492,492,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,503,503,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,504,504,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,515,515,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,516,516,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1604,541,541,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,650,650,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,655,655,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,664,664,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,669,669,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,678,678,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,683,683,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,699,699,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,829,829,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1104,148,148,MINOR,Make field1 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,157,157,MINOR,Make field1 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,158,158,MINOR,Make field2 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,159,159,MINOR,Make field3 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,160,160,MINOR,Make field4 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,161,161,MINOR,Make field5 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,162,162,MINOR,Make field6 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,169,169,MINOR,Make bar a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,170,170,MINOR,Make field7 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,174,174,MINOR,Make field1 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,175,175,MINOR,Make field2 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,176,176,MINOR,Make test a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,177,177,MINOR,Make field3 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,178,178,MINOR,Make test2 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,182,182,MINOR,Make field4 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,183,183,MINOR,Make field5 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,184,184,MINOR,Make field6 a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,186,186,MINOR,Make foo a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,187,187,MINOR,Make boo a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,188,188,MINOR,Make bar a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,190,190,MINOR,Make foobar a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,645,645,MINOR,Make completedBytes a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1700,187,187,MAJOR,Rename field "boo",CODE_SMELL
+java:S115,97,97,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S1124,111,111,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S2129,558,558,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S1612,567,567,MINOR,Replace this lambda with method reference 'String::valueOf'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,568,568,MINOR,Replace this lambda with method reference 'Integer::floatValue'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,569,569,MINOR,Replace this lambda with method reference 'Integer::doubleValue'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,571,571,MINOR,Replace this lambda with method reference 'Integer::longValue'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S106,598,598,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,599,599,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S3776,692,692,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.,CODE_SMELL
+java:S5361,796,796,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S5361,919,919,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL

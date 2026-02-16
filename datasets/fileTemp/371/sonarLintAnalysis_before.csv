@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S1192,81,81,CRITICAL,Define a constant instead of duplicating this literal "Error" 3 times.,CODE_SMELL
+java:S3776,61,61,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S1854,64,64,MAJOR,Remove this useless assignment to local variable "project".,CODE_SMELL
+java:S1481,64,64,MINOR,Remove this unused "project" local variable.,CODE_SMELL
+java:S1659,68,68,MINOR,Declare "secrets" and all following declarations on a separate line.,CODE_SMELL

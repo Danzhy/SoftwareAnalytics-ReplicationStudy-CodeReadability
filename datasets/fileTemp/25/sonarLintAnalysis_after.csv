@@ -1,0 +1,24 @@
+rule key,start line,end line,severity,message,type
+java:S1066,394,394,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,395,395,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,396,396,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,407,407,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1191,19,19,MAJOR,Use classes from the Java API instead of Sun classes.,CODE_SMELL
+java:S107,228,228,MAJOR,Method has 15 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S3077,213,213,MINOR,Use a thread-safe type; adding "volatile" is not enough to make this field thread-safe.,BUG
+java:S3077,214,214,MINOR,Use a thread-safe type; adding "volatile" is not enough to make this field thread-safe.,BUG
+java:S107,76,76,MAJOR,Constructor has 10 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S107,91,91,MAJOR,Constructor has 16 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S107,113,113,MAJOR,Method has 10 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S2975,152,152,BLOCKER,Remove this "clone" implementation; use a copy constructor or copy factory instead.,CODE_SMELL
+java:S1182,152,152,MINOR,Use super.clone() to create and seed the cloned instance to be returned.,CODE_SMELL
+java:S2975,201,201,BLOCKER,Remove this "clone" implementation; use a copy constructor or copy factory instead.,CODE_SMELL
+java:S1182,201,201,MINOR,Use super.clone() to create and seed the cloned instance to be returned.,CODE_SMELL
+java:S1124,328,328,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S1124,347,347,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S3776,362,362,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S1124,362,362,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S3358,383,383,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S1124,423,423,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S2975,460,460,BLOCKER,Remove this "clone" implementation; use a copy constructor or copy factory instead.,CODE_SMELL
+java:S1182,460,460,MINOR,Use super.clone() to create and seed the cloned instance to be returned.,CODE_SMELL

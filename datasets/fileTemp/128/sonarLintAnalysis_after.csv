@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S112,196,196,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1066,206,206,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1612,165,165,MINOR,Replace this lambda with method reference 'rateLimit::get'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,167,167,MINOR,Replace this lambda with method reference 'rateLimit::get'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1602,169,169,MINOR,Remove useless curly braces around statement (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1611,174,174,MINOR,Remove the parentheses around the "ceid" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1602,174,174,MINOR,Remove useless curly braces around statement (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3776,200,200,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S3776,246,246,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S1602,422,422,MINOR,Remove useless curly braces around statement (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

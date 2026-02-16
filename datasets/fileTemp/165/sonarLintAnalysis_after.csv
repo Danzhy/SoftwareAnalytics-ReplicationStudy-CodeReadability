@@ -1,0 +1,17 @@
+rule key,start line,end line,severity,message,type
+java:S1066,200,200,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,452,452,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,1247,1247,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1170,164,164,MINOR,Make this final field static too.,CODE_SMELL
+java:S3776,207,207,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.,CODE_SMELL
+java:S128,336,336,BLOCKER,End this switch case with an unconditional break, return or throw statement.,CODE_SMELL
+java:S1134,395,395,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S3776,429,429,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S1612,636,636,MINOR,Replace this lambda with method reference 'LibraryTab.class::isInstance'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1133,722,722,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1135,802,802,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1117,1342,1342,MAJOR,Rename "libraryTab" which hides the field declared at line 1331.,CODE_SMELL
+java:S1172,1393,1393,MAJOR,Remove this unused method parameter "event".,CODE_SMELL
+java:S125,1395,1395,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,1394,1394,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1144,1123,1123,MAJOR,Remove this unused private "trackOpenNewDatabase" method.,CODE_SMELL

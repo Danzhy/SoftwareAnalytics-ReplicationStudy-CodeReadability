@@ -1,0 +1,108 @@
+rule key,start line,end line,severity,message,type
+java:S3740,1976,1976,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S2293,396,396,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,400,400,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,417,417,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,421,421,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,427,427,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,443,443,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,452,452,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,453,453,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,858,858,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,998,998,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1004,1004,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1132,1132,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1642,1642,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1791,1791,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1817,1817,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1874,1874,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1921,1921,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1955,1955,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2132,2132,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2133,2133,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2168,2168,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2302,2302,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2316,2316,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2374,2374,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1066,1137,1137,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S117,1381,1381,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1604,171,171,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,2344,2344,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,2353,2353,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1488,1699,1699,MINOR,Immediately return this expression instead of assigning it to the temporary variable "value".,CODE_SMELL
+java:S1596,2259,2259,MINOR,Replace "Collections.EMPTY_LIST" by "Collections.emptyList()".,CODE_SMELL
+java:S2184,1401,1401,MINOR,Cast one of the operands of this addition operation to a "double".,BUG
+java:S2184,1585,1585,MINOR,Cast one of the operands of this subtraction operation to a "double".,BUG
+java:S2184,1586,1586,MINOR,Cast one of the operands of this subtraction operation to a "double".,BUG
+java:S115,117,117,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,118,118,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,119,119,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,120,120,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,121,121,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,122,122,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,123,123,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,124,124,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,125,125,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,126,126,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,127,127,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,128,128,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,129,129,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,130,130,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,131,131,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,132,132,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,133,133,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,134,134,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,135,135,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,136,136,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,137,137,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,138,138,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,139,139,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,140,140,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,141,141,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,142,142,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,143,143,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,144,144,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,145,145,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,146,146,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,147,147,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,148,148,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,149,149,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,150,150,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,151,151,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,152,152,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,153,153,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,154,154,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,155,155,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,156,156,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,157,157,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,158,158,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,159,159,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,160,160,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,161,161,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,162,162,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,163,163,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,164,164,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,165,165,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,166,166,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,167,167,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S125,336,336,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,483,483,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,485,485,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,745,745,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,760,760,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,877,877,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S1155,1020,1020,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S2886,1039,1039,MAJOR,Synchronize this method to match the synchronization on "setOwnedByAll".,BUG
+java:S1854,1468,1468,MAJOR,Remove this useless assignment to local variable "h".,CODE_SMELL
+java:S1854,1467,1467,MAJOR,Remove this useless assignment to local variable "w".,CODE_SMELL
+java:S125,1492,1492,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1659,1513,1513,MINOR,Declare "offsetY" on a separate line.,CODE_SMELL
+java:S1659,1574,1574,MINOR,Declare "offsetY" on a separate line.,CODE_SMELL
+java:S125,1702,1702,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,1724,1724,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.,CODE_SMELL
+java:S125,1762,1762,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1126,1930,1930,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S2864,2169,2169,MAJOR,Iterate over the "entrySet" instead of the "keySet".,CODE_SMELL
+java:S2975,2403,2403,BLOCKER,Remove this "clone" implementation; use a copy constructor or copy factory instead.,CODE_SMELL
+java:S2225,2407,2407,MAJOR,Return a non null object.,BUG
+java:S3776,2433,2433,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.,CODE_SMELL

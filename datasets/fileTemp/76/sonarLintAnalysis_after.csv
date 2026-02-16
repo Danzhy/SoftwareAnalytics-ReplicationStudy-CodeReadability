@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S3077,37,37,MINOR,Use a thread-safe type; adding "volatile" is not enough to make this field thread-safe.,BUG

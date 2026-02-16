@@ -1,0 +1,21 @@
+rule key,start line,end line,severity,message,type
+java:S112,139,139,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1192,42,42,CRITICAL,Define a constant instead of duplicating this literal "FileB" 4 times.,CODE_SMELL
+java:S1192,41,41,CRITICAL,Define a constant instead of duplicating this literal "FileA" 5 times.,CODE_SMELL
+java:S1192,44,44,CRITICAL,Define a constant instead of duplicating this literal "DirC/FileD" 5 times.,CODE_SMELL
+java:S899,63,63,MINOR,Do something with the "boolean" value returned by "createNewFile".,BUG
+java:S899,95,95,MINOR,Do something with the "boolean" value returned by "delete".,BUG
+java:S4042,95,95,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S899,100,100,MINOR,Do something with the "boolean" value returned by "createNewFile".,BUG
+java:S1854,121,121,MAJOR,Remove this useless assignment to local variable "after".,CODE_SMELL
+java:S899,123,123,MINOR,Do something with the "boolean" value returned by "setLastModified".,BUG
+java:S2142,138,138,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1854,158,158,MAJOR,Remove this useless assignment to local variable "dirE".,CODE_SMELL
+java:S1854,157,157,MAJOR,Remove this useless assignment to local variable "fileD".,CODE_SMELL
+java:S1854,156,156,MAJOR,Remove this useless assignment to local variable "dirC".,CODE_SMELL
+java:S1481,156,156,MINOR,Remove this unused "dirC" local variable.,CODE_SMELL
+java:S1481,157,157,MINOR,Remove this unused "fileD" local variable.,CODE_SMELL
+java:S1481,158,158,MINOR,Remove this unused "dirE" local variable.,CODE_SMELL
+java:S899,177,177,MINOR,Do something with the "boolean" value returned by "delete".,BUG
+java:S4042,177,177,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S899,186,186,MINOR,Do something with the "boolean" value returned by "createNewFile".,BUG

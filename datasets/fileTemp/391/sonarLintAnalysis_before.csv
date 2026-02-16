@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S115,102,102,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,103,103,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,104,104,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S1165,39,39,MINOR,Make this "metadataTableEntry" field final.,CODE_SMELL

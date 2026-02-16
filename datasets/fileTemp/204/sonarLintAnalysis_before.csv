@@ -1,0 +1,109 @@
+rule key,start line,end line,severity,message,type
+java:S3740,393,393,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1192,268,268,CRITICAL,Define a constant instead of duplicating this literal ".conf" 3 times.,CODE_SMELL
+java:S1192,1698,1698,CRITICAL,Define a constant instead of duplicating this literal "false" 3 times.,CODE_SMELL
+java:S1319,379,379,MINOR,The return type of this method should be an interface such as "List" rather than the implementation "ArrayList".,CODE_SMELL
+java:S1319,392,392,MINOR,The return type of this method should be an interface such as "List" rather than the implementation "ArrayList".,CODE_SMELL
+java:S1319,2309,2309,MINOR,The return type of this method should be an interface such as "List" rather than the implementation "ArrayList".,CODE_SMELL
+java:S1141,827,827,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S117,1018,1018,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,1062,1062,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,1068,1068,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,2335,2335,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1604,1590,1590,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,2557,2557,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,2641,2641,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,2735,2735,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1301,2816,2816,MINOR,Replace this "switch" statement by "if" statements to increase readability.,CODE_SMELL
+java:S1104,67,67,MINOR,Make gui a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,68,68,MINOR,Make loaded a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,68,68,MINOR,Make fileless a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1191,4,4,MAJOR,Use classes from the Java API instead of Sun classes.,CODE_SMELL
+java:S2583,2645,2645,MAJOR,Change this condition so that it does not always evaluate to "true",BUG
+java:S116,94,94,MINOR,Rename this field "DLNAPN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,2771,2771,MINOR,Rename this field "INFO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,2772,2772,MINOR,Rename this field "OK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,2773,2773,MINOR,Rename this field "WARN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,2774,2774,MINOR,Rename this field "ERR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,53,53,MINOR,Rename this field "_pmsConfiguration" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1170,2771,2771,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,2772,2772,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,2773,2773,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,2774,2774,MINOR,Make this final field static too.,CODE_SMELL
+java:S1845,133,133,BLOCKER,Rename field "CHARMAP" to prevent any misunderstanding/clash with field "charMap".,CODE_SMELL
+java:S1659,68,68,MINOR,Declare "fileless" on a separate line.,CODE_SMELL
+java:S1659,97,97,MINOR,Declare "lineHeight" and all following declarations on a separate line.,CODE_SMELL
+java:S1659,98,98,MINOR,Declare "dots" on a separate line.,CODE_SMELL
+java:S1133,108,108,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,108,108,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1133,111,111,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,111,111,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1133,114,114,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,114,114,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1133,117,117,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,117,117,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1135,137,137,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1133,213,213,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,213,213,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1133,215,215,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,215,215,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S3776,246,246,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.,CODE_SMELL
+java:S2692,275,275,CRITICAL,0 is a valid index, but is ignored by this check.,CODE_SMELL
+java:S1155,297,297,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1133,379,379,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,379,379,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1135,534,534,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1134,538,538,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S3776,671,671,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S3776,754,754,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.,CODE_SMELL
+java:S1155,774,774,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1135,798,798,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1133,859,859,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S3776,997,997,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.,CODE_SMELL
+java:S5361,1051,1051,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S5361,1051,1051,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S5361,1051,1051,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S1874,1147,1147,MINOR,Remove this use of "DEPRECATED_MPEGAC3"; it is deprecated.,CODE_SMELL
+java:S1874,1147,1147,MINOR,Remove this use of "DEPRECATED_MPEGPSAC3"; it is deprecated.,CODE_SMELL
+java:S1874,1152,1152,MINOR,Remove this use of "DEPRECATED_MPEGTSAC3"; it is deprecated.,CODE_SMELL
+java:S1874,1157,1157,MINOR,Remove this use of "DEPRECATED_H264TSAC3"; it is deprecated.,CODE_SMELL
+java:S3776,1262,1262,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 85 to the 15 allowed.,CODE_SMELL
+java:S1171,1425,1425,MAJOR,Move the contents of this initializer to a standard constructor or to field initializers.,CODE_SMELL
+java:S1858,1428,1428,MINOR,"getHostAddress" returns a string, there's no need to call "toString()".,CODE_SMELL
+java:S1125,1507,1507,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,1605,1605,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3358,1630,1631,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S1135,1817,1817,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S2142,1822,1822,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1197,1853,1853,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S1197,1854,1854,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S2696,1877,1877,CRITICAL,Make the enclosing method "static" or remove this set.,CODE_SMELL
+java:S1133,1882,1882,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,1882,1882,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1197,1916,1916,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S1197,1917,1917,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S1133,1980,1980,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,1980,1980,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1126,2021,2021,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S1133,2088,2088,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,2088,2088,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1133,2100,2100,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,2100,2100,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S3776,2168,2168,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.,CODE_SMELL
+java:S1125,2217,2217,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,2331,2331,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.,CODE_SMELL
+java:S5361,2366,2366,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S1133,2378,2378,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S3776,2446,2446,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.,CODE_SMELL
+java:S3776,2530,2530,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S2160,2568,2568,MINOR,Override the "equals" method in this class.,CODE_SMELL
+java:S3358,2645,2645,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S3358,2645,2645,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S3358,2649,2649,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S1197,2654,2654,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S3776,2727,2727,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.,CODE_SMELL
+java:S2142,2758,2758,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S108,2758,2758,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S131,2816,2816,CRITICAL,Add a default case to this switch.,CODE_SMELL
+java:S131,2825,2825,CRITICAL,Add a default case to this switch.,CODE_SMELL
+java:S1134,2870,2870,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL

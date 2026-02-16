@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S1192,68,68,CRITICAL,Define a constant instead of duplicating this literal "Error" 3 times.,CODE_SMELL
+java:S107,161,161,MAJOR,Method has 10 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S3776,60,60,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL

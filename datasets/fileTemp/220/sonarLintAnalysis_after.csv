@@ -1,0 +1,76 @@
+rule key,start line,end line,severity,message,type
+java:S1066,1664,1664,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,2001,2001,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,2012,2012,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1141,1523,1523,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,1822,1822,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,1827,1827,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,1834,1834,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1163,2083,2083,CRITICAL,Refactor this code to not throw exceptions in finally blocks.,CODE_SMELL
+java:S1125,159,159,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1117,169,169,MAJOR,Rename "translog" which hides the field declared at line 105.,CODE_SMELL
+java:S1117,170,170,MAJOR,Rename "externalSearcherManager" which hides the field declared at line 110.,CODE_SMELL
+java:S1117,171,171,MAJOR,Rename "internalSearcherManager" which hides the field declared at line 111.,CODE_SMELL
+java:S1125,191,191,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,216,216,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,227,227,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,229,229,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,384,384,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,440,440,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,444,444,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,472,472,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,504,504,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,507,507,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,510,510,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,569,569,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1117,596,596,MAJOR,Rename "internalSearcherManager" which hides the field declared at line 111.,CODE_SMELL
+java:S1117,603,603,MAJOR,Rename "externalSearcherManager" which hides the field declared at line 110.,CODE_SMELL
+java:S1125,617,617,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S4274,625,625,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S3776,669,669,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S4274,810,810,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,814,814,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,815,815,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1125,811,811,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,865,865,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,894,894,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,985,985,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1052,1052,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1054,1054,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1081,1081,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S125,1102,1102,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1125,1105,1105,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1105,1105,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S4274,1130,1130,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,1131,1131,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,1132,1132,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1125,1151,1151,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1155,1155,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1246,1246,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1255,1255,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1260,1260,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1278,1278,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1293,1293,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,1395,1395,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,1417,1417,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1431,1431,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1506,1506,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S125,1519,1519,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1125,1565,1565,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S4274,1655,1655,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,1658,1658,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1125,1655,1655,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1658,1658,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1664,1664,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1730,1730,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1734,1734,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1737,1737,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1759,1759,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1760,1760,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S108,1898,1898,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S1125,1944,1944,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2001,2001,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2017,2017,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2023,2023,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2036,2036,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,2170,2170,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL

@@ -1,0 +1,35 @@
+rule key,start line,end line,severity,message,type
+java:S2293,91,91,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,105,105,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,184,184,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,531,531,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S135,403,403,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,885,885,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,924,924,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,951,951,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1604,63,63,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,69,69,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,502,502,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,518,518,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,898,898,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3077,84,84,MINOR,Use a thread-safe type; adding "volatile" is not enough to make this field thread-safe.,BUG
+java:S1133,173,173,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S3776,226,226,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.,CODE_SMELL
+java:S1117,232,232,MAJOR,Rename "taskQueue" which hides the field declared at line 82.,CODE_SMELL
+java:S2142,242,242,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2142,252,252,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1117,402,402,MAJOR,Rename "lastExecutionTime" which hides the field declared at line 96.,CODE_SMELL
+java:S1181,536,536,MAJOR,Catch Exception instead of Throwable.,CODE_SMELL
+java:S3776,552,552,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL
+java:S1181,601,601,MAJOR,Catch Exception instead of Throwable.,CODE_SMELL
+java:S3776,627,627,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S1133,627,627,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,627,627,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1181,664,664,MAJOR,Catch Exception instead of Throwable.,CODE_SMELL
+java:S1135,738,738,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S2142,742,742,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1117,842,842,MAJOR,Rename "threadProperties" which hides the field declared at line 85.,CODE_SMELL
+java:S1117,844,844,MAJOR,Rename "thread" which hides the field declared at line 84.,CODE_SMELL
+java:S1181,888,888,MAJOR,Catch Exception instead of Throwable.,CODE_SMELL
+java:S3776,896,896,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.,CODE_SMELL
+java:S1181,911,911,MAJOR,Catch Exception instead of Throwable.,CODE_SMELL

@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1117,87,87,MAJOR,Rename "offsets" which hides the field declared at line 67.,CODE_SMELL

@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1165,39,39,MINOR,Make this "metadataTableEntry" field final.,CODE_SMELL

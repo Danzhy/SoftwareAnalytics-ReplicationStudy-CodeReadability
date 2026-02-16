@@ -1,0 +1,3 @@
+rule key,start line,end line,severity,message,type
+java:S1845,230,230,BLOCKER,Rename field "classes" to prevent any misunderstanding/clash with field "CLASSES".,CODE_SMELL
+java:S1845,309,309,BLOCKER,Rename field "accuracy" to prevent any misunderstanding/clash with field "ACCURACY".,CODE_SMELL

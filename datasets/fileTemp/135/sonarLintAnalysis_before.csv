@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1135,40,40,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S899,112,112,MINOR,Do something with the "boolean" value returned by "delete".,BUG
+java:S4042,112,112,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S2093,82,82,CRITICAL,Change this "try" to a try-with-resources. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL

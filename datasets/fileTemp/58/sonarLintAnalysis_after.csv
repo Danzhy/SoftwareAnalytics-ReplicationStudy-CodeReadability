@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1066,40,40,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL

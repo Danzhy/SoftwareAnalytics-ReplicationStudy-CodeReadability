@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S1066,102,102,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1104,187,187,MINOR,Make NO_TRANSACTION_ID a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1444,187,187,MINOR,Make this "public static NO_TRANSACTION_ID" field final,CODE_SMELL
+java:S3776,56,56,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.,CODE_SMELL
+java:S3008,187,187,MINOR,Rename this field "NO_TRANSACTION_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL

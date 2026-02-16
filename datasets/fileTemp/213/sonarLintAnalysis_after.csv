@@ -1,0 +1,18 @@
+rule key,start line,end line,severity,message,type
+java:S135,556,556,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,310,310,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,313,313,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,320,320,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1488,420,421,MINOR,Immediately return this expression instead of assigning it to the temporary variable "rangeQuery".,CODE_SMELL
+java:S1488,720,720,MINOR,Immediately return this expression instead of assigning it to the temporary variable "query".,CODE_SMELL
+java:S1854,276,276,MAJOR,Remove this useless assignment to local variable "extractedFields".,CODE_SMELL
+java:S3776,297,297,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.,CODE_SMELL
+java:S1125,520,520,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,536,536,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S1125,537,537,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,562,562,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,568,568,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1155,577,577,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1125,597,597,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,624,624,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,744,744,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL

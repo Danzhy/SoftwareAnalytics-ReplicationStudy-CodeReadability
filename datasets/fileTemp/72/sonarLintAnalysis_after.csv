@@ -1,0 +1,12 @@
+rule key,start line,end line,severity,message,type
+java:S1192,824,824,CRITICAL,Define a constant instead of duplicating this literal "request" 3 times.,CODE_SMELL
+java:S1141,290,290,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S5164,797,797,MAJOR,Call "remove()" on "CURRENT_INTERPRETER".,BUG
+java:S1133,133,133,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S3776,262,262,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.,CODE_SMELL
+java:S1612,354,354,MINOR,Replace this lambda with method reference 'RenderedOutputNode.class::isInstance'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3776,426,426,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.,CODE_SMELL
+java:S6213,501,501,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S1133,756,756,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,756,756,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1117,851,851,MAJOR,Rename "lineNumber" which hides the field declared at line 86.,CODE_SMELL

@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S127,102,102,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S127,124,124,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S1141,220,220,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S2259,73,73,MAJOR,A "NullPointerException" could be thrown; "asIOException" is nullable here.,BUG
+java:S2259,87,87,MAJOR,A "NullPointerException" could be thrown; "asIOException" is nullable here.,BUG
+java:S3358,55,56,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S1264,151,151,MINOR,Replace this "for" loop with a "while" loop.,CODE_SMELL

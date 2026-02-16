@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S1192,203,203,CRITICAL,Use already-defined constant 'CREDENTIALS' instead of duplicating its value here.,CODE_SMELL
+java:S1192,199,199,CRITICAL,Use already-defined constant 'BLUEPRINT' instead of duplicating its value here.,CODE_SMELL
+java:S1192,100,100,CRITICAL,Use already-defined constant 'RESPONSE_KEY' instead of duplicating its value here.,CODE_SMELL
+java:S1153,525,525,MINOR,Directly append the argument of String.valueOf().,CODE_SMELL
+java:S3776,297,297,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.,CODE_SMELL
+java:S1135,382,382,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S131,474,474,CRITICAL,Add a default case to this switch.,CODE_SMELL

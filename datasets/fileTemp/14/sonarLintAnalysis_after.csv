@@ -1,0 +1,18 @@
+rule key,start line,end line,severity,message,type
+java:S3776,49,49,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.,CODE_SMELL
+java:S106,51,51,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,55,55,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,56,56,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,57,57,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,58,58,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,59,59,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,60,60,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,61,61,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,63,63,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,96,96,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,120,120,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,161,161,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S1155,245,245,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S106,246,246,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,248,248,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,251,251,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL

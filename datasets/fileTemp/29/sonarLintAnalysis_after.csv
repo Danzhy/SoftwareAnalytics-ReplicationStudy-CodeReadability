@@ -1,0 +1,7 @@
+rule key,start line,end line,severity,message,type
+java:S127,638,638,MAJOR,Refactor the code in order to not assign to this loop counter from within the loop body.,CODE_SMELL
+java:S3077,215,215,MINOR,Use an "AtomicReferenceArray" instead.,BUG
+java:S1124,376,376,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S1133,498,498,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1874,505,505,MINOR,Remove this use of "isLoggable"; it is deprecated.,CODE_SMELL
+java:S5998,569,569,MAJOR,Refactor this repetition that can lead to a stack overflow for large inputs.,BUG

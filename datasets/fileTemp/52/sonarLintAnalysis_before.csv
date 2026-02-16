@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1854,33,33,MAJOR,Remove this useless assignment to local variable "indexName".,CODE_SMELL

@@ -1,0 +1,64 @@
+rule key,start line,end line,severity,message,type
+java:S2293,56,56,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,139,139,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,248,248,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,273,273,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,281,281,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1323,1323,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1674,1674,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1192,857,857,CRITICAL,Define a constant instead of duplicating this literal "&#39;" 3 times.,CODE_SMELL
+java:S1192,386,386,CRITICAL,Define a constant instead of duplicating this literal "lineParser.errorProcessingOpt" 3 times.,CODE_SMELL
+java:S1192,1222,1222,CRITICAL,Define a constant instead of duplicating this literal "lineParser.unknownMacro" 3 times.,CODE_SMELL
+java:S1192,1508,1508,CRITICAL,Define a constant instead of duplicating this literal "<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>" 3 times.,CODE_SMELL
+java:S1192,1251,1251,CRITICAL,Define a constant instead of duplicating this literal "macro.return" 4 times.,CODE_SMELL
+java:S1192,1510,1510,CRITICAL,Define a constant instead of duplicating this literal "</u>: " 3 times.,CODE_SMELL
+java:S1192,591,591,CRITICAL,Define a constant instead of duplicating this literal "roll.count" 3 times.,CODE_SMELL
+java:S1066,1563,1563,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1141,298,298,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,381,381,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,398,398,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,402,402,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,438,438,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,640,640,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,675,675,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,888,888,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S117,812,812,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1488,1375,1375,MINOR,Immediately return this expression instead of assigning it to the temporary variable "macroOutput".,CODE_SMELL
+java:S2589,1462,1462,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S2589,1418,1418,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S1149,56,56,MAJOR,Replace the synchronized class "Stack" by an unsynchronized one such as "Deque".,CODE_SMELL
+java:S1149,248,248,MAJOR,Replace the synchronized class "Stack" by an unsynchronized one such as "Deque".,CODE_SMELL
+java:S125,145,145,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,230,230,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 468 to the 15 allowed.,CODE_SMELL
+java:S2147,987,987,MINOR,Combine this catch with the one at line 983, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,992,992,MINOR,Combine this catch with the one at line 983, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1659,277,277,MINOR,Declare "loopEnd" and all following declarations on a separate line.,CODE_SMELL
+java:S1659,280,280,MINOR,Declare "loopCondition" on a separate line.,CODE_SMELL
+java:S1135,308,308,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1659,695,695,MINOR,Declare "branchSepRegex" and all following declarations on a separate line.,CODE_SMELL
+java:S1135,596,596,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,635,635,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,715,715,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1116,788,788,MINOR,Remove this empty statement.,CODE_SMELL
+java:S125,805,805,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,819,819,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S5361,857,857,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S5361,872,872,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S5361,873,873,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S125,876,876,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,877,877,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,879,879,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,985,985,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,990,990,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1172,1025,1025,MAJOR,Remove this unused method parameter "tokenInContext".,CODE_SMELL
+java:S3776,1134,1134,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.,CODE_SMELL
+java:S1854,1227,1227,MAJOR,Remove this useless assignment to local variable "mbp".,CODE_SMELL
+java:S1481,1227,1227,MINOR,Remove this unused "mbp" local variable.,CODE_SMELL
+java:S125,1283,1283,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,1412,1412,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S3776,1456,1456,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S5361,1539,1539,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S1125,1560,1560,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,1673,1673,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.,CODE_SMELL
+java:S1871,1706,1713,MAJOR,This branch's code block is the same as the block for the branch on line 1699.,CODE_SMELL
+java:S1144,1636,1636,MAJOR,Remove this unused private "contextStackEmpty" method.,CODE_SMELL

@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S2583,122,122,MAJOR,Change this condition so that it does not always evaluate to "false",BUG

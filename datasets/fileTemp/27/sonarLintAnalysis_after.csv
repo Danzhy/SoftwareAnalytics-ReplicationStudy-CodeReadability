@@ -1,0 +1,10 @@
+rule key,start line,end line,severity,message,type
+java:S1192,197,197,CRITICAL,Define a constant instead of duplicating this literal " due to the following issue: " 5 times.,CODE_SMELL
+java:S1192,195,195,CRITICAL,Define a constant instead of duplicating this literal "Could not validate the resource " 5 times.,CODE_SMELL
+java:S1192,114,114,CRITICAL,Define a constant instead of duplicating this literal "Skipped invalid resource: " 3 times.,CODE_SMELL
+java:S1186,47,47,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S125,239,239,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1854,309,309,MAJOR,Remove this useless assignment to local variable "result".,CODE_SMELL
+java:S1854,342,342,MAJOR,Remove this useless assignment to local variable "result".,CODE_SMELL
+java:S1854,375,375,MAJOR,Remove this useless assignment to local variable "result".,CODE_SMELL
+java:S1172,397,397,MAJOR,Remove this unused method parameter "isNew".,CODE_SMELL

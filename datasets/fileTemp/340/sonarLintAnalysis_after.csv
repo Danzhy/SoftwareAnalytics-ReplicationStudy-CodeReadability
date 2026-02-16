@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S3457,91,91,MAJOR,Lambda should be used to defer string concatenation.,CODE_SMELL

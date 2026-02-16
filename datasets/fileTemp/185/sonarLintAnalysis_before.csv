@@ -1,0 +1,19 @@
+rule key,start line,end line,severity,message,type
+java:S5993,205,205,MAJOR,Change the visibility of this constructor to "protected".,CODE_SMELL
+java:S5993,270,270,MAJOR,Change the visibility of this constructor to "protected".,CODE_SMELL
+java:S107,205,205,MAJOR,Constructor has 16 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S107,270,270,MAJOR,Constructor has 17 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S1135,72,72,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S6213,111,111,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S1659,170,170,MINOR,Declare "populateOATag" and all following declarations on a separate line.,CODE_SMELL
+java:S1172,195,195,MAJOR,Remove this unused method parameter "sam".,CODE_SMELL
+java:S1172,197,197,MAJOR,Remove this unused method parameter "hits".,CODE_SMELL
+java:S3864,312,312,MAJOR,Remove this use of "Stream.peek".,CODE_SMELL
+java:S3776,370,370,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 166 to the 15 allowed.,CODE_SMELL
+java:S1117,410,410,MAJOR,Rename "header" which hides the field declared at line 88.,CODE_SMELL
+java:S1659,449,449,MINOR,Declare "r2Primary" on a separate line.,CODE_SMELL
+java:S6213,608,608,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,626,626,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S1659,905,905,MINOR,Declare "clipPositionTo" on a separate line.,CODE_SMELL
+java:S3358,1035,1035,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S3358,1036,1036,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL

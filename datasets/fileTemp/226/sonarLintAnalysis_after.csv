@@ -1,0 +1,25 @@
+rule key,start line,end line,severity,message,type
+java:S112,604,604,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1192,1106,1106,CRITICAL,Define a constant instead of duplicating this literal "required" 9 times.,CODE_SMELL
+java:S1192,1097,1097,CRITICAL,Define a constant instead of duplicating this literal "group" 5 times.,CODE_SMELL
+java:S1192,979,979,CRITICAL,Define a constant instead of duplicating this literal "field" 4 times.,CODE_SMELL
+java:S1192,956,956,CRITICAL,Define a constant instead of duplicating this literal "component" 4 times.,CODE_SMELL
+java:S1066,844,844,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S117,1291,1291,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,1322,1322,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1163,916,916,CRITICAL,Refactor this code to not throw exceptions in finally blocks.,CODE_SMELL
+java:S1143,916,916,CRITICAL,Remove this throw statement from this finally block.,BUG
+java:S2259,1207,1207,MAJOR,A "NullPointerException" could be thrown; "required" is nullable here.,BUG
+java:S2259,1213,1213,MAJOR,A "NullPointerException" could be thrown; "required" is nullable here.,BUG
+java:S2259,1198,1198,MAJOR,A "NullPointerException" could be thrown; "required" is nullable here.,BUG
+java:S2259,691,691,MAJOR,A "NullPointerException" could be thrown; "applicationDataDictionary" is nullable here.,BUG
+java:S1117,312,312,MAJOR,Rename "fields" which hides the field declared at line 102.,CODE_SMELL
+java:S1117,363,363,MAJOR,Rename "fields" which hides the field declared at line 102.,CODE_SMELL
+java:S1874,600,600,MINOR,Remove this use of "newInstance"; it is deprecated.,CODE_SMELL
+java:S1117,716,716,MAJOR,Rename "groups" which hides the field declared at line 108.,CODE_SMELL
+java:S1117,875,875,MAJOR,Rename "groups" which hides the field declared at line 108.,CODE_SMELL
+java:S3776,921,921,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 73 to the 15 allowed.,CODE_SMELL
+java:S3776,1087,1087,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.,CODE_SMELL
+java:S1172,1159,1159,MAJOR,Remove this unused method parameter "document".,CODE_SMELL
+java:S3776,1167,1167,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S3776,1220,1220,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL

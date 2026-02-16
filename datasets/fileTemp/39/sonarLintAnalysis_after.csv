@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S2293,38,38,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S3008,39,39,MINOR,Rename this field "POINTER_IMAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,40,40,MINOR,Rename this field "SPEECH_IMAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,41,41,MINOR,Rename this field "THOUGHT_IMAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,42,42,MINOR,Rename this field "LOOK_HERE_IMAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3252,105,105,CRITICAL,Use static access with "javax.swing.SwingConstants" for "LEFT".,CODE_SMELL
+java:S3252,124,124,CRITICAL,Use static access with "javax.swing.SwingConstants" for "LEFT".,CODE_SMELL

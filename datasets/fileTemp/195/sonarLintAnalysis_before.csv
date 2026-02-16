@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S2259,240,240,MAJOR,A "NullPointerException" could be thrown; "response" is nullable here.,BUG
+java:S2259,253,253,MAJOR,A "NullPointerException" could be thrown; "response" is nullable here.,BUG
+java:S6213,134,134,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,161,161,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S3776,181,181,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.,CODE_SMELL
+java:S6213,181,181,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,232,232,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL

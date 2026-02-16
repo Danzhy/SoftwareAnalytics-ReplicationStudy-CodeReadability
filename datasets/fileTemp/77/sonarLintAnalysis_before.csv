@@ -1,0 +1,17 @@
+rule key,start line,end line,severity,message,type
+java:S1192,658,658,CRITICAL,Define a constant instead of duplicating this literal "\\s+\\band\\b\\s+" 5 times.,CODE_SMELL
+java:S1643,152,152,MINOR,Use a StringBuilder instead.,CODE_SMELL
+java:S1643,155,155,MINOR,Use a StringBuilder instead.,CODE_SMELL
+java:S1643,165,165,MINOR,Use a StringBuilder instead.,CODE_SMELL
+java:S5411,148,148,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S5411,169,169,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S5411,528,528,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S3776,115,115,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 76 to the 15 allowed.,CODE_SMELL
+java:S1134,137,137,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S3776,202,202,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 83 to the 15 allowed.,CODE_SMELL
+java:S3776,404,404,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL
+java:S3626,524,524,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S1119,546,546,MAJOR,Refactor the code to remove this label and the need for it.,CODE_SMELL
+java:S1134,1007,1007,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S3776,1113,1113,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.,CODE_SMELL
+java:S3776,1294,1294,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 88 to the 15 allowed.,CODE_SMELL

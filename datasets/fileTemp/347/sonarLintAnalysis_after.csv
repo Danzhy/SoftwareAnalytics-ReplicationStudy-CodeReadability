@@ -1,0 +1,9 @@
+rule key,start line,end line,severity,message,type
+java:S1066,114,114,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1604,51,51,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,76,76,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,89,89,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,101,101,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3416,31,31,MINOR,Update this logger to use "AzureVMCloudPoolRetentionStrategy.class".,CODE_SMELL
+java:S3626,153,153,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S1135,167,167,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1066,57,57,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S2589,58,58,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S1450,32,32,MINOR,Remove the "processingMode" field and declare it as a local variable in the relevant methods.,CODE_SMELL
+java:S1068,32,32,MAJOR,Remove this unused "processingMode" private field.,CODE_SMELL

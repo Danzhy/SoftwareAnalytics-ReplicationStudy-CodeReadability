@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S2293,47,47,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1186,95,95,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,183,183,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S3776,97,97,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S3252,189,189,CRITICAL,Use static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".,CODE_SMELL

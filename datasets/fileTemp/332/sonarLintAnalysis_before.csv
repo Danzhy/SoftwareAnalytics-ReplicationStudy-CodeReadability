@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S2676,55,55,MINOR,Use the original value instead.,BUG

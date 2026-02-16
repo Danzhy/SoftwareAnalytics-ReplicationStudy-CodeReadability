@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1192,73,73,CRITICAL,Define a constant instead of duplicating this literal "localhost" 3 times.,CODE_SMELL
+java:S3776,68,68,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S3776,136,136,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S3776,198,198,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL

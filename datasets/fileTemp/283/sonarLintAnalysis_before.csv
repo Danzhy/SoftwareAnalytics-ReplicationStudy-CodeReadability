@@ -1,0 +1,12 @@
+rule key,start line,end line,severity,message,type
+java:S1854,141,142,MAJOR,Remove this useless assignment to local variable "tableMetadata".,CODE_SMELL
+java:S1481,141,141,MINOR,Remove this unused "tableMetadata" local variable.,CODE_SMELL
+java:S1854,161,162,MAJOR,Remove this useless assignment to local variable "tableMetadata".,CODE_SMELL
+java:S1481,161,161,MINOR,Remove this unused "tableMetadata" local variable.,CODE_SMELL
+java:S1854,204,205,MAJOR,Remove this useless assignment to local variable "tableMetadata".,CODE_SMELL
+java:S1481,204,204,MINOR,Remove this unused "tableMetadata" local variable.,CODE_SMELL
+java:S1854,229,230,MAJOR,Remove this useless assignment to local variable "tableMetadata".,CODE_SMELL
+java:S1481,229,229,MINOR,Remove this unused "tableMetadata" local variable.,CODE_SMELL
+java:S1854,277,278,MAJOR,Remove this useless assignment to local variable "schema".,CODE_SMELL
+java:S2129,277,277,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S1481,277,277,MINOR,Remove this unused "schema" local variable.,CODE_SMELL

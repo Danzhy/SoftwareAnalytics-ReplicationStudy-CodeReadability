@@ -1,0 +1,12 @@
+rule key,start line,end line,severity,message,type
+java:S1192,66,66,CRITICAL,Define a constant instead of duplicating this literal "experimental" 3 times.,CODE_SMELL
+java:S1192,82,82,CRITICAL,Define a constant instead of duplicating this literal "JENKINS_PLUGIN_INFO" 3 times.,CODE_SMELL
+java:S1192,129,129,CRITICAL,Define a constant instead of duplicating this literal "--plugin-file" 3 times.,CODE_SMELL
+java:S1192,56,56,CRITICAL,Define a constant instead of duplicating this literal "latest" 9 times.,CODE_SMELL
+java:S1192,79,79,CRITICAL,Define a constant instead of duplicating this literal "JENKINS_UC" 3 times.,CODE_SMELL
+java:S1192,81,81,CRITICAL,Define a constant instead of duplicating this literal "JENKINS_INCREMENTALS_REPO_MIRROR" 3 times.,CODE_SMELL
+java:S1192,80,80,CRITICAL,Define a constant instead of duplicating this literal "JENKINS_UC_EXPERIMENTAL" 3 times.,CODE_SMELL
+java:S1854,202,202,MAJOR,Remove this useless assignment to local variable "cfg".,CODE_SMELL
+java:S1481,202,202,MINOR,Remove this unused "cfg" local variable.,CODE_SMELL
+java:S1854,356,356,MAJOR,Remove this useless assignment to local variable "cfg".,CODE_SMELL
+java:S1481,356,356,MINOR,Remove this unused "cfg" local variable.,CODE_SMELL

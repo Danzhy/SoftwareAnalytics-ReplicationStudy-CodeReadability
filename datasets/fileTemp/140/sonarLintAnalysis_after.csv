@@ -1,0 +1,27 @@
+rule key,start line,end line,severity,message,type
+java:S1141,709,709,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,1092,1092,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,1116,1116,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S107,1347,1347,MAJOR,Method has 8 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S1117,320,320,MAJOR,Rename "blobContainer" which hides the field declared at line 236.,CODE_SMELL
+java:S1125,345,345,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,548,548,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,558,558,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1854,575,575,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,574,574,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,583,584,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1117,608,608,MAJOR,Rename "basePath" which hides the field declared at line 240.,CODE_SMELL
+java:S1125,675,675,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,695,695,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,710,710,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,728,728,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,916,916,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,973,973,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1055,1055,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,1077,1077,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.,CODE_SMELL
+java:S1135,1115,1115,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,1222,1222,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,1239,1239,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,1378,1378,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1379,1379,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1401,1401,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL

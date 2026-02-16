@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S2293,58,58,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2692,159,159,CRITICAL,0 is a valid index, but is ignored by this check.,CODE_SMELL
+java:S2692,160,160,CRITICAL,0 is a valid index, but is ignored by this check.,CODE_SMELL

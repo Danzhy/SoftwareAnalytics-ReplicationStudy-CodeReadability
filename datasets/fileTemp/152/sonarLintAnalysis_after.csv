@@ -1,0 +1,30 @@
+rule key,start line,end line,severity,message,type
+java:S2293,82,82,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,87,87,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,427,427,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,672,672,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1456,1456,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S135,1311,1311,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,1359,1359,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,363,363,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S3776,472,472,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.,CODE_SMELL
+java:S2147,505,505,MINOR,Combine this catch with the one at line 503, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,532,532,MINOR,Combine this catch with the one at line 530, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,534,534,MINOR,Combine this catch with the one at line 530, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S3776,669,669,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 95 to the 15 allowed.,CODE_SMELL
+java:S2147,702,702,MINOR,Combine this catch with the one at line 700, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,715,715,MINOR,Combine this catch with the one at line 713, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,727,727,MINOR,Combine this catch with the one at line 725, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,753,753,MINOR,Combine this catch with the one at line 751, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,764,764,MINOR,Combine this catch with the one at line 762, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,824,824,MINOR,Combine this catch with the one at line 822, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S3776,842,842,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.,CODE_SMELL
+java:S2147,878,878,MINOR,Combine this catch with the one at line 876, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,908,908,MINOR,Combine this catch with the one at line 906, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,910,910,MINOR,Combine this catch with the one at line 906, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S3776,1039,1039,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S3776,1094,1094,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.,CODE_SMELL
+java:S1134,1156,1156,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S3776,1188,1188,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 58 to the 15 allowed.,CODE_SMELL
+java:S1134,1277,1277,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S3776,1499,1499,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL

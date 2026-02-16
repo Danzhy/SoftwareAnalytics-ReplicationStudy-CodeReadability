@@ -1,0 +1,10 @@
+rule key,start line,end line,severity,message,type
+java:S1192,157,157,CRITICAL,Define a constant instead of duplicating this literal ": Build #" 3 times.,CODE_SMELL
+java:S1066,97,97,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1141,321,321,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S3457,85,85,MAJOR,String contains no format specifiers.,CODE_SMELL
+java:S125,91,91,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,109,109,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,164,164,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.,CODE_SMELL
+java:S2142,291,291,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S3776,297,297,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.,CODE_SMELL

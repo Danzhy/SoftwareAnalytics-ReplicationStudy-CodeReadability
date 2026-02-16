@@ -1,0 +1,12 @@
+rule key,start line,end line,severity,message,type
+java:S1104,539,539,MINOR,Make REPLACER a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1444,539,539,MINOR,Make this "public static REPLACER" field final,CODE_SMELL
+java:S3008,539,539,MINOR,Rename this field "REPLACER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1149,321,321,MAJOR,Replace the synchronized class "Stack" by an unsynchronized one such as "Deque".,CODE_SMELL
+java:S1149,426,426,MAJOR,Replace the synchronized class "Stack" by an unsynchronized one such as "Deque".,CODE_SMELL
+java:S1186,372,372,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1149,321,321,MAJOR,Replace the synchronized class "Stack" by an unsynchronized one such as "Deque".,CODE_SMELL
+java:S1186,453,453,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,456,456,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1149,426,426,MAJOR,Replace the synchronized class "Stack" by an unsynchronized one such as "Deque".,CODE_SMELL
+java:S1135,479,479,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

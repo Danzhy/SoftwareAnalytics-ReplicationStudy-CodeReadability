@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S128,59,59,BLOCKER,End this switch case with an unconditional break, return or throw statement.,CODE_SMELL

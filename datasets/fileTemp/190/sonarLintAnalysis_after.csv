@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1643,125,125,MINOR,Use a StringBuilder instead.,CODE_SMELL
+java:S3008,61,61,MINOR,Rename this field "LEGACY_OPTION_MSG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1117,88,88,MAJOR,Rename "propsPath" which hides the field declared at line 42.,CODE_SMELL
+java:S106,132,132,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL

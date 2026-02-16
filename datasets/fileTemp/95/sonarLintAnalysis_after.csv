@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1118,31,31,MAJOR,Add a private constructor to hide the implicit public one.,CODE_SMELL

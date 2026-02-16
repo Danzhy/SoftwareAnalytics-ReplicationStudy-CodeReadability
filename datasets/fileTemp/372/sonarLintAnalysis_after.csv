@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S112,88,88,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S5411,86,86,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S3008,72,72,MINOR,Rename this field "ERROR_THROWN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1450,74,74,MINOR,Remove the "filesToCompact" field and declare it as a local variable in the relevant methods.,CODE_SMELL
+java:S2696,87,87,CRITICAL,Make the enclosing method "static" or remove this set.,CODE_SMELL

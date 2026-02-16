@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S100,1318,1318,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,1324,1324,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,1332,1332,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,1338,1338,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,1352,1352,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,1360,1360,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,1366,1366,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL

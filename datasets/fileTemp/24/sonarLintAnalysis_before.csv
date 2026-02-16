@@ -1,0 +1,12 @@
+rule key,start line,end line,severity,message,type
+java:S112,336,336,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,348,348,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1133,107,107,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,120,120,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S3776,179,179,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.,CODE_SMELL
+java:S106,294,294,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S1611,377,377,MINOR,Remove the parentheses around the "c" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S4276,382,382,MINOR,Refactor this code to use the more specialised Functional Interface 'UnaryOperator<Consumer>',CODE_SMELL
+java:S4276,510,510,MINOR,Refactor this code to use the more specialised Functional Interface 'UnaryOperator<Consumer>',CODE_SMELL
+java:S1133,552,552,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1611,567,567,MINOR,Remove the parentheses around the "rc" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

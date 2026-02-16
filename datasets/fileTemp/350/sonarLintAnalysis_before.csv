@@ -1,0 +1,71 @@
+rule key,start line,end line,severity,message,type
+java:S1192,434,434,CRITICAL,Define a constant instead of duplicating this literal "browserstack-integration" 4 times.,CODE_SMELL
+java:S1192,79,79,CRITICAL,Define a constant instead of duplicating this literal "plugins" 23 times.,CODE_SMELL
+java:S1192,163,163,CRITICAL,Define a constant instead of duplicating this literal "scm-api" 4 times.,CODE_SMELL
+java:S1192,264,264,CRITICAL,Define a constant instead of duplicating this literal "dependency1 1.0.0
+" 3 times.,CODE_SMELL
+java:S1192,1588,1588,CRITICAL,Define a constant instead of duplicating this literal "lastVersion" 6 times.,CODE_SMELL
+java:S1192,298,298,CRITICAL,Define a constant instead of duplicating this literal "optional" 29 times.,CODE_SMELL
+java:S1192,292,292,CRITICAL,Define a constant instead of duplicating this literal "version" 36 times.,CODE_SMELL
+java:S1192,917,917,CRITICAL,Define a constant instead of duplicating this literal "workflow-scm-step" 3 times.,CODE_SMELL
+java:S1192,217,217,CRITICAL,Define a constant instead of duplicating this literal "installed2" 4 times.,CODE_SMELL
+java:S1192,836,836,CRITICAL,Define a constant instead of duplicating this literal "ssh-credentials" 4 times.,CODE_SMELL
+java:S1192,216,216,CRITICAL,Define a constant instead of duplicating this literal "installed1" 4 times.,CODE_SMELL
+java:S1192,897,897,CRITICAL,Define a constant instead of duplicating this literal "latest" 7 times.,CODE_SMELL
+java:S1192,659,659,CRITICAL,Define a constant instead of duplicating this literal "plugin" 9 times.,CODE_SMELL
+java:S1192,504,504,CRITICAL,Define a constant instead of duplicating this literal "SECURITY" 5 times.,CODE_SMELL
+java:S1192,88,88,CRITICAL,Define a constant instead of duplicating this literal "script-security" 9 times.,CODE_SMELL
+java:S1192,224,224,CRITICAL,Define a constant instead of duplicating this literal "1.0.0" 11 times.,CODE_SMELL
+java:S1192,154,154,CRITICAL,Define a constant instead of duplicating this literal "1.0.1" 4 times.,CODE_SMELL
+java:S1192,220,220,CRITICAL,Define a constant instead of duplicating this literal "bundled2" 4 times.,CODE_SMELL
+java:S1192,857,857,CRITICAL,Define a constant instead of duplicating this literal "/delivery-pipeline-plugin.jpi" 4 times.,CODE_SMELL
+java:S1192,519,519,CRITICAL,Define a constant instead of duplicating this literal "cucumber-reports" 6 times.,CODE_SMELL
+java:S1192,219,219,CRITICAL,Define a constant instead of duplicating this literal "bundled1" 4 times.,CODE_SMELL
+java:S1192,150,150,CRITICAL,Define a constant instead of duplicating this literal "aws-credentials" 5 times.,CODE_SMELL
+java:S1192,1304,1304,CRITICAL,Define a constant instead of duplicating this literal "pluginName" 7 times.,CODE_SMELL
+java:S1192,400,400,CRITICAL,Define a constant instead of duplicating this literal "1.1.1" 3 times.,CODE_SMELL
+java:S1192,609,609,CRITICAL,Define a constant instead of duplicating this literal "amazon-ecs" 5 times.,CODE_SMELL
+java:S1192,309,309,CRITICAL,Define a constant instead of duplicating this literal "2.1.14" 4 times.,CODE_SMELL
+java:S1192,504,504,CRITICAL,Define a constant instead of duplicating this literal "security warning" 3 times.,CODE_SMELL
+java:S1192,1304,1304,CRITICAL,Define a constant instead of duplicating this literal "pluginURL" 3 times.,CODE_SMELL
+java:S1192,1196,1196,CRITICAL,Define a constant instead of duplicating this literal "replaced1" 3 times.,CODE_SMELL
+java:S1192,376,376,CRITICAL,Define a constant instead of duplicating this literal "junit" 3 times.,CODE_SMELL
+java:S1192,336,336,CRITICAL,Define a constant instead of duplicating this literal "structs" 12 times.,CODE_SMELL
+java:S1192,298,298,CRITICAL,Define a constant instead of duplicating this literal "false" 24 times.,CODE_SMELL
+java:S1192,631,631,CRITICAL,Define a constant instead of duplicating this literal "maven-invoker-plugin" 10 times.,CODE_SMELL
+java:S1192,525,525,CRITICAL,Define a constant instead of duplicating this literal "ssh-slaves" 4 times.,CODE_SMELL
+java:S1192,1582,1582,CRITICAL,Define a constant instead of duplicating this literal "message" 5 times.,CODE_SMELL
+java:S1192,476,476,CRITICAL,Define a constant instead of duplicating this literal "pipeline-maven" 3 times.,CODE_SMELL
+java:S1192,222,222,CRITICAL,Define a constant instead of duplicating this literal "plugin1" 13 times.,CODE_SMELL
+java:S1192,223,223,CRITICAL,Define a constant instead of duplicating this literal "plugin2" 10 times.,CODE_SMELL
+java:S1192,839,839,CRITICAL,Define a constant instead of duplicating this literal "git-client" 3 times.,CODE_SMELL
+java:S1192,265,265,CRITICAL,Define a constant instead of duplicating this literal "dependency2 1.0.0
+" 3 times.,CODE_SMELL
+java:S1192,225,225,CRITICAL,Define a constant instead of duplicating this literal "dependency2" 3 times.,CODE_SMELL
+java:S1192,87,87,CRITICAL,Define a constant instead of duplicating this literal "mailer" 5 times.,CODE_SMELL
+java:S1192,224,224,CRITICAL,Define a constant instead of duplicating this literal "dependency1" 3 times.,CODE_SMELL
+java:S1192,559,559,CRITICAL,Define a constant instead of duplicating this literal "2.1.1" 4 times.,CODE_SMELL
+java:S1192,316,316,CRITICAL,Define a constant instead of duplicating this literal "dependencies" 10 times.,CODE_SMELL
+java:S1192,155,155,CRITICAL,Define a constant instead of duplicating this literal "1.3.0" 3 times.,CODE_SMELL
+java:S1192,266,266,CRITICAL,Define a constant instead of duplicating this literal "plugin1 1.0
+" 3 times.,CODE_SMELL
+java:S1192,1591,1591,CRITICAL,Define a constant instead of duplicating this literal "versions" 5 times.,CODE_SMELL
+java:S1192,510,510,CRITICAL,Define a constant instead of duplicating this literal "lockable-resources" 5 times.,CODE_SMELL
+java:S1192,293,293,CRITICAL,Define a constant instead of duplicating this literal "requiredCore" 10 times.,CODE_SMELL
+java:S1192,1589,1589,CRITICAL,Define a constant instead of duplicating this literal "pattern" 6 times.,CODE_SMELL
+java:S1192,154,154,CRITICAL,Define a constant instead of duplicating this literal "ace-editor" 3 times.,CODE_SMELL
+java:S1192,560,560,CRITICAL,Define a constant instead of duplicating this literal "1.609.3" 4 times.,CODE_SMELL
+java:S1192,557,557,CRITICAL,Define a constant instead of duplicating this literal "2.121.2" 5 times.,CODE_SMELL
+java:S1192,505,505,CRITICAL,Define a constant instead of duplicating this literal "scriptler" 3 times.,CODE_SMELL
+java:S1192,153,153,CRITICAL,Define a constant instead of duplicating this literal "credentials" 12 times.,CODE_SMELL
+java:S1192,86,86,CRITICAL,Define a constant instead of duplicating this literal "workflow-step-api" 9 times.,CODE_SMELL
+java:S1192,493,493,CRITICAL,Define a constant instead of duplicating this literal "warnings" 3 times.,CODE_SMELL
+java:S1192,267,267,CRITICAL,Define a constant instead of duplicating this literal "plugin2 2.0
+" 3 times.,CODE_SMELL
+java:S1192,85,85,CRITICAL,Define a constant instead of duplicating this literal "workflow-api" 5 times.,CODE_SMELL
+java:S1854,537,537,MAJOR,Remove this useless assignment to local variable "cucumberReports3".,CODE_SMELL
+java:S1481,537,537,MINOR,Remove this unused "cucumberReports3" local variable.,CODE_SMELL
+java:S125,546,546,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1301,1301,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1854,1323,1323,MAJOR,Remove this useless assignment to local variable "latestVersion".,CODE_SMELL
+java:S1481,1323,1323,MINOR,Remove this unused "latestVersion" local variable.,CODE_SMELL

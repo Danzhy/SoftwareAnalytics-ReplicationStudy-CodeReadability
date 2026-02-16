@@ -1,0 +1,18 @@
+rule key,start line,end line,severity,message,type
+java:S1192,130,130,CRITICAL,Define a constant instead of duplicating this literal "group22" 4 times.,CODE_SMELL
+java:S1192,123,123,CRITICAL,Define a constant instead of duplicating this literal "group21" 4 times.,CODE_SMELL
+java:S1192,566,566,CRITICAL,Define a constant instead of duplicating this literal "group62" 3 times.,CODE_SMELL
+java:S1192,536,536,CRITICAL,Define a constant instead of duplicating this literal "group61" 3 times.,CODE_SMELL
+java:S1192,114,114,CRITICAL,Define a constant instead of duplicating this literal "admin" 11 times.,CODE_SMELL
+java:S1192,113,113,CRITICAL,Define a constant instead of duplicating this literal "ROLE_ANONYMOUS" 36 times.,CODE_SMELL
+java:S1192,673,673,CRITICAL,Define a constant instead of duplicating this literal "sfuser" 4 times.,CODE_SMELL
+java:S1192,674,674,CRITICAL,Define a constant instead of duplicating this literal "sfadmin" 4 times.,CODE_SMELL
+java:S1192,290,290,CRITICAL,Define a constant instead of duplicating this literal "group31" 8 times.,CODE_SMELL
+java:S1192,114,114,CRITICAL,Define a constant instead of duplicating this literal "geoserver" 11 times.,CODE_SMELL
+java:S1192,114,114,CRITICAL,Define a constant instead of duplicating this literal "ROLE_ADMINISTRATOR" 11 times.,CODE_SMELL
+java:S1192,163,163,CRITICAL,Define a constant instead of duplicating this literal "GetMap" 10 times.,CODE_SMELL
+java:S1192,282,282,CRITICAL,Define a constant instead of duplicating this literal "ROLE_ANONYMOUS2" 13 times.,CODE_SMELL
+java:S1192,853,853,CRITICAL,Define a constant instead of duplicating this literal "Lakes" 3 times.,CODE_SMELL
+java:S1192,113,113,CRITICAL,Define a constant instead of duplicating this literal "anonymousUser" 35 times.,CODE_SMELL
+java:S1104,57,57,MINOR,Make support a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1450,61,61,MINOR,Remove the "ruleService" field and declare it as a local variable in the relevant methods.,CODE_SMELL

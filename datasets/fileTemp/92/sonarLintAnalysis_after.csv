@@ -1,0 +1,27 @@
+rule key,start line,end line,severity,message,type
+java:S112,262,262,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1121,425,425,MAJOR,Extract the assignment out of this expression.,CODE_SMELL
+java:S1066,346,346,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,399,399,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,597,597,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1604,276,276,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,270,270,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S2583,347,347,MAJOR,Change this condition so that it does not always evaluate to "true",BUG
+java:S3776,209,209,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.,CODE_SMELL
+java:S3358,210,210,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S3358,211,211,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S3776,357,357,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.,CODE_SMELL
+java:S1117,359,359,MAJOR,Rename "frameParser" which hides the field declared at line 133.,CODE_SMELL
+java:S125,451,451,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,528,528,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,547,547,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S1117,557,557,MAJOR,Rename "frameParser" which hides the field declared at line 133.,CODE_SMELL
+java:S125,568,568,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1117,592,592,MAJOR,Rename "peerGoneAway" which hides the field declared at line 158.,CODE_SMELL
+java:S3776,674,674,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S1854,678,678,MAJOR,Remove this useless assignment to local variable "old".,CODE_SMELL
+java:S1481,678,678,MINOR,Remove this unused "old" local variable.,CODE_SMELL
+java:S3776,743,743,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S1135,869,869,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1117,1044,1044,MAJOR,Rename "attachments" which hides the field declared at line 180.,CODE_SMELL
+java:S1068,143,143,MAJOR,Remove this unused "receiveConcurrentStreams" private field.,CODE_SMELL

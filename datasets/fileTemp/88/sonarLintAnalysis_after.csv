@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S5164,75,75,MAJOR,Call "remove()" on "appEnvironments".,BUG
+java:S5164,76,76,MAJOR,Call "remove()" on "webServiceMethods".,BUG
+java:S1135,263,263,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3358,307,307,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S1144,93,93,MAJOR,Remove this unused private "InvocationManagerImpl" constructor.,CODE_SMELL

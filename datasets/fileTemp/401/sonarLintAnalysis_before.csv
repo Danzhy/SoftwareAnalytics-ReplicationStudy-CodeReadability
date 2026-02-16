@@ -1,0 +1,3 @@
+rule key,start line,end line,severity,message,type
+java:S1170,45,45,MINOR,Make this final field static too.,CODE_SMELL
+java:S1075,162,162,MINOR,Refactor your code to get this URI from a customizable parameter.,CODE_SMELL

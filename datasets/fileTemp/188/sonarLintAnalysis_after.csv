@@ -1,0 +1,31 @@
+rule key,start line,end line,severity,message,type
+java:S1141,900,900,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1488,513,513,MINOR,Immediately throw this expression instead of assigning it to the temporary variable "ae".,CODE_SMELL
+java:S1199,299,299,MINOR,Extract this nested code block into a method.,CODE_SMELL
+java:S1199,305,305,MINOR,Extract this nested code block into a method.,CODE_SMELL
+java:S2259,939,939,MAJOR,A "NullPointerException" could be thrown; "wire" is nullable here.,BUG
+java:S2589,326,326,MAJOR,Remove this expression which always evaluates to "false",CODE_SMELL
+java:S1186,699,699,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1117,101,101,MAJOR,Rename "writeLock" which hides the field declared at line 54.,CODE_SMELL
+java:S1117,144,144,MAJOR,Rename "appendLock" which hides the field declared at line 56.,CODE_SMELL
+java:S1117,272,272,MAJOR,Rename "queue" which hides the field declared at line 52.,CODE_SMELL
+java:S1135,321,321,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1117,399,399,MAJOR,Rename "cycle" which hides the field declared at line 67.,CODE_SMELL
+java:S1117,434,434,MAJOR,Rename "writeLock" which hides the field declared at line 54.,CODE_SMELL
+java:S125,490,490,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,494,494,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,517,517,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1117,535,535,MAJOR,Rename "cycle" which hides the field declared at line 67.,CODE_SMELL
+java:S1117,594,594,MAJOR,Rename "cycle" which hides the field declared at line 67.,CODE_SMELL
+java:S125,621,621,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1117,680,680,MAJOR,Rename "cycle" which hides the field declared at line 67.,CODE_SMELL
+java:S125,753,753,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1117,790,790,MAJOR,Rename "store" which hides the field declared at line 64.,CODE_SMELL
+java:S1874,809,809,MINOR,Don't override a deprecated method or explicitly mark it as "@Deprecated".,CODE_SMELL
+java:S1113,809,809,CRITICAL,Do not override the Object.finalize() method.,CODE_SMELL
+java:S1874,810,810,MINOR,Remove this use of "finalize"; it is deprecated.,CODE_SMELL
+java:S3776,871,871,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.,CODE_SMELL
+java:S125,899,899,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,907,907,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1117,972,972,MAJOR,Rename "lastPosition" which hides the field declared at line 66.,CODE_SMELL
+java:S1068,74,74,MAJOR,Remove this unused "lastCycle" private field.,CODE_SMELL

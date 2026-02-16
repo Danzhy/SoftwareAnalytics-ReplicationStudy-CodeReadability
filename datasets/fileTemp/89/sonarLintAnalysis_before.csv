@@ -1,0 +1,26 @@
+rule key,start line,end line,severity,message,type
+java:S1301,1040,1040,MINOR,Replace this "switch" statement by "if" statements to increase readability.,CODE_SMELL
+java:S5411,528,528,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S116,1151,1151,MINOR,Rename this field "terminalSessionsPanel_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1152,1152,MINOR,Rename this field "activeTerminalToolbarButton_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1153,1153,MINOR,Rename this field "terminals_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1154,1154,MINOR,Rename this field "terminalTitle_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1155,1155,MINOR,Rename this field "creatingTerminal_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1156,1156,MINOR,Rename this field "interruptButton_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1157,1157,MINOR,Rename this field "closeButton_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1158,1158,MINOR,Rename this field "clearButton_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1159,1159,MINOR,Rename this field "terminalHasChildProcsHandler_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1160,1160,MINOR,Rename this field "isRestartInProgress_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1161,1161,MINOR,Rename this field "closingAll_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1162,1162,MINOR,Rename this field "suppressAutoFocus_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1163,1163,MINOR,Rename this field "selectedCallback_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1166,1166,MINOR,Rename this field "globalDisplay_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1167,1167,MINOR,Rename this field "events_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1168,1168,MINOR,Rename this field "commands_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1169,1169,MINOR,Rename this field "server_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,1170,1170,MINOR,Rename this field "uiPrefs_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3626,309,309,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S1125,528,528,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,643,643,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S3776,742,742,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S1186,1071,1071,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL

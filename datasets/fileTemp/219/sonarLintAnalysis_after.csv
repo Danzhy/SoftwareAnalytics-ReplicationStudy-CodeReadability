@@ -1,0 +1,37 @@
+rule key,start line,end line,severity,message,type
+java:S1192,205,205,CRITICAL,Define a constant instead of duplicating this literal "Setting is not registered for key [" 5 times.,CODE_SMELL
+java:S1192,718,718,CRITICAL,Define a constant instead of duplicating this literal " setting [" 3 times.,CODE_SMELL
+java:S1121,192,192,MAJOR,Extract the assignment out of this expression.,CODE_SMELL
+java:S135,413,413,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1141,177,177,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S2259,811,811,MAJOR,A "NullPointerException" could be thrown; "setting" is nullable here.,BUG
+java:S5998,58,58,MAJOR,Refactor this repetition that can lead to a stack overflow for large inputs.,BUG
+java:S5998,59,59,MAJOR,Refactor this repetition that can lead to a stack overflow for large inputs.,BUG
+java:S5998,60,60,MAJOR,Refactor this repetition that can lead to a stack overflow for large inputs.,BUG
+java:S1117,77,77,MAJOR,Rename "complexMatchers" which hides the field declared at line 54.,CODE_SMELL
+java:S1117,78,78,MAJOR,Rename "keySettings" which hides the field declared at line 55.,CODE_SMELL
+java:S1125,80,80,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,101,101,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,102,102,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S108,190,190,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S4274,268,270,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1125,260,260,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1854,294,294,MAJOR,Remove this useless assignment to local variable "registeredSetting".,CODE_SMELL
+java:S1854,307,307,MAJOR,Remove this useless assignment to local variable "registeredSetting".,CODE_SMELL
+java:S1611,353,353,MINOR,Remove the parentheses around the "s" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3776,451,451,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.,CODE_SMELL
+java:S1611,470,470,MINOR,Remove the parentheses around the "a" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1125,471,471,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,483,483,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,485,485,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1602,556,556,MINOR,Remove useless curly braces around statement (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3972,569,569,CRITICAL,Move this "if" to a new line or add the missing "else".,CODE_SMELL
+java:S1125,639,639,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,685,685,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,688,688,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1611,707,707,MINOR,Remove the parentheses around the "key" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1125,708,708,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,709,709,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,711,711,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,719,719,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,914,914,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

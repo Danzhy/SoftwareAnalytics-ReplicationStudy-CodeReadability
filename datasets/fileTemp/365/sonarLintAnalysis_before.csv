@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1192,63,63,CRITICAL,Define a constant instead of duplicating this literal "18:00" 5 times.,CODE_SMELL

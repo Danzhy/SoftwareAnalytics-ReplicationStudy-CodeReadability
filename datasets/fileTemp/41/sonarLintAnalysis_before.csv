@@ -1,0 +1,17 @@
+rule key,start line,end line,severity,message,type
+java:S2293,983,983,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1004,1004,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1025,1025,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1065,1065,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1088,1088,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1488,465,465,MINOR,Immediately return this expression instead of assigning it to the temporary variable "value".,CODE_SMELL
+java:S1118,33,33,MAJOR,Add a private constructor to hide the implicit public one.,CODE_SMELL
+java:S125,55,55,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,210,210,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,215,215,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3358,293,293,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S1134,326,326,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S5361,1058,1058,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S5361,1069,1069,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S5361,1069,1069,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S125,1178,1178,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL

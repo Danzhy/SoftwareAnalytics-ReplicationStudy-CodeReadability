@@ -1,0 +1,14 @@
+rule key,start line,end line,severity,message,type
+java:S1121,494,494,MAJOR,Extract the assignment out of this expression.,CODE_SMELL
+java:S135,394,394,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,449,449,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S119,143,143,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,143,143,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S3776,392,392,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S3776,447,447,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.,CODE_SMELL
+java:S1117,677,677,MAJOR,Rename "pos" which hides the field declared at line 228.,CODE_SMELL
+java:S1135,769,769,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,770,770,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1117,824,824,MAJOR,Rename "nodeType" which hides the field declared at line 278.,CODE_SMELL
+java:S1117,825,825,MAJOR,Rename "keyCount" which hides the field declared at line 234.,CODE_SMELL
+java:S1126,851,851,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL

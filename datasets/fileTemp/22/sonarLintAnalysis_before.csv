@@ -1,0 +1,7 @@
+rule key,start line,end line,severity,message,type
+java:S1118,129,129,MAJOR,Add a private constructor to hide the implicit public one.,CODE_SMELL
+java:S1133,137,137,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,144,144,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1874,213,213,MINOR,Remove this use of "SERIALIZED_DEADLINE_MESSAGE"; it is deprecated.,CODE_SMELL
+java:S1874,215,215,MINOR,Remove this use of "SERIALIZED_DEADLINE_MESSAGE"; it is deprecated.,CODE_SMELL
+java:S1874,216,216,MINOR,Remove this use of "SERIALIZED_DEADLINE_MESSAGE_CLASS_NAME"; it is deprecated.,CODE_SMELL

@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1210,366,366,MINOR,Override "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.,CODE_SMELL

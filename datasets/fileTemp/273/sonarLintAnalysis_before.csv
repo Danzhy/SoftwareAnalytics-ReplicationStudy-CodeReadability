@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S3740,106,106,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,121,121,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,122,122,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1192,1671,1671,CRITICAL,Define a constant instead of duplicating this literal "int, float or double" 4 times.,CODE_SMELL
+java:S1135,134,134,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,153,153,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,172,172,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,1986,1986,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,1986,1986,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,2022,2022,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

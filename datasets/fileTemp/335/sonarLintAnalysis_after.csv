@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1192,121,121,CRITICAL,Define a constant instead of duplicating this literal "echo printed text" 4 times.,CODE_SMELL
+java:S1192,182,182,CRITICAL,Define a constant instead of duplicating this literal "hello" 5 times.,CODE_SMELL
+java:S2095,210,210,BLOCKER,Use try-with-resources or close this "FileOutputStream" in a "finally" clause.,BUG
+java:S1135,125,125,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

@@ -1,0 +1,27 @@
+rule key,start line,end line,severity,message,type
+java:S112,251,251,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,542,542,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,600,600,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,795,795,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,874,874,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,879,879,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S3740,150,150,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,554,554,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S135,969,969,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1141,264,264,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,283,283,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,293,293,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1604,567,567,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1135,116,116,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,172,172,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S2142,250,250,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1612,240,240,MINOR,Replace this lambda with method reference '!unknown!.this::!unknownMethod!'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3776,258,258,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.,CODE_SMELL
+java:S1117,263,263,MAJOR,Rename "workers" which hides the field declared at line 133.,CODE_SMELL
+java:S3776,562,562,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S1193,656,656,MAJOR,Replace the usage of the "instanceof" operator by a catch block.,CODE_SMELL
+java:S1612,836,836,MINOR,Replace this lambda with method reference 'HttpRemoteTaskRunnerWorkItem::getTask'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S2142,873,873,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S3776,965,965,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.,CODE_SMELL
+java:S1611,1158,1158,MINOR,Remove the parentheses around the "holder" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3776,1168,1168,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.,CODE_SMELL

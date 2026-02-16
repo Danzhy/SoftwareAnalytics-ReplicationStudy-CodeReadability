@@ -1,0 +1,73 @@
+rule key,start line,end line,severity,message,type
+java:S1192,511,511,CRITICAL,Define a constant instead of duplicating this literal "myrecord" 11 times.,CODE_SMELL
+java:S1192,601,601,CRITICAL,Define a constant instead of duplicating this literal "Should not allow TIME_MICROS with " 3 times.,CODE_SMELL
+java:S1192,98,98,CRITICAL,Define a constant instead of duplicating this literal "      required binary key (UTF8);
+" 7 times.,CODE_SMELL
+java:S1192,78,78,CRITICAL,Define a constant instead of duplicating this literal "  required binary myenum (ENUM);
+" 3 times.,CODE_SMELL
+java:S1192,99,99,CRITICAL,Define a constant instead of duplicating this literal "      required int32 value;
+" 7 times.,CODE_SMELL
+java:S1192,79,79,CRITICAL,Define a constant instead of duplicating this literal "  required group myarray (LIST) {
+" 5 times.,CODE_SMELL
+java:S1192,77,77,CRITICAL,Define a constant instead of duplicating this literal "  }
+" 33 times.,CODE_SMELL
+java:S1192,73,73,CRITICAL,Define a constant instead of duplicating this literal "  required binary mybytes;
+" 3 times.,CODE_SMELL
+java:S1192,76,76,CRITICAL,Define a constant instead of duplicating this literal "    required int32 mynestedint;
+" 3 times.,CODE_SMELL
+java:S1192,88,88,CRITICAL,Define a constant instead of duplicating this literal "    }
+" 23 times.,CODE_SMELL
+java:S1192,80,80,CRITICAL,Define a constant instead of duplicating this literal "    repeated int32 array;
+" 6 times.,CODE_SMELL
+java:S1192,75,75,CRITICAL,Define a constant instead of duplicating this literal "  required group mynestedrecord {
+" 3 times.,CODE_SMELL
+java:S1192,70,70,CRITICAL,Define a constant instead of duplicating this literal "  required int64 mylong;
+" 3 times.,CODE_SMELL
+java:S1192,377,377,CRITICAL,Define a constant instead of duplicating this literal "Avro schema: " 5 times.,CODE_SMELL
+java:S1192,423,423,CRITICAL,Define a constant instead of duplicating this literal "listOfLists" 3 times.,CODE_SMELL
+java:S1192,96,96,CRITICAL,Define a constant instead of duplicating this literal "  required group mymap (MAP) {
+" 5 times.,CODE_SMELL
+java:S1192,102,102,CRITICAL,Define a constant instead of duplicating this literal "  required fixed_len_byte_array(1) myfixed;
+" 3 times.,CODE_SMELL
+java:S1192,74,74,CRITICAL,Define a constant instead of duplicating this literal "  required binary mystring (UTF8);
+" 3 times.,CODE_SMELL
+java:S1192,82,82,CRITICAL,Define a constant instead of duplicating this literal "  optional group myoptionalarray (LIST) {
+" 3 times.,CODE_SMELL
+java:S1192,71,71,CRITICAL,Define a constant instead of duplicating this literal "  required float myfloat;
+" 3 times.,CODE_SMELL
+java:S1192,293,293,CRITICAL,Define a constant instead of duplicating this literal "record1" 3 times.,CODE_SMELL
+java:S1192,179,179,CRITICAL,Define a constant instead of duplicating this literal "      required int32 element;
+" 3 times.,CODE_SMELL
+java:S1192,87,87,CRITICAL,Define a constant instead of duplicating this literal "      optional int32 element;
+" 3 times.,CODE_SMELL
+java:S1192,68,68,CRITICAL,Define a constant instead of duplicating this literal "  required boolean myboolean;
+" 3 times.,CODE_SMELL
+java:S1192,85,85,CRITICAL,Define a constant instead of duplicating this literal "  required group myarrayofoptional (LIST) {
+" 3 times.,CODE_SMELL
+java:S1192,300,300,CRITICAL,Define a constant instead of duplicating this literal "message record1 {
+" 3 times.,CODE_SMELL
+java:S1192,67,67,CRITICAL,Define a constant instead of duplicating this literal "message org.apache.parquet.avro.myrecord {
+" 3 times.,CODE_SMELL
+java:S1192,72,72,CRITICAL,Define a constant instead of duplicating this literal "  required double mydouble;
+" 3 times.,CODE_SMELL
+java:S1192,69,69,CRITICAL,Define a constant instead of duplicating this literal "  required int32 myint;
+" 3 times.,CODE_SMELL
+java:S1192,97,97,CRITICAL,Define a constant instead of duplicating this literal "    repeated group map (MAP_KEY_VALUE) {
+" 7 times.,CODE_SMELL
+java:S1192,86,86,CRITICAL,Define a constant instead of duplicating this literal "    repeated group list {
+" 7 times.,CODE_SMELL
+java:S1192,279,279,CRITICAL,Define a constant instead of duplicating this literal "message myrecord {
+" 11 times.,CODE_SMELL
+java:S1192,116,116,CRITICAL,Define a constant instead of duplicating this literal "converting " 4 times.,CODE_SMELL
+java:S1192,429,429,CRITICAL,Define a constant instead of duplicating this literal "  optional group listOfLists (LIST) {
+" 6 times.,CODE_SMELL
+java:S1604,602,602,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,632,632,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,662,662,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,692,692,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,722,722,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S106,377,377,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,404,404,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,425,425,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,454,454,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,487,487,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL

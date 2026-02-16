@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1144,43,43,MAJOR,Remove this unused private "TagNode" constructor.,CODE_SMELL

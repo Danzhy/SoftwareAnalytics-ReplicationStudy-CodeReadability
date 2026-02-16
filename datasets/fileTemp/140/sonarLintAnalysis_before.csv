@@ -1,0 +1,27 @@
+rule key,start line,end line,severity,message,type
+java:S1141,582,582,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,963,963,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,987,987,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S107,1256,1256,MAJOR,Method has 8 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S1117,320,320,MAJOR,Rename "blobContainer" which hides the field declared at line 236.,CODE_SMELL
+java:S1125,345,345,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1117,531,531,MAJOR,Rename "basePath" which hides the field declared at line 240.,CODE_SMELL
+java:S1125,583,583,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,601,601,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,623,623,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,805,805,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,862,862,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,948,948,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.,CODE_SMELL
+java:S1135,986,986,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,1092,1092,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,1109,1109,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,1246,1246,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1287,1287,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1288,1288,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1300,1300,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,1333,1333,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,1343,1343,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1854,1360,1360,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1359,1359,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,1368,1369,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1125,1502,1502,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL

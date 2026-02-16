@@ -1,0 +1,24 @@
+rule key,start line,end line,severity,message,type
+java:S135,215,215,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S2184,235,235,MINOR,Cast one of the operands of this addition operation to a "double".,BUG
+java:S2184,236,236,MINOR,Cast one of the operands of this addition operation to a "double".,BUG
+java:S2184,260,260,MINOR,Cast one of the operands of this addition operation to a "double".,BUG
+java:S1659,50,50,MINOR,Declare "mapDY" on a separate line.,CODE_SMELL
+java:S1135,189,189,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,190,190,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,203,203,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.,CODE_SMELL
+java:S1854,236,236,MAJOR,Remove this useless assignment to local variable "yc".,CODE_SMELL
+java:S1854,235,235,MAJOR,Remove this useless assignment to local variable "xc".,CODE_SMELL
+java:S1481,235,235,MINOR,Remove this unused "xc" local variable.,CODE_SMELL
+java:S1481,236,236,MINOR,Remove this unused "yc" local variable.,CODE_SMELL
+java:S106,243,243,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,244,244,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,245,245,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S125,247,247,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,249,249,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,252,252,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,255,255,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S106,273,273,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S125,265,265,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,270,270,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S106,274,274,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL

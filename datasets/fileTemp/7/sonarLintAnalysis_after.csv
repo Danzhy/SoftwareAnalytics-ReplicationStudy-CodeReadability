@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1858,228,228,MINOR,"securePassword" is already a string, there's no need to call "toString()" on it.,CODE_SMELL

@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S116,40,40,MINOR,Rename this field "_sessions" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,42,42,MINOR,Rename this field "_stats" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3776,124,124,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.,CODE_SMELL

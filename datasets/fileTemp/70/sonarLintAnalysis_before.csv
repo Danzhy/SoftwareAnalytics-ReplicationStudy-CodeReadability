@@ -1,0 +1,38 @@
+rule key,start line,end line,severity,message,type
+java:S1192,1097,1097,CRITICAL,Define a constant instead of duplicating this literal "subzone2" 6 times.,CODE_SMELL
+java:S1192,962,962,CRITICAL,Define a constant instead of duplicating this literal "throttle" 9 times.,CODE_SMELL
+java:S1192,953,953,CRITICAL,Define a constant instead of duplicating this literal "subzone3" 8 times.,CODE_SMELL
+java:S1192,925,925,CRITICAL,Define a constant instead of duplicating this literal "192.168.0.1" 10 times.,CODE_SMELL
+java:S1192,923,923,CRITICAL,Define a constant instead of duplicating this literal "region1" 10 times.,CODE_SMELL
+java:S1192,1097,1097,CRITICAL,Define a constant instead of duplicating this literal "region2" 6 times.,CODE_SMELL
+java:S1192,953,953,CRITICAL,Define a constant instead of duplicating this literal "region3" 8 times.,CODE_SMELL
+java:S1192,923,923,CRITICAL,Define a constant instead of duplicating this literal "subzone1" 10 times.,CODE_SMELL
+java:S1192,351,351,CRITICAL,Define a constant instead of duplicating this literal "irrelevant" 3 times.,CODE_SMELL
+java:S1192,608,608,CRITICAL,Define a constant instead of duplicating this literal "round_robin" 28 times.,CODE_SMELL
+java:S1192,254,254,CRITICAL,Define a constant instead of duplicating this literal "do not care" 10 times.,CODE_SMELL
+java:S1192,956,956,CRITICAL,Define a constant instead of duplicating this literal "subzone4" 4 times.,CODE_SMELL
+java:S1192,958,958,CRITICAL,Define a constant instead of duplicating this literal "unknown" 5 times.,CODE_SMELL
+java:S1192,353,353,CRITICAL,Define a constant instead of duplicating this literal "envoy.fault" 3 times.,CODE_SMELL
+java:S1192,234,234,CRITICAL,Define a constant instead of duplicating this literal "route-bar.googleapis.com" 3 times.,CODE_SMELL
+java:S1192,1099,1099,CRITICAL,Define a constant instead of duplicating this literal "172.44.2.2" 5 times.,CODE_SMELL
+java:S1192,956,956,CRITICAL,Define a constant instead of duplicating this literal "zone4" 4 times.,CODE_SMELL
+java:S1192,958,958,CRITICAL,Define a constant instead of duplicating this literal "192.168.142.5" 4 times.,CODE_SMELL
+java:S1192,953,953,CRITICAL,Define a constant instead of duplicating this literal "zone3" 8 times.,CODE_SMELL
+java:S1192,1097,1097,CRITICAL,Define a constant instead of duplicating this literal "zone2" 6 times.,CODE_SMELL
+java:S1192,923,923,CRITICAL,Define a constant instead of duplicating this literal "zone1" 10 times.,CODE_SMELL
+java:S1192,925,925,CRITICAL,Define a constant instead of duplicating this literal "healthy" 8 times.,CODE_SMELL
+java:S1192,956,956,CRITICAL,Define a constant instead of duplicating this literal "region4" 4 times.,CODE_SMELL
+java:S1192,608,608,CRITICAL,Define a constant instead of duplicating this literal "cluster-bar.googleapis.com" 4 times.,CODE_SMELL
+java:S100,249,249,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,266,266,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,282,282,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,300,300,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,338,338,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,486,486,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,505,505,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,648,648,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,758,758,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,784,784,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,987,987,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,1037,1037,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S107,1553,1553,MAJOR,Method has 8 parameters, which is greater than 7 authorized.,CODE_SMELL

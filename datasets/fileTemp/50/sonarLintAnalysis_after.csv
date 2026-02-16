@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S1068,481,481,MAJOR,Remove this unused "cacheSizeHeapRatio" private field.,CODE_SMELL
+java:S1068,482,482,MAJOR,Remove this unused "maxCacheSize" private field.,CODE_SMELL
+java:S1068,483,483,MAJOR,Remove this unused "memoryMode" private field.,CODE_SMELL
+java:S1068,484,484,MAJOR,Remove this unused "noVerify" private field.,CODE_SMELL
+java:S1068,485,485,MAJOR,Remove this unused "noSync" private field.,CODE_SMELL

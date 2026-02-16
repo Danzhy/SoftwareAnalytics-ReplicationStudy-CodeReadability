@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S1854,81,81,MAJOR,Remove this useless assignment to local variable "rootServices".,CODE_SMELL
+java:S3776,97,97,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S1854,104,104,MAJOR,Remove this useless assignment to local variable "rootServiceComponents".,CODE_SMELL
+java:S1854,115,115,MAJOR,Remove this useless assignment to local variable "rootServiceComponents".,CODE_SMELL
+java:S1854,172,172,MAJOR,Remove this useless assignment to local variable "rootServiceComponents".,CODE_SMELL

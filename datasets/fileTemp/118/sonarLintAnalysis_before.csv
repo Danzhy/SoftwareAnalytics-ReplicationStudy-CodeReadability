@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1066,90,90,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1155,90,90,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S2975,234,234,BLOCKER,Remove this "clone" implementation; use a copy constructor or copy factory instead.,CODE_SMELL
+java:S1182,234,234,MINOR,Use super.clone() to create and seed the cloned instance to be returned.,CODE_SMELL

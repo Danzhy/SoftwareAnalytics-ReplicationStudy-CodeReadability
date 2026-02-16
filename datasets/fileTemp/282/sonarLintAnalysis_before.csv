@@ -1,0 +1,60 @@
+rule key,start line,end line,severity,message,type
+java:S112,2395,2395,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2402,2402,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S3740,2395,2395,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1192,118,118,CRITICAL,Define a constant instead of duplicating this literal "my_test_ledger" 71 times.,CODE_SMELL
+java:S1192,1655,1655,CRITICAL,Define a constant instead of duplicating this literal "c1noretention" 4 times.,CODE_SMELL
+java:S1192,2239,2239,CRITICAL,Define a constant instead of duplicating this literal "timeout_ledger_test" 3 times.,CODE_SMELL
+java:S1192,1023,1023,CRITICAL,Define a constant instead of duplicating this literal "should have failed" 3 times.,CODE_SMELL
+java:S1192,1630,1630,CRITICAL,Define a constant instead of duplicating this literal "retention_test_ledger" 4 times.,CODE_SMELL
+java:S1192,276,276,CRITICAL,Define a constant instead of duplicating this literal "test-cursor" 10 times.,CODE_SMELL
+java:S1192,926,926,CRITICAL,Define a constant instead of duplicating this literal "Expecting exception" 4 times.,CODE_SMELL
+java:S1192,433,433,CRITICAL,Define a constant instead of duplicating this literal "entry" 15 times.,CODE_SMELL
+java:S1192,689,689,CRITICAL,Define a constant instead of duplicating this literal "entry-1" 13 times.,CODE_SMELL
+java:S1192,690,690,CRITICAL,Define a constant instead of duplicating this literal "entry-2" 11 times.,CODE_SMELL
+java:S1192,703,703,CRITICAL,Define a constant instead of duplicating this literal "entry-3" 8 times.,CODE_SMELL
+java:S1192,1161,1161,CRITICAL,Define a constant instead of duplicating this literal "ledger2" 3 times.,CODE_SMELL
+java:S1192,1159,1159,CRITICAL,Define a constant instead of duplicating this literal "ledger1" 3 times.,CODE_SMELL
+java:S1192,1779,1779,CRITICAL,Define a constant instead of duplicating this literal "backward_test_ledger" 4 times.,CODE_SMELL
+java:S1192,158,158,CRITICAL,Define a constant instead of duplicating this literal "dummy-entry-1" 21 times.,CODE_SMELL
+java:S1192,171,171,CRITICAL,Define a constant instead of duplicating this literal "dummy-entry-2" 5 times.,CODE_SMELL
+java:S1192,138,138,CRITICAL,Define a constant instead of duplicating this literal "Read entry. Position={} Content='{}'" 6 times.,CODE_SMELL
+java:S1192,1639,1639,CRITICAL,Define a constant instead of duplicating this literal "shortmessage" 8 times.,CODE_SMELL
+java:S1604,1297,1297,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,1311,1311,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,1835,1835,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S2129,138,138,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S1854,195,195,MAJOR,Remove this useless assignment to local variable "cursor".,CODE_SMELL
+java:S108,927,927,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S108,933,933,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S108,939,939,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S108,945,945,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S125,995,995,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S2147,1026,1026,MINOR,Combine this catch with the one at line 1024, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1186,1075,1075,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,1088,1088,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,1124,1124,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1854,1339,1339,MAJOR,Remove this useless assignment to local variable "p1".,CODE_SMELL
+java:S1481,1339,1339,MINOR,Remove this unused "p1" local variable.,CODE_SMELL
+java:S1854,1481,1481,MAJOR,Remove this useless assignment to local variable "c1".,CODE_SMELL
+java:S1854,1475,1475,MAJOR,Remove this useless assignment to local variable "c1".,CODE_SMELL
+java:S2129,1555,1555,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S125,1754,1754,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3011,1913,1913,MAJOR,This accessibility update should be removed.,CODE_SMELL
+java:S2129,1939,1939,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S2129,1950,1950,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S2129,1964,1964,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S3011,1989,1989,MAJOR,This accessibility update should be removed.,CODE_SMELL
+java:S2129,2017,2017,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S2129,2093,2093,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S108,2123,2123,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S108,2143,2143,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S899,2253,2253,MINOR,Do something with the "!Unknown!" value returned by "await".,BUG
+java:S1186,2293,2293,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1611,2297,2297,MINOR,Remove the parentheses around the "test" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1602,2297,2297,MINOR,Remove useless curly braces around statement and then remove useless return keyword (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1186,2310,2310,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1611,2322,2322,MINOR,Remove the parentheses around the "test" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1602,2322,2322,MINOR,Remove useless curly braces around statement and then remove useless return keyword (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3011,2397,2397,MAJOR,This accessibility update should be removed.,CODE_SMELL
+java:S3011,2398,2398,MAJOR,This accessibility bypass should be removed.,CODE_SMELL

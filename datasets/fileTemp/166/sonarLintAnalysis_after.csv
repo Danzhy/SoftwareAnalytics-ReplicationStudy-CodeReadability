@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1117,76,76,MAJOR,Rename "application" which hides the field declared at line 45.,CODE_SMELL

@@ -1,0 +1,16 @@
+rule key,start line,end line,severity,message,type
+java:S1192,792,792,CRITICAL,Define a constant instead of duplicating this literal "Expected merge to succeed" 5 times.,CODE_SMELL
+java:S1192,779,779,CRITICAL,Define a constant instead of duplicating this literal "Expected split to succeed" 5 times.,CODE_SMELL
+java:S1192,260,260,CRITICAL,Define a constant instead of duplicating this literal "Expected Unit of Work to have reached clean up phase" 4 times.,CODE_SMELL
+java:S1186,110,110,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S100,798,798,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,823,823,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S106,847,847,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,905,905,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,916,916,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,953,953,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,975,975,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,998,998,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,1002,1002,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,1033,1033,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S1186,1114,1114,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL

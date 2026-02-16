@@ -1,0 +1,6 @@
+psycopg2-binary
+python-dotenv
+PyGithub
+requests
+pandas
+dotenv

@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S112,214,214,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1124,30,30,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S1135,53,53,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,61,61,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,110,110,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S1135,110,110,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,294,294,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S125,309,309,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,356,356,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3398,53,53,MINOR,Move this method into "ImageKey".,CODE_SMELL

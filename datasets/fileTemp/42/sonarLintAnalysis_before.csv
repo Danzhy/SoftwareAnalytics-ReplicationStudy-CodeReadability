@@ -1,0 +1,9 @@
+rule key,start line,end line,severity,message,type
+java:S3740,172,172,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1192,99,99,CRITICAL,Define a constant instead of duplicating this literal "Could not init method: " 3 times.,CODE_SMELL
+java:S1948,58,58,CRITICAL,Make "model" transient or serializable.,CODE_SMELL
+java:S1186,77,77,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S125,70,70,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3878,97,97,MINOR,Disambiguate this call by either casting as "Object" or "Object[]".,CODE_SMELL
+java:S125,180,180,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,213,213,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL

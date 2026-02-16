@@ -1,0 +1,13 @@
+rule key,start line,end line,severity,message,type
+java:S2293,308,308,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,337,337,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S116,78,78,MINOR,Rename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1186,80,80,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S3776,192,192,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S2129,309,309,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S2129,312,312,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S2129,315,315,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S2129,318,318,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S2129,321,321,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S2129,324,324,MAJOR,Remove this "String" constructor,CODE_SMELL
+java:S2129,327,327,MAJOR,Remove this "String" constructor,CODE_SMELL

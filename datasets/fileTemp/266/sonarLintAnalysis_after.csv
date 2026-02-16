@@ -1,0 +1,9 @@
+rule key,start line,end line,severity,message,type
+java:S1104,427,427,MINOR,Make max a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S2184,103,103,MINOR,Cast one of the operands of this multiplication operation to a "double".,BUG
+java:S107,282,282,MAJOR,Method has 10 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S3776,282,282,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S1155,290,290,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1155,313,313,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1117,331,331,MAJOR,Rename "width" which hides the field declared at line 77.,CODE_SMELL
+java:S1905,391,391,MINOR,Remove this unnecessary cast to "double".,CODE_SMELL

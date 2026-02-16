@@ -1,0 +1,22 @@
+rule key,start line,end line,severity,message,type
+java:S2293,148,148,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,152,152,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S135,209,209,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,400,400,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,488,488,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1319,163,163,MINOR,The return type of this method should be an interface such as "Queue" rather than the implementation "ConcurrentLinkedQueue".,CODE_SMELL
+java:S1141,234,234,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,427,427,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S2629,363,364,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,398,399,MAJOR,Invoke method(s) only conditionally.,CODE_SMELL
+java:S2629,647,648,MAJOR,Invoke method(s) only conditionally.,CODE_SMELL
+java:S2184,125,125,MINOR,Cast one of the operands of this multiplication operation to a "long".,BUG
+java:S3457,185,187,MAJOR,Format specifiers or lambda should be used instead of string concatenation.,CODE_SMELL
+java:S3776,202,202,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S3457,252,252,MAJOR,No need to call "toString()" method as formatting and string conversion is done by the Formatter.,CODE_SMELL
+java:S3457,292,294,MAJOR,Not enough arguments.,CODE_SMELL
+java:S3776,348,348,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.,CODE_SMELL
+java:S3457,363,364,MAJOR,Format specifiers or lambda should be used instead of string concatenation.,CODE_SMELL
+java:S3776,486,486,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.,CODE_SMELL
+java:S3776,585,585,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S2142,659,659,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG

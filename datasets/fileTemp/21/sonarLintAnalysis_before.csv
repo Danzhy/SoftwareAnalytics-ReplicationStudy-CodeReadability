@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S4276,55,55,MINOR,Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>',CODE_SMELL
+java:S4276,63,63,MINOR,Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>',CODE_SMELL
+java:S1117,202,202,MAJOR,Rename "members" which hides the field declared at line 40.,CODE_SMELL

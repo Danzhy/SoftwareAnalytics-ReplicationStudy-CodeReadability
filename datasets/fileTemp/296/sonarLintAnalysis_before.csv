@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S112,123,123,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,128,128,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,133,133,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,148,148,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,155,155,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,159,159,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S116,61,61,MINOR,Rename this field "_maxRetry" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,62,62,MINOR,Rename this field "_imdsEndpoint" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,63,63,MINOR,Rename this field "_closeableHttpClient" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1068,52,52,MAJOR,Remove this unused "LOGGER" private field.,CODE_SMELL

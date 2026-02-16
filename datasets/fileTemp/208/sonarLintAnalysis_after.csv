@@ -1,0 +1,14 @@
+rule key,start line,end line,severity,message,type
+java:S3077,79,79,MINOR,Use a thread-safe type; adding "volatile" is not enough to make this field thread-safe.,BUG
+java:S1117,134,134,MAJOR,Rename "state" which hides the field declared at line 79.,CODE_SMELL
+java:S1125,197,197,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,216,216,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1117,308,308,MAJOR,Rename "state" which hides the field declared at line 79.,CODE_SMELL
+java:S1125,309,309,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,323,323,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.,CODE_SMELL
+java:S1117,324,324,MAJOR,Rename "state" which hides the field declared at line 79.,CODE_SMELL
+java:S1135,326,326,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,331,331,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,334,334,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,382,382,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S107,446,446,MAJOR,Constructor has 10 parameters, which is greater than 7 authorized.,CODE_SMELL

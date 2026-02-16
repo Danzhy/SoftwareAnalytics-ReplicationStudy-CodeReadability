@@ -1,0 +1,26 @@
+rule key,start line,end line,severity,message,type
+java:S1192,37,37,CRITICAL,Define a constant instead of duplicating this literal "FileB" 4 times.,CODE_SMELL
+java:S1192,36,36,CRITICAL,Define a constant instead of duplicating this literal "FileA" 5 times.,CODE_SMELL
+java:S1192,39,39,CRITICAL,Define a constant instead of duplicating this literal "DirC/FileD" 5 times.,CODE_SMELL
+java:S2589,237,237,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S899,58,58,MINOR,Do something with the "boolean" value returned by "createNewFile".,BUG
+java:S108,69,69,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S899,93,93,MINOR,Do something with the "boolean" value returned by "delete".,BUG
+java:S4042,93,93,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S899,98,98,MINOR,Do something with the "boolean" value returned by "createNewFile".,BUG
+java:S899,119,119,MINOR,Do something with the "boolean" value returned by "setLastModified".,BUG
+java:S899,123,123,MINOR,Do something with the "boolean" value returned by "setLastModified".,BUG
+java:S1854,144,144,MAJOR,Remove this useless assignment to local variable "dirE".,CODE_SMELL
+java:S1854,143,143,MAJOR,Remove this useless assignment to local variable "fileD".,CODE_SMELL
+java:S1854,142,142,MAJOR,Remove this useless assignment to local variable "dirC".,CODE_SMELL
+java:S1481,142,142,MINOR,Remove this unused "dirC" local variable.,CODE_SMELL
+java:S1481,143,143,MINOR,Remove this unused "fileD" local variable.,CODE_SMELL
+java:S1481,144,144,MINOR,Remove this unused "dirE" local variable.,CODE_SMELL
+java:S899,163,163,MINOR,Do something with the "boolean" value returned by "delete".,BUG
+java:S4042,163,163,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S899,172,172,MINOR,Do something with the "boolean" value returned by "createNewFile".,BUG
+java:S125,206,206,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1854,242,242,MAJOR,Remove this useless assignment to local variable "signal".,CODE_SMELL
+java:S899,242,242,MINOR,Do something with the "boolean" value returned by "await".,BUG
+java:S1481,242,242,MINOR,Remove this unused "signal" local variable.,CODE_SMELL
+java:S125,244,244,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL

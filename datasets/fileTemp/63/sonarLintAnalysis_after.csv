@@ -1,0 +1,3 @@
+rule key,start line,end line,severity,message,type
+java:S1118,47,47,MAJOR,Add a private constructor to hide the implicit public one.,CODE_SMELL
+java:S1612,174,174,MINOR,Replace this lambda with method reference 'Nullable.class::isInstance'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

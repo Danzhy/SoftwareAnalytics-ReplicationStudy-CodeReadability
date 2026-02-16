@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S1133,154,154,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,154,154,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1117,188,188,MAJOR,Rename "frameWriter" which hides the field declared at line 30.,CODE_SMELL

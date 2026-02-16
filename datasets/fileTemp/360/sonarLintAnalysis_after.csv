@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S135,66,66,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1319,53,53,MINOR,The return type of this method should be an interface such as "List" rather than the implementation "LinkedList".,CODE_SMELL
+java:S3626,79,79,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S4719,64,64,MINOR,Replace charset name argument with StandardCharsets.ISO_8859_1,CODE_SMELL

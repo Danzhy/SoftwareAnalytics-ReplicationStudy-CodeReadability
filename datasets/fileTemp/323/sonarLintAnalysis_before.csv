@@ -1,0 +1,21 @@
+rule key,start line,end line,severity,message,type
+java:S135,558,558,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,793,793,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,263,263,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,571,571,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S2184,94,94,MINOR,Cast one of the operands of this multiplication operation to a "long".,BUG
+java:S3518,746,746,CRITICAL,Make sure "smallestBucket" can't be zero before doing this division.,BUG
+java:S3518,689,689,CRITICAL,Make sure "totalWeight" can't be zero before doing this division.,BUG
+java:S3518,718,718,CRITICAL,Make sure "smallestBucket" can't be zero before doing this division.,BUG
+java:S3518,671,671,CRITICAL,Make sure "totalWeight" can't be zero before doing this division.,BUG
+java:S3776,177,177,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.,CODE_SMELL
+java:S1940,262,262,MINOR,Use the opposite operator ("!=") instead.,CODE_SMELL
+java:S1135,278,278,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,346,346,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1186,390,390,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S3776,443,443,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.,CODE_SMELL
+java:S1117,553,553,MAJOR,Rename "members" which hides the field declared at line 108.,CODE_SMELL
+java:S3776,634,634,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S3776,788,788,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.,CODE_SMELL
+java:S3457,907,907,MAJOR,Format specifiers should be used instead of string concatenation.,CODE_SMELL
+java:S3457,929,930,MAJOR,Format specifiers should be used instead of string concatenation.,CODE_SMELL

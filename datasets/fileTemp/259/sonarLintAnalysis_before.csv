@@ -1,0 +1,26 @@
+rule key,start line,end line,severity,message,type
+java:S1135,63,63,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S6213,88,88,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S119,99,99,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,107,107,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,113,113,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S6213,164,164,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,170,170,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S2160,198,198,MINOR,Override the "equals" method in this class.,CODE_SMELL
+java:S5993,203,203,MAJOR,Change the visibility of this constructor to "protected".,CODE_SMELL
+java:S119,198,198,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S6213,249,249,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,295,295,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,344,344,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,386,386,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,424,424,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S5993,498,498,MAJOR,Change the visibility of this constructor to "protected".,CODE_SMELL
+java:S119,496,496,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S6213,532,532,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,573,573,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,613,613,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S2160,622,622,MINOR,Override the "equals" method in this class.,CODE_SMELL
+java:S2160,684,684,MINOR,Override the "equals" method in this class.,CODE_SMELL
+java:S4274,692,692,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S2160,729,729,MINOR,Override the "equals" method in this class.,CODE_SMELL
+java:S4274,739,740,MAJOR,Replace this assert with a proper check.,CODE_SMELL

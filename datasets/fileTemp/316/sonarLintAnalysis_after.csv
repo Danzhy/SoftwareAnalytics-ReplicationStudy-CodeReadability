@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S112,918,918,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1611,312,312,MINOR,Remove the parentheses around the "status" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1611,532,532,MINOR,Remove the parentheses around the "status" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1611,570,570,MINOR,Remove the parentheses around the "status" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1611,608,608,MINOR,Remove the parentheses around the "status" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

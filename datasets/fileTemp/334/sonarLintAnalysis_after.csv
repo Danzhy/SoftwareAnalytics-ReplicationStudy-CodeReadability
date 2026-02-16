@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1488,89,139,MINOR,Immediately return this expression instead of assigning it to the temporary variable "conf".,CODE_SMELL

@@ -1,0 +1,10 @@
+rule key,start line,end line,severity,message,type
+java:S1066,467,467,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S5164,68,68,MAJOR,Call "remove()" on "cache".,BUG
+java:S1133,226,226,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,280,280,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1181,383,383,MAJOR,Catch Exception instead of Throwable.,CODE_SMELL
+java:S1117,596,596,MAJOR,Rename "closed" which hides the field declared at line 70.,CODE_SMELL
+java:S1117,623,623,MAJOR,Rename "closed" which hides the field declared at line 70.,CODE_SMELL
+java:S1117,710,710,MAJOR,Rename "state" which hides the field declared at line 506.,CODE_SMELL
+java:S3358,710,710,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL

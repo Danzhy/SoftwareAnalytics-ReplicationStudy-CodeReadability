@@ -1,0 +1,38 @@
+rule key,start line,end line,severity,message,type
+java:S112,1042,1042,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1192,213,213,CRITICAL,Define a constant instead of duplicating this literal "Read mismatching key value pair, key=%d, value=%d%n" 5 times.,CODE_SMELL
+java:S1121,84,84,MAJOR,Extract the assignment out of this expression.,CODE_SMELL
+java:S1163,304,304,CRITICAL,Refactor this code to not throw exceptions in finally blocks.,CODE_SMELL
+java:S1163,495,495,CRITICAL,Refactor this code to not throw exceptions in finally blocks.,CODE_SMELL
+java:S1163,685,685,CRITICAL,Refactor this code to not throw exceptions in finally blocks.,CODE_SMELL
+java:S1163,844,844,CRITICAL,Refactor this code to not throw exceptions in finally blocks.,CODE_SMELL
+java:S1163,1004,1004,CRITICAL,Refactor this code to not throw exceptions in finally blocks.,CODE_SMELL
+java:S1143,304,304,CRITICAL,Remove this throw statement from this finally block.,BUG
+java:S1143,495,495,CRITICAL,Remove this throw statement from this finally block.,BUG
+java:S1143,685,685,CRITICAL,Remove this throw statement from this finally block.,BUG
+java:S1143,844,844,CRITICAL,Remove this throw statement from this finally block.,BUG
+java:S1143,1004,1004,CRITICAL,Remove this throw statement from this finally block.,BUG
+java:S2184,289,289,MINOR,Cast one of the operands of this addition operation to a "long".,BUG
+java:S2184,465,465,MINOR,Cast one of the operands of this addition operation to a "long".,BUG
+java:S2184,655,655,MINOR,Cast one of the operands of this subtraction operation to a "long".,BUG
+java:S2184,815,815,MINOR,Cast one of the operands of this addition operation to a "long".,BUG
+java:S2184,975,975,MINOR,Cast one of the operands of this subtraction operation to a "long".,BUG
+java:S3776,101,101,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S1117,104,104,MAJOR,Rename "index" which hides the field declared at line 71.,CODE_SMELL
+java:S1659,129,129,MINOR,Declare "to" on a separate line.,CODE_SMELL
+java:S3776,167,167,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S2142,247,247,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S899,185,185,MINOR,Do something with the "boolean" value returned by "await".,BUG
+java:S3776,311,311,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.,CODE_SMELL
+java:S2142,433,433,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S899,346,346,MINOR,Do something with the "boolean" value returned by "await".,BUG
+java:S3776,501,501,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.,CODE_SMELL
+java:S2142,623,623,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S899,536,536,MINOR,Do something with the "boolean" value returned by "await".,BUG
+java:S3776,691,691,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S2142,781,781,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S899,728,728,MINOR,Do something with the "boolean" value returned by "await".,BUG
+java:S3776,850,850,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S2142,941,941,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S899,887,887,MINOR,Do something with the "boolean" value returned by "await".,BUG
+java:S2142,1040,1040,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG

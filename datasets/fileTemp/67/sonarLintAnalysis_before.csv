@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S107,372,372,MAJOR,Method has 8 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S1172,262,262,MAJOR,Remove these unused method parameters "pivot", "queryContext".,CODE_SMELL
+java:S6213,406,406,MAJOR,Rename this method to not match a restricted identifier.,CODE_SMELL

@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1192,170,170,CRITICAL,Use already-defined constant 'DEFAULT_PROFILE' instead of duplicating its value here.,CODE_SMELL

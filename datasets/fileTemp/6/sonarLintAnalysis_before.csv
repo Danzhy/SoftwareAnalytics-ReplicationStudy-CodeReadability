@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S112,111,111,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,118,118,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,120,120,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S120,17,17,MINOR,Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.,CODE_SMELL
+java:S1130,111,111,MINOR,Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.,CODE_SMELL

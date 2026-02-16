@@ -1,0 +1,23 @@
+rule key,start line,end line,severity,message,type
+java:S2293,406,406,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1192,417,417,CRITICAL,Define a constant instead of duplicating this literal "gm-self" 3 times.,CODE_SMELL
+java:S1192,588,588,CRITICAL,Define a constant instead of duplicating this literal "</span>" 4 times.,CODE_SMELL
+java:S1192,83,83,CRITICAL,Define a constant instead of duplicating this literal "macroLink" 4 times.,CODE_SMELL
+java:S1192,586,586,CRITICAL,Define a constant instead of duplicating this literal "<span class='whisper' style='color:blue'>" 3 times.,CODE_SMELL
+java:S1192,417,417,CRITICAL,Define a constant instead of duplicating this literal "gmself" 3 times.,CODE_SMELL
+java:S1192,324,324,CRITICAL,Define a constant instead of duplicating this literal "macro" 3 times.,CODE_SMELL
+java:S1066,661,661,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S3776,87,87,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.,CODE_SMELL
+java:S1125,129,129,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S5842,290,290,MINOR,Rework this part of the regex to not match the empty string.,BUG
+java:S3776,320,320,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.,CODE_SMELL
+java:S3776,396,396,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.,CODE_SMELL
+java:S1172,396,396,MAJOR,Remove this unused method parameter "setVars".,CODE_SMELL
+java:S3776,489,489,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.,CODE_SMELL
+java:S1155,514,514,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1155,523,523,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1155,531,531,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1155,539,539,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1172,598,598,MAJOR,Remove this unused method parameter "token".,CODE_SMELL
+java:S3776,657,657,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.,CODE_SMELL
+java:S1144,237,237,MAJOR,Remove this unused private "decode" method.,CODE_SMELL

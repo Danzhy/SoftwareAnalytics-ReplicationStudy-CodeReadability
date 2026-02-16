@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S116,309,309,MINOR,Rename this field "APPEND_EVENT_TRANSACTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1117,376,376,MAJOR,Rename "builder" which hides the field declared at line 315.,CODE_SMELL
+java:S1611,472,472,MINOR,Remove the parentheses around the "eventConsumer" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1611,513,513,MINOR,Remove the parentheses around the "eventConsumer" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

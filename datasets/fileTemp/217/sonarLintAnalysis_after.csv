@@ -1,0 +1,14 @@
+rule key,start line,end line,severity,message,type
+java:S1192,234,234,CRITICAL,Define a constant instead of duplicating this literal "UTF-8" 4 times.,CODE_SMELL
+java:S115,54,54,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,55,55,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,56,56,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,57,57,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,58,58,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,59,59,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,60,60,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S1845,122,122,BLOCKER,Rename field "result" to prevent any misunderstanding/clash with field "RESULT".,CODE_SMELL
+java:S5993,124,124,MAJOR,Change the visibility of this constructor to "protected".,CODE_SMELL
+java:S1133,165,165,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1874,235,235,MINOR,Remove this use of "getType"; it is deprecated.,CODE_SMELL
+java:S3776,326,326,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL

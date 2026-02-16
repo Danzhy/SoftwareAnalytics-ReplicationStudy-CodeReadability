@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S106,87,87,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL

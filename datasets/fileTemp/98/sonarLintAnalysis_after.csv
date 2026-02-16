@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1845,83,83,BLOCKER,Rename field "metrics" to prevent any misunderstanding/clash with field "METRICS".,CODE_SMELL

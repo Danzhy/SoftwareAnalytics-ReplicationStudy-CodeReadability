@@ -1,0 +1,18 @@
+rule key,start line,end line,severity,message,type
+java:S1192,268,268,CRITICAL,Define a constant instead of duplicating this literal " due to the following issue: " 5 times.,CODE_SMELL
+java:S1192,266,266,CRITICAL,Define a constant instead of duplicating this literal "Could not validate the resource " 5 times.,CODE_SMELL
+java:S1192,94,94,CRITICAL,Define a constant instead of duplicating this literal "Skipped invalid resource: " 3 times.,CODE_SMELL
+java:S2629,94,94,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,130,130,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,171,171,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2589,84,84,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S2589,257,257,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S2589,314,314,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S2589,287,287,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S1186,46,46,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S3776,60,60,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 156 to the 15 allowed.,CODE_SMELL
+java:S125,221,221,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1854,351,351,MAJOR,Remove this useless assignment to local variable "result".,CODE_SMELL
+java:S1854,384,384,MAJOR,Remove this useless assignment to local variable "result".,CODE_SMELL
+java:S1854,417,417,MAJOR,Remove this useless assignment to local variable "result".,CODE_SMELL
+java:S1172,439,439,MAJOR,Remove this unused method parameter "isNew".,CODE_SMELL

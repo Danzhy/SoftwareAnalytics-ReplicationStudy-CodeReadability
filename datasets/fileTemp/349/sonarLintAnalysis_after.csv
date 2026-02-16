@@ -1,0 +1,21 @@
+rule key,start line,end line,severity,message,type
+java:S1604,483,483,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,579,579,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S2629,734,734,MAJOR,Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,738,738,MAJOR,Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,742,742,MAJOR,Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,811,811,MAJOR,Invoke method(s) only conditionally.,CODE_SMELL
+java:S1133,100,100,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,100,100,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1133,158,158,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1874,181,181,MINOR,Remove this use of "credentialsId"; it is deprecated.,CODE_SMELL
+java:S1874,222,222,MINOR,Remove this use of "credentialsId"; it is deprecated.,CODE_SMELL
+java:S1135,391,391,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,463,463,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.,CODE_SMELL
+java:S1155,470,470,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1135,471,471,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1155,479,479,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1172,665,665,MAJOR,Remove this unused method parameter "ec2".,CODE_SMELL
+java:S1135,712,712,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3457,746,746,MAJOR,Lambda should be used to defer string concatenation.,CODE_SMELL
+java:S1135,803,803,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

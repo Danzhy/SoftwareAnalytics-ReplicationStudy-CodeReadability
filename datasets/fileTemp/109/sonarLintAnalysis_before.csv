@@ -1,0 +1,7 @@
+rule key,start line,end line,severity,message,type
+java:S117,59,59,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S2184,65,65,MINOR,Cast one of the operands of this subtraction operation to a "long".,BUG
+java:S2184,66,66,MINOR,Cast one of the operands of this subtraction operation to a "long".,BUG
+java:S2184,72,72,MINOR,Cast one of the operands of this subtraction operation to a "long".,BUG
+java:S2184,78,78,MINOR,Cast one of the operands of this subtraction operation to a "long".,BUG
+java:S3457,53,53,MAJOR,Format specifiers should be used instead of string concatenation.,CODE_SMELL

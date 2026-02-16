@@ -1,0 +1,17 @@
+rule key,start line,end line,severity,message,type
+java:S2293,176,176,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,177,177,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1192,225,225,CRITICAL,Define a constant instead of duplicating this literal "Check Spelling" 3 times.,CODE_SMELL
+java:S135,179,179,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S116,329,329,MINOR,Rename this field "typoSpellChecker_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,330,330,MINOR,Rename this field "docDisplay_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,331,331,MINOR,Rename this field "view_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,332,332,MINOR,Rename this field "progressDisplay_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,333,333,MINOR,Rename this field "callback_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,334,334,MINOR,Rename this field "initialCursorPos_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,336,336,MINOR,Rename this field "changeAll_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,338,338,MINOR,Rename this field "currentPos_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,340,340,MINOR,Rename this field "wrapped_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,341,341,MINOR,Rename this field "canceled_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3776,161,161,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.,CODE_SMELL
+java:S1612,213,213,MINOR,Replace this lambda with method reference '!unknown!.this::!unknownMethod!'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

@@ -1,0 +1,198 @@
+rule key,start line,end line,severity,message,type
+java:S112,615,615,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1319,1319,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1336,1336,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1399,1399,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1404,1404,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1445,1445,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1466,1466,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1482,1482,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1488,1488,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1513,1513,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1570,1570,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1716,1716,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1736,1736,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1764,1764,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1808,1808,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1814,1814,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1919,1919,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1983,1983,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2081,2081,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2129,2129,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2141,2141,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2160,2160,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2280,2280,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2302,2302,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2421,2421,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2457,2457,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2495,2495,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2519,2519,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2765,2765,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2845,2845,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2849,2849,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,2917,2917,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,3008,3008,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,3030,3030,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,3068,3068,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,3364,3364,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,3492,3492,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,3534,3534,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S2293,177,177,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,186,186,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,698,698,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,889,889,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,960,960,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1005,1005,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1010,1010,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1020,1020,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1048,1048,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1101,1101,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1106,1106,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1223,1223,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1228,1228,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1787,1787,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1825,1825,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1991,1991,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2048,2048,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2070,2070,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2198,2198,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2658,2658,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2665,2665,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2742,2742,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2768,2768,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2853,2853,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2884,2884,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2929,2929,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2956,2956,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3126,3126,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3150,3150,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3204,3204,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3209,3209,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3214,3214,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3230,3230,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3584,3584,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1192,1242,1242,CRITICAL,Define a constant instead of duplicating this literal ", datastore: " 3 times.,CODE_SMELL
+java:S1192,1839,1839,CRITICAL,Define a constant instead of duplicating this literal ".vmdk" 3 times.,CODE_SMELL
+java:S1192,1600,1600,CRITICAL,Define a constant instead of duplicating this literal "msg.cdromdisconnect.locked" 4 times.,CODE_SMELL
+java:S1192,231,231,CRITICAL,Define a constant instead of duplicating this literal "VM Question monitor started..." 3 times.,CODE_SMELL
+java:S1192,266,266,CRITICAL,Define a constant instead of duplicating this literal "Choice option label: " 3 times.,CODE_SMELL
+java:S1192,2304,2304,CRITICAL,Define a constant instead of duplicating this literal "Successfully added " 4 times.,CODE_SMELL
+java:S1192,280,280,CRITICAL,Define a constant instead of duplicating this literal "VM Question monitor stopped" 3 times.,CODE_SMELL
+java:S1192,1241,1241,CRITICAL,Define a constant instead of duplicating this literal ", vmdkDatastorePath: " 4 times.,CODE_SMELL
+java:S1192,246,246,CRITICAL,Define a constant instead of duplicating this literal "Found that VM has a pending question that we need to answer programmatically, question id: " 5 times.,CODE_SMELL
+java:S1192,1457,1457,CRITICAL,Define a constant instead of duplicating this literal "config.hardware.device" 33 times.,CODE_SMELL
+java:S1192,272,272,CRITICAL,Define a constant instead of duplicating this literal "Unexpected exception: " 3 times.,CODE_SMELL
+java:S1192,2561,2561,CRITICAL,Define a constant instead of duplicating this literal ", unit number: " 3 times.,CODE_SMELL
+java:S1192,244,244,CRITICAL,Define a constant instead of duplicating this literal "msg text: " 3 times.,CODE_SMELL
+java:S1192,2585,2585,CRITICAL,Define a constant instead of duplicating this literal "Disk backing : " 4 times.,CODE_SMELL
+java:S1192,243,243,CRITICAL,Define a constant instead of duplicating this literal "msg id: " 3 times.,CODE_SMELL
+java:S1192,1165,1165,CRITICAL,Define a constant instead of duplicating this literal "VMware reconfigVM_Task failed due to " 3 times.,CODE_SMELL
+java:S1192,989,989,CRITICAL,Define a constant instead of duplicating this literal "Network" 3 times.,CODE_SMELL
+java:S1192,2561,2561,CRITICAL,Define a constant instead of duplicating this literal "Test against disk device, controller key: " 3 times.,CODE_SMELL
+java:S1192,165,165,CRITICAL,Define a constant instead of duplicating this literal "VirtualMachine" 6 times.,CODE_SMELL
+java:S1192,790,790,CRITICAL,Define a constant instead of duplicating this literal "VMware cloneVM_Task failed due to " 3 times.,CODE_SMELL
+java:S1192,651,651,CRITICAL,Define a constant instead of duplicating this literal "Convert snapshot disk file name to datastore path. " 3 times.,CODE_SMELL
+java:S1192,239,239,CRITICAL,Define a constant instead of duplicating this literal "Question text: " 3 times.,CODE_SMELL
+java:S1192,1143,1143,CRITICAL,Define a constant instead of duplicating this literal "UTF-8" 7 times.,CODE_SMELL
+java:S1192,1346,1346,CRITICAL,Define a constant instead of duplicating this literal " for VMDK file " 3 times.,CODE_SMELL
+java:S1192,238,238,CRITICAL,Define a constant instead of duplicating this literal "Question id: " 3 times.,CODE_SMELL
+java:S1192,265,265,CRITICAL,Define a constant instead of duplicating this literal "Choice option key: " 3 times.,CODE_SMELL
+java:S1192,2585,2585,CRITICAL,Define a constant instead of duplicating this literal " matches ==> " 4 times.,CODE_SMELL
+java:S135,241,241,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,2363,2363,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,2781,2781,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,214,214,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,1487,1487,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,3139,3139,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1141,321,321,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1604,228,228,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,1581,1581,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,2868,2868,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,3160,3160,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,3258,3258,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1488,1581,1645,MINOR,Immediately return this expression instead of assigning it to the temporary variable "future".,CODE_SMELL
+java:S1488,2404,2404,MINOR,Immediately return this expression instead of assigning it to the temporary variable "deviceNumber".,CODE_SMELL
+java:S5411,233,233,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S5411,1585,1585,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S5411,3263,3263,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S1163,1919,1919,CRITICAL,Refactor this code to not throw exceptions in finally blocks.,CODE_SMELL
+java:S1143,1919,1919,CRITICAL,Remove this throw statement from this finally block.,BUG
+java:S2095,1873,1873,BLOCKER,Use try-with-resources or close this "OutputStreamWriter" in a "finally" clause.,BUG
+java:S116,134,134,MINOR,Rename this field "_vmEnvironmentBrowser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1149,1142,1142,MAJOR,Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".,CODE_SMELL
+java:S3776,220,220,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 55 to the 15 allowed.,CODE_SMELL
+java:S2142,276,276,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1481,228,228,MINOR,Remove this unused "future" local variable.,CODE_SMELL
+java:S2142,334,334,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2142,323,323,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2142,356,356,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2142,390,390,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2142,545,545,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S4274,757,757,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,758,758,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,881,881,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,882,882,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,883,883,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,884,884,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S3776,1019,1019,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL
+java:S1197,1127,1127,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S6035,1127,1127,MAJOR,Replace this alternation with a character class.,CODE_SMELL
+java:S1197,1140,1140,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S6035,1140,1140,MAJOR,Replace this alternation with a character class.,CODE_SMELL
+java:S4274,1185,1185,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,1245,1245,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,1246,1246,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S3776,1237,1237,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.,CODE_SMELL
+java:S1126,1258,1258,MINOR,Replace this if-then-else statement by a single method invocation.,CODE_SMELL
+java:S1126,1264,1264,MINOR,Replace this if-then-else statement by a single method invocation.,CODE_SMELL
+java:S3776,1388,1388,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S3776,1580,1580,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 75 to the 15 allowed.,CODE_SMELL
+java:S2142,1639,1639,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S4274,1661,1661,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,1662,1662,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S125,1692,1692,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1702,1702,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1744,1744,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1750,1750,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,1795,1795,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.,CODE_SMELL
+java:S4719,1873,1873,MINOR,Replace charset name argument with StandardCharsets.UTF_8,CODE_SMELL
+java:S899,1914,1914,MINOR,Do something with the "boolean" value returned by "delete".,BUG
+java:S4042,1914,1914,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S2093,1826,1826,CRITICAL,Change this "try" to a try-with-resources. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1133,1930,1930,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,1930,1930,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S4719,1942,1942,MINOR,Replace charset name argument with StandardCharsets.UTF_8,CODE_SMELL
+java:S4719,1943,1943,MINOR,Replace charset name argument with StandardCharsets.UTF_8,CODE_SMELL
+java:S2093,1941,1941,CRITICAL,Change this "try" to a try-with-resources. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S125,1973,1973,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,1977,1977,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.,CODE_SMELL
+java:S4274,2067,2067,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,2074,2074,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,2075,2075,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1133,2221,2221,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,2221,2221,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S3776,2330,2330,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S3776,2356,2356,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.,CODE_SMELL
+java:S1126,2536,2536,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S3776,2544,2544,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.,CODE_SMELL
+java:S3776,2627,2627,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.,CODE_SMELL
+java:S3776,2679,2679,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S3776,2717,2717,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S3776,2762,2762,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.,CODE_SMELL
+java:S1133,2762,2762,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,2762,2762,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S3626,2896,2896,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S1155,2910,2910,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S3776,3147,3147,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S2129,3204,3204,MAJOR,Remove this "Integer" constructor,CODE_SMELL
+java:S1874,3204,3204,MINOR,Remove this use of "Integer"; it is deprecated.,CODE_SMELL
+java:S2129,3209,3209,MAJOR,Remove this "Integer" constructor,CODE_SMELL
+java:S1874,3209,3209,MINOR,Remove this use of "Integer"; it is deprecated.,CODE_SMELL
+java:S2129,3214,3214,MAJOR,Remove this "Integer" constructor,CODE_SMELL
+java:S1874,3214,3214,MINOR,Remove this use of "Integer"; it is deprecated.,CODE_SMELL
+java:S4274,3228,3228,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S3776,3252,3252,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 64 to the 15 allowed.,CODE_SMELL
+java:S2142,3320,3320,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S3776,3556,3556,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S1659,3656,3656,MINOR,Declare "vmPendingTasks" on a separate line.,CODE_SMELL
+java:S1144,1455,1455,MAJOR,Remove this unused private "getControllerBusNumber" method.,CODE_SMELL

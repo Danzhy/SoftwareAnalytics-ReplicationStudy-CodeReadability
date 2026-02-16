@@ -1,0 +1,16 @@
+rule key,start line,end line,severity,message,type
+java:S1192,54,54,CRITICAL,Define a constant instead of duplicating this literal "IF NOT EXISTS" 3 times.,CODE_SMELL
+java:S125,26,26,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S2129,49,49,MAJOR,Remove this "BigInteger" constructor,CODE_SMELL
+java:S2129,86,86,MAJOR,Remove this "BigInteger" constructor,CODE_SMELL
+java:S125,156,156,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,170,170,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,182,182,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,194,194,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,206,206,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,224,224,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,279,279,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,299,299,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,320,320,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,339,339,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,357,357,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

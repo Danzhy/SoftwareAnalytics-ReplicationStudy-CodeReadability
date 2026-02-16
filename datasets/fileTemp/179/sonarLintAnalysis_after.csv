@@ -1,0 +1,25 @@
+rule key,start line,end line,severity,message,type
+java:S2293,1020,1020,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1042,1042,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1066,1066,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1192,94,94,CRITICAL,Define a constant instead of duplicating this literal "getTokenNativeWidth" 3 times.,CODE_SMELL
+java:S1192,96,96,CRITICAL,Define a constant instead of duplicating this literal "getTokenWidth" 3 times.,CODE_SMELL
+java:S1192,58,58,CRITICAL,Define a constant instead of duplicating this literal "getPropertyNamesRaw" 3 times.,CODE_SMELL
+java:S1192,98,98,CRITICAL,Define a constant instead of duplicating this literal "setTokenWidth" 3 times.,CODE_SMELL
+java:S1192,65,65,CRITICAL,Define a constant instead of duplicating this literal "setLayer" 3 times.,CODE_SMELL
+java:S1192,67,67,CRITICAL,Define a constant instead of duplicating this literal "setSize" 3 times.,CODE_SMELL
+java:S1192,57,57,CRITICAL,Define a constant instead of duplicating this literal "getAllPropertyNames" 3 times.,CODE_SMELL
+java:S1488,241,241,MINOR,Immediately return this expression instead of assigning it to the temporary variable "layer".,CODE_SMELL
+java:S2583,510,510,MAJOR,Change this condition so that it does not always evaluate to "false",BUG
+java:S3776,116,116,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 204 to the 15 allowed.,CODE_SMELL
+java:S1854,639,639,MAJOR,Remove this useless assignment to local variable "zone".,CODE_SMELL
+java:S1155,145,145,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1155,166,166,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1155,278,278,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1155,296,296,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1155,538,538,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1481,639,639,MINOR,Remove this unused "zone" local variable.,CODE_SMELL
+java:S1126,678,678,MINOR,Replace this if-then-else statement by a single method invocation.,CODE_SMELL
+java:S1155,806,806,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S3776,1016,1016,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S1612,1029,1029,MINOR,Replace this lambda with method reference 'jarr::add'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

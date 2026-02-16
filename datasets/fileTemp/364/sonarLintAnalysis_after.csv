@@ -1,0 +1,15 @@
+rule key,start line,end line,severity,message,type
+java:S2293,95,95,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,142,142,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,148,148,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,173,173,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,232,232,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1192,513,513,CRITICAL,Define a constant instead of duplicating this literal "Skipping PR: " 3 times.,CODE_SMELL
+java:S135,280,280,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,573,573,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S117,494,494,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,581,581,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,582,582,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S107,381,381,MAJOR,Method has 8 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S6353,62,62,MINOR,Use concise character class syntax '\\w' instead of '[A-Za-z_0-9]'.,CODE_SMELL
+java:S3776,504,504,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.,CODE_SMELL

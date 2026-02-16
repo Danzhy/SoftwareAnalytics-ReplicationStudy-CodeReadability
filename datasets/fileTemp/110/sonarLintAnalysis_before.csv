@@ -1,0 +1,14 @@
+rule key,start line,end line,severity,message,type
+java:S112,163,163,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1141,576,576,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1700,470,470,MAJOR,Rename field "sessionID",CODE_SMELL
+java:S120,19,19,MINOR,Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.,CODE_SMELL
+java:S3824,222,222,MAJOR,Replace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".,CODE_SMELL
+java:S2142,162,162,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S108,251,251,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S3776,259,259,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S5261,301,301,MAJOR,Add explicit curly braces to avoid dangling else.,CODE_SMELL
+java:S1119,411,411,MAJOR,Refactor the code to remove this label and the need for it.,CODE_SMELL
+java:S3398,351,351,MINOR,Move this method into "SendTask".,CODE_SMELL
+java:S3398,333,333,MINOR,Move this method into "SendTask".,CODE_SMELL
+java:S3398,555,555,MINOR,Move this method into "SendTask".,CODE_SMELL

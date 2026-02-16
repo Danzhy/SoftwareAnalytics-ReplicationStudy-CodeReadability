@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S112,57,57,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1141,47,47,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,52,52,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL

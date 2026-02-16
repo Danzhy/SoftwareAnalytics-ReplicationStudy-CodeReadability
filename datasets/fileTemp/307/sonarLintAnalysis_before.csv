@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S1192,825,825,CRITICAL,Define a constant instead of duplicating this literal "topic." 10 times.,CODE_SMELL
+java:S1192,241,241,CRITICAL,Define a constant instead of duplicating this literal "Uncaught error in kafka producer I/O thread: " 3 times.,CODE_SMELL
+java:S1066,419,419,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S107,121,121,MAJOR,Constructor has 14 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S3776,175,175,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S3776,233,233,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S3776,327,327,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.,CODE_SMELL
+java:S125,398,398,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,531,531,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S3776,573,573,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.,CODE_SMELL

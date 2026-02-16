@@ -1,0 +1,12 @@
+rule key,start line,end line,severity,message,type
+java:S1141,127,127,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,138,138,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S2629,136,136,MAJOR,Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S1135,114,114,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S2147,157,157,MINOR,Combine this catch with the one at line 152, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1135,131,131,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S2093,138,138,CRITICAL,Change this "try" to a try-with-resources. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1124,175,175,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S1124,253,253,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S1124,312,312,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S1135,338,338,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

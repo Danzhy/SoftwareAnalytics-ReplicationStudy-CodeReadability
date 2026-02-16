@@ -1,0 +1,18 @@
+rule key,start line,end line,severity,message,type
+java:S112,245,245,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S2293,102,102,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,116,116,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,128,128,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,246,246,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1604,247,247,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S2184,325,325,MINOR,Cast one of the operands of this multiplication operation to a "long".,BUG
+java:S1199,522,522,MINOR,Extract this nested code block into a method.,CODE_SMELL
+java:S1117,103,103,MAJOR,Rename "drillbit" which hides the field declared at line 84.,CODE_SMELL
+java:S1117,206,206,MAJOR,Rename "drillbit" which hides the field declared at line 84.,CODE_SMELL
+java:S1130,245,245,MINOR,Remove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.,CODE_SMELL
+java:S116,325,325,MINOR,Rename this field "ONE_MB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1170,325,325,MINOR,Make this final field static too.,CODE_SMELL
+java:S4201,274,274,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S4201,278,278,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S4201,285,285,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S1210,511,511,MINOR,Override "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.,CODE_SMELL

@@ -1,0 +1,37 @@
+rule key,start line,end line,severity,message,type
+java:S116,85,85,MINOR,Rename this field "_startDictId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,87,87,MINOR,Rename this field "_endDictId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,88,88,MINOR,Rename this field "_numMatchingDictIds" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,89,89,MINOR,Rename this field "_matchingDictIds" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3776,91,91,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S116,179,179,MINOR,Rename this field "_dictionary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,180,180,MINOR,Rename this field "_dataType" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,181,181,MINOR,Rename this field "_dictIdSetBased" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,182,182,MINOR,Rename this field "_matchingDictIdSet" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,183,183,MINOR,Rename this field "_rawValueBasedEvaluator" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S125,174,174,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,176,176,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S116,266,266,MINOR,Rename this field "_lowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,267,267,MINOR,Rename this field "_upperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,268,268,MINOR,Rename this field "_includeLowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,269,269,MINOR,Rename this field "_includeUpperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,310,310,MINOR,Rename this field "_lowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,311,311,MINOR,Rename this field "_upperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,312,312,MINOR,Rename this field "_includeLowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,313,313,MINOR,Rename this field "_includeUpperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,352,352,MINOR,Rename this field "_lowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,353,353,MINOR,Rename this field "_upperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,354,354,MINOR,Rename this field "_includeLowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,355,355,MINOR,Rename this field "_includeUpperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,396,396,MINOR,Rename this field "_lowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,397,397,MINOR,Rename this field "_upperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,398,398,MINOR,Rename this field "_includeLowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,399,399,MINOR,Rename this field "_includeUpperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,440,440,MINOR,Rename this field "_lowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,441,441,MINOR,Rename this field "_upperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,442,442,MINOR,Rename this field "_includeLowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,443,443,MINOR,Rename this field "_includeUpperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,486,486,MINOR,Rename this field "_lowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,487,487,MINOR,Rename this field "_upperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,488,488,MINOR,Rename this field "_includeLowerBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,489,489,MINOR,Rename this field "_includeUpperBoundary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL

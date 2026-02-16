@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S5998,145,145,MAJOR,Refactor this repetition that can lead to a stack overflow for large inputs.,BUG
+java:S5843,132,132,MAJOR,Simplify this regular expression to reduce its complexity from 31 to the 20 allowed.,CODE_SMELL
+java:S5843,161,161,MAJOR,Simplify this regular expression to reduce its complexity from 152 to the 20 allowed.,CODE_SMELL

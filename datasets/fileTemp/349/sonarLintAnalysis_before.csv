@@ -1,0 +1,22 @@
+rule key,start line,end line,severity,message,type
+java:S1604,488,488,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,584,584,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S2629,739,739,MAJOR,Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,743,743,MAJOR,Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,747,747,MAJOR,Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.,CODE_SMELL
+java:S2629,869,869,MAJOR,Invoke method(s) only conditionally.,CODE_SMELL
+java:S1133,105,105,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,105,105,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1133,163,163,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1874,186,186,MINOR,Remove this use of "credentialsId"; it is deprecated.,CODE_SMELL
+java:S1874,227,227,MINOR,Remove this use of "credentialsId"; it is deprecated.,CODE_SMELL
+java:S1135,396,396,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,468,468,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.,CODE_SMELL
+java:S1155,475,475,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1135,476,476,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1155,484,484,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1172,670,670,MAJOR,Remove this unused method parameter "ec2".,CODE_SMELL
+java:S1135,717,717,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3457,751,751,MAJOR,Lambda should be used to defer string concatenation.,CODE_SMELL
+java:S2864,810,810,MAJOR,Iterate over the "entrySet" instead of the "keySet".,CODE_SMELL
+java:S1135,861,861,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

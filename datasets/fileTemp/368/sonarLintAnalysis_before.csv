@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S3740,141,141,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1596,58,58,MINOR,Replace "Collections.EMPTY_LIST" by "Collections.emptyList()".,CODE_SMELL
+java:S1596,162,162,MINOR,Replace "Collections.EMPTY_MAP" by "Collections.emptyMap()".,CODE_SMELL

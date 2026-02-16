@@ -1,0 +1,25 @@
+rule key,start line,end line,severity,message,type
+java:S2293,277,277,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1066,605,605,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,632,632,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,693,693,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1604,281,281,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,304,304,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,330,330,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1643,847,847,MINOR,Use a StringBuilder instead.,CODE_SMELL
+java:S125,267,267,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,345,345,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 181 to the 15 allowed.,CODE_SMELL
+java:S1659,378,378,MINOR,Declare "doublePrevLon" on a separate line.,CODE_SMELL
+java:S1659,383,383,MINOR,Declare "prevName" on a separate line.,CODE_SMELL
+java:S1659,384,384,MINOR,Declare "prevAnnotation" on a separate line.,CODE_SMELL
+java:S1659,396,396,MINOR,Declare "longitude" on a separate line.,CODE_SMELL
+java:S125,619,619,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,618,618,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,623,623,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,622,622,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,731,731,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1126,777,777,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S1135,795,795,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,796,796,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,797,797,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1068,51,51,MAJOR,Remove this unused "logger" private field.,CODE_SMELL

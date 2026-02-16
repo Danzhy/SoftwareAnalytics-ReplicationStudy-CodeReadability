@@ -1,0 +1,7 @@
+rule key,start line,end line,severity,message,type
+java:S6213,49,49,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,65,65,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,73,73,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,78,78,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,84,84,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S6213,136,136,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL

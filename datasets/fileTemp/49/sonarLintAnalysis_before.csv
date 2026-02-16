@@ -1,0 +1,47 @@
+rule key,start line,end line,severity,message,type
+java:S112,288,288,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,299,299,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,305,305,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,641,641,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1021,1021,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1058,1058,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1077,1077,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S3740,102,102,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,692,692,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,704,704,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,716,716,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S135,917,917,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,522,522,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1141,623,623,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1104,69,69,MINOR,Make VERSION a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,70,70,MINOR,Make RECORDS_PER_LOG_FILE a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,71,71,MINOR,Make TRIM_THRESHOLD a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1444,69,69,MINOR,Make this "public static VERSION" field final,CODE_SMELL
+java:S1444,70,70,MINOR,Make this "public static RECORDS_PER_LOG_FILE" field final,CODE_SMELL
+java:S1444,71,71,MINOR,Make this "public static TRIM_THRESHOLD" field final,CODE_SMELL
+java:S3008,69,69,MINOR,Rename this field "VERSION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,70,70,MINOR,Rename this field "RECORDS_PER_LOG_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,71,71,MINOR,Rename this field "TRIM_THRESHOLD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1186,1093,1093,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1135,80,80,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,134,134,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S6213,138,138,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S1135,240,240,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,256,256,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1126,269,269,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S3776,275,275,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S1133,703,703,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,703,703,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1135,701,701,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1133,715,715,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,715,715,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1135,713,713,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S6213,815,815,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S1135,838,838,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S6213,890,890,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S3626,926,926,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S3626,933,933,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S1135,918,918,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1126,965,965,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S4042,1128,1128,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S1135,1140,1140,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

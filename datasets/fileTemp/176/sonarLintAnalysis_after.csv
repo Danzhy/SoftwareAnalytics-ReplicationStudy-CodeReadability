@@ -1,0 +1,75 @@
+rule key,start line,end line,severity,message,type
+java:S3740,419,419,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,419,419,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S3740,426,426,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S2293,457,457,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,461,461,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,607,607,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,610,610,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,634,634,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,935,935,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,979,979,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,980,980,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1192,248,248,CRITICAL,Define a constant instead of duplicating this literal "distance=" 6 times.,CODE_SMELL
+java:S135,490,490,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,463,463,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,651,651,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,616,616,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1141,492,492,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,503,503,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,673,673,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,682,682,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,690,690,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,700,700,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,717,717,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,742,742,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1604,160,160,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,187,187,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,805,805,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,835,835,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,855,855,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,846,846,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,873,873,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,920,920,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1643,413,413,MINOR,Use a StringBuilder instead.,CODE_SMELL
+java:S2259,382,382,MAJOR,A "NullPointerException" could be thrown; "lastShape" is nullable here.,BUG
+java:S125,106,106,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,166,166,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,172,172,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,177,177,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,235,235,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,238,238,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.,CODE_SMELL
+java:S4201,312,312,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S3776,330,330,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 55 to the 15 allowed.,CODE_SMELL
+java:S1854,347,347,MAJOR,Remove this useless assignment to local variable "lastArc".,CODE_SMELL
+java:S1135,352,352,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,365,365,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,369,369,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,456,456,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.,CODE_SMELL
+java:S1854,507,507,MAJOR,Remove this useless assignment to local variable "errmsg".,CODE_SMELL
+java:S1854,520,520,MAJOR,Remove this useless assignment to local variable "errmsg".,CODE_SMELL
+java:S1854,540,540,MAJOR,Remove this useless assignment to local variable "errmsg".,CODE_SMELL
+java:S1854,544,544,MAJOR,Remove this useless assignment to local variable "errmsg".,CODE_SMELL
+java:S1854,548,548,MAJOR,Remove this useless assignment to local variable "errmsg".,CODE_SMELL
+java:S1659,460,460,MINOR,Declare "errmsg" on a separate line.,CODE_SMELL
+java:S1157,499,499,MINOR,Replace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.,CODE_SMELL
+java:S3776,605,605,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 88 to the 15 allowed.,CODE_SMELL
+java:S1135,645,645,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,715,715,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,741,741,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,759,759,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,859,859,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,875,875,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S106,976,976,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S108,983,983,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S106,987,987,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,991,991,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,992,992,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,995,995,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,997,997,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,999,999,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,1000,1000,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,1002,1002,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,1003,1003,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,1004,1004,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,1005,1005,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL

@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S1192,138,138,CRITICAL,Use already-defined constant 'CLUSTER_NAME' instead of duplicating its value here.,CODE_SMELL
+java:S1192,210,210,CRITICAL,Define a constant instead of duplicating this literal "Hi, xDS!" 3 times.,CODE_SMELL
+java:S100,216,216,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S119,273,273,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,273,273,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,298,298,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,298,298,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL

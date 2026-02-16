@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1612,51,51,MINOR,Replace this lambda with method reference 'List::empty'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

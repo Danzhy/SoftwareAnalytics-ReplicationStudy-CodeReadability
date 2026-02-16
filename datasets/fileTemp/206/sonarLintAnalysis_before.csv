@@ -1,0 +1,7 @@
+rule key,start line,end line,severity,message,type
+java:S1192,108,108,CRITICAL,Define a constant instead of duplicating this literal "] type [" 4 times.,CODE_SMELL
+java:S1192,82,82,CRITICAL,Define a constant instead of duplicating this literal "Cannot use field [" 6 times.,CODE_SMELL
+java:S1125,44,44,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,74,74,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S1125,106,106,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,106,106,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL

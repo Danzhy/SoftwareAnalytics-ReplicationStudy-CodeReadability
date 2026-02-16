@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S3776,78,78,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S1134,143,143,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S1134,161,161,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL

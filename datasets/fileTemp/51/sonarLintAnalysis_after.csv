@@ -1,0 +1,10 @@
+rule key,start line,end line,severity,message,type
+java:S112,506,506,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,522,522,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1192,216,216,CRITICAL,Define a constant instead of duplicating this literal "Version, {}" 3 times.,CODE_SMELL
+java:S5411,209,209,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S5411,244,244,MINOR,Use the primitive boolean expression here.,CODE_SMELL
+java:S1135,31,31,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S4276,201,201,MINOR,Refactor this code to use the more specialised Functional Interface 'Predicate<VersionLockedObject>',CODE_SMELL
+java:S3776,318,318,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.,CODE_SMELL
+java:S1117,470,470,MAJOR,Rename "optimisticStream" which hides the field declared at line 92.,CODE_SMELL

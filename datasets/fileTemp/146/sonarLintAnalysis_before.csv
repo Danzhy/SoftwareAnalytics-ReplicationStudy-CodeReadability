@@ -1,0 +1,20 @@
+rule key,start line,end line,severity,message,type
+java:S112,509,509,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S2293,98,98,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,170,170,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,223,223,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,321,321,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,470,470,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1135,299,299,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,413,413,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S119,466,466,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,466,466,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S1135,469,469,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1186,515,515,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,518,518,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,521,521,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1135,566,566,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S2147,580,580,MINOR,Combine this catch with the one at line 577, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,598,598,MINOR,Combine this catch with the one at line 595, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2147,633,633,MINOR,Combine this catch with the one at line 630, which has the same body. (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S3398,279,279,MINOR,Move this method into "ServerTransportListenerImpl".,CODE_SMELL

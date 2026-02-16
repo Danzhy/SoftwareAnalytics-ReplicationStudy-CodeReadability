@@ -1,0 +1,10 @@
+rule key,start line,end line,severity,message,type
+java:S1192,110,110,CRITICAL,Define a constant instead of duplicating this literal "Exception expected" 3 times.,CODE_SMELL
+java:S108,113,113,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S108,135,135,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S4276,252,252,MINOR,Refactor this code to use the more specialised Functional Interface 'IntFunction<T>',CODE_SMELL
+java:S108,272,272,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S4276,319,319,MINOR,Refactor this code to use the more specialised Functional Interface 'IntFunction<T>',CODE_SMELL
+java:S1612,322,322,MINOR,Replace this lambda with method reference 'randomValueGenerator::apply'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3358,342,342,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL
+java:S3358,343,343,MAJOR,Extract this nested ternary operation into an independent statement.,CODE_SMELL

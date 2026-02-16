@@ -1,0 +1,14 @@
+rule key,start line,end line,severity,message,type
+java:S1192,139,139,CRITICAL,Define a constant instead of duplicating this literal "] of type [" 6 times.,CODE_SMELL
+java:S1192,139,139,CRITICAL,Define a constant instead of duplicating this literal "Field [" 6 times.,CODE_SMELL
+java:S1104,45,45,MINOR,Make MAX_DIMS_COUNT a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1444,45,45,MINOR,Make this "public static MAX_DIMS_COUNT" field final,CODE_SMELL
+java:S3008,45,45,MINOR,Rename this field "MAX_DIMS_COUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1118,48,48,MAJOR,Add a private constructor to hide the implicit public one.,CODE_SMELL
+java:S1854,101,101,MAJOR,Remove this useless assignment to local variable "dimsField".,CODE_SMELL
+java:S1854,100,100,MAJOR,Remove this useless assignment to local variable "builder".,CODE_SMELL
+java:S1854,105,105,MAJOR,Remove this useless assignment to local variable "dims".,CODE_SMELL
+java:S2975,119,119,BLOCKER,Remove this "clone" implementation; use a copy constructor or copy factory instead.,CODE_SMELL
+java:S1182,119,119,MINOR,Use super.clone() to create and seed the cloned instance to be returned.,CODE_SMELL
+java:S2975,166,166,BLOCKER,Remove this "clone" implementation; use a copy constructor or copy factory instead.,CODE_SMELL
+java:S1854,214,214,MAJOR,Remove this useless assignment to local variable "offset".,CODE_SMELL

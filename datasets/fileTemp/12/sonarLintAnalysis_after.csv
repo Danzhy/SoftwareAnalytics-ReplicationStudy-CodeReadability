@@ -1,0 +1,32 @@
+rule key,start line,end line,severity,message,type
+java:S112,518,518,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,525,525,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1789,1789,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1859,1859,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1192,267,267,CRITICAL,Define a constant instead of duplicating this literal "Contacted a Manager which is no longer active, retrying" 6 times.,CODE_SMELL
+java:S1192,186,186,CRITICAL,Define a constant instead of duplicating this literal "%.3f secs" 3 times.,CODE_SMELL
+java:S1192,351,351,CRITICAL,Define a constant instead of duplicating this literal "Namespace not found" 3 times.,CODE_SMELL
+java:S135,540,540,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,872,872,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,881,881,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,915,915,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1141,953,953,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,972,972,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S117,619,619,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,638,638,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1301,990,990,MINOR,Replace this "switch" statement by "if" statements to increase readability.,CODE_SMELL
+java:S1301,998,998,MINOR,Replace this "switch" statement by "if" statements to increase readability.,CODE_SMELL
+java:S120,19,19,MINOR,Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.,CODE_SMELL
+java:S3626,286,286,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S125,275,275,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S2142,524,524,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S3776,531,531,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.,CODE_SMELL
+java:S100,659,659,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S100,942,942,MINOR,Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3776,942,942,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S1133,1243,1243,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,1243,1243,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S3776,1269,1269,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.,CODE_SMELL
+java:S3776,1461,1461,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S2142,1858,1858,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S3398,531,531,MINOR,Move this method into "SplitTask".,CODE_SMELL

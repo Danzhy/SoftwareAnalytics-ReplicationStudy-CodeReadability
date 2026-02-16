@@ -1,0 +1,7 @@
+rule key,start line,end line,severity,message,type
+java:S1192,168,168,CRITICAL,Define a constant instead of duplicating this literal "SendLinkHandler" 3 times.,CODE_SMELL
+java:S1192,158,158,CRITICAL,Define a constant instead of duplicating this literal "ReceiveLinkHandler" 3 times.,CODE_SMELL
+java:S1602,154,154,MINOR,Remove useless curly braces around statement (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1602,164,164,MINOR,Remove useless curly braces around statement (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1135,174,174,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1602,209,209,MINOR,Remove useless curly braces around statement and then remove useless return keyword (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

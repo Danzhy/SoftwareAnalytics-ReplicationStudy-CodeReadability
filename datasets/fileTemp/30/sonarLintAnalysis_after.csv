@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S112,90,90,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,107,107,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,261,261,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S3740,123,123,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1192,94,94,CRITICAL,Define a constant instead of duplicating this literal "%s/%s" 3 times.,CODE_SMELL
+java:S1141,197,197,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,204,204,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S4042,99,99,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S2142,215,215,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S4042,246,246,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL

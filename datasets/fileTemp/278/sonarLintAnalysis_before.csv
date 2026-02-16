@@ -1,0 +1,7 @@
+rule key,start line,end line,severity,message,type
+java:S1192,79,79,CRITICAL,Define a constant instead of duplicating this literal "Message TTL {} get on topic: {}" 4 times.,CODE_SMELL
+java:S1170,40,40,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,42,42,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,44,44,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,46,46,MINOR,Make this final field static too.,CODE_SMELL
+java:S3011,155,155,MAJOR,This accessibility update should be removed.,CODE_SMELL

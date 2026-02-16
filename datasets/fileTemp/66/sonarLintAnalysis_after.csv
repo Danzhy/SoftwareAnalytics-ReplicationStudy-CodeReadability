@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S1192,68,68,CRITICAL,Define a constant instead of duplicating this literal "foobar" 6 times.,CODE_SMELL
+java:S1192,69,69,CRITICAL,Define a constant instead of duplicating this literal "enumerable" 3 times.,CODE_SMELL
+java:S1192,69,69,CRITICAL,Define a constant instead of duplicating this literal "numeric" 3 times.,CODE_SMELL
+java:S1602,44,44,MINOR,Remove useless curly braces around statement and then remove useless return keyword (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1602,126,126,MINOR,Remove useless curly braces around statement and then remove useless return keyword (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL

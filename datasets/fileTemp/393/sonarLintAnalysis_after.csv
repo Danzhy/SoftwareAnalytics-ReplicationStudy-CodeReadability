@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1124,54,54,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL

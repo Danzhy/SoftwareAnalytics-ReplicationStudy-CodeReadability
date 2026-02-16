@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S1192,60,60,CRITICAL,Define a constant instead of duplicating this literal "experimental" 3 times.,CODE_SMELL
+java:S1192,74,74,CRITICAL,Define a constant instead of duplicating this literal "JENKINS_PLUGIN_INFO" 3 times.,CODE_SMELL
+java:S1192,119,119,CRITICAL,Define a constant instead of duplicating this literal "--plugin-file" 3 times.,CODE_SMELL
+java:S1192,50,50,CRITICAL,Define a constant instead of duplicating this literal "latest" 9 times.,CODE_SMELL
+java:S1192,71,71,CRITICAL,Define a constant instead of duplicating this literal "JENKINS_UC" 3 times.,CODE_SMELL
+java:S1192,73,73,CRITICAL,Define a constant instead of duplicating this literal "JENKINS_INCREMENTALS_REPO_MIRROR" 3 times.,CODE_SMELL
+java:S1192,72,72,CRITICAL,Define a constant instead of duplicating this literal "JENKINS_UC_EXPERIMENTAL" 3 times.,CODE_SMELL

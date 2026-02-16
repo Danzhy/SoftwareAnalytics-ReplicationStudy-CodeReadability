@@ -1,0 +1,17 @@
+rule key,start line,end line,severity,message,type
+java:S1104,33,33,MINOR,Make upperBoundPid a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,34,34,MINOR,Make lowerBoundPid a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,35,35,MINOR,Make minValue a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,36,36,MINOR,Make maxValue a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,37,37,MINOR,Make entityIdValue a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,39,39,MINOR,Make propertyParameterPID a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,40,40,MINOR,Make minimumValuePID a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,41,41,MINOR,Make maximumValuePID a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1444,33,33,MINOR,Make this "public static upperBoundPid" field final,CODE_SMELL
+java:S1444,34,34,MINOR,Make this "public static lowerBoundPid" field final,CODE_SMELL
+java:S1444,35,35,MINOR,Make this "public static minValue" field final,CODE_SMELL
+java:S1444,36,36,MINOR,Make this "public static maxValue" field final,CODE_SMELL
+java:S1444,37,37,MINOR,Make this "public static entityIdValue" field final,CODE_SMELL
+java:S1444,39,39,MINOR,Make this "public static propertyParameterPID" field final,CODE_SMELL
+java:S1444,40,40,MINOR,Make this "public static minimumValuePID" field final,CODE_SMELL
+java:S1444,41,41,MINOR,Make this "public static maximumValuePID" field final,CODE_SMELL

@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S4276,48,48,MINOR,Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Integer>',CODE_SMELL

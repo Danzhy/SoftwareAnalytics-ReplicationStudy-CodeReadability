@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S1192,167,167,CRITICAL,Define a constant instead of duplicating this literal "\" lon=\"" 3 times.,CODE_SMELL
+java:S5361,34,34,CRITICAL,Replace this call to "replaceAll()" by a call to the "replace()" method.,CODE_SMELL
+java:S1659,142,142,MINOR,Declare "lastLon" and all following declarations on a separate line.,CODE_SMELL
+java:S3776,178,178,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.,CODE_SMELL
+java:S3776,295,295,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.,CODE_SMELL

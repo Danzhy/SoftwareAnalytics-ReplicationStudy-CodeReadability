@@ -1,0 +1,31 @@
+rule key,start line,end line,severity,message,type
+java:S135,508,508,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,628,628,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,853,853,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S3014,70,70,BLOCKER,Remove this use of "ThreadGroup". Prefer the use of "ThreadPoolExecutor".,CODE_SMELL
+java:S116,65,65,MINOR,Rename this field "_counts" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,66,66,MINOR,Rename this field "_lastShrink" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,67,67,MINOR,Rename this field "_threads" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,68,68,MINOR,Rename this field "_joinLock" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,69,69,MINOR,Rename this field "_jobs" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,70,70,MINOR,Rename this field "_threadGroup" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,71,71,MINOR,Rename this field "_threadFactory" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,72,72,MINOR,Rename this field "_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,73,73,MINOR,Rename this field "_idleTimeout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,74,74,MINOR,Rename this field "_maxThreads" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,75,75,MINOR,Rename this field "_minThreads" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,76,76,MINOR,Rename this field "_reservedThreads" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,77,77,MINOR,Rename this field "_tryExecutor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,78,78,MINOR,Rename this field "_priority" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,79,79,MINOR,Rename this field "_daemon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,80,80,MINOR,Rename this field "_detailedDump" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,81,81,MINOR,Rename this field "_lowThreadsThreshold" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,82,82,MINOR,Rename this field "_budget" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,761,761,MINOR,Rename this field "_runnable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,52,52,MINOR,Rename this field "NOOP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3776,186,186,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.,CODE_SMELL
+java:S899,207,207,MINOR,Do something with the "boolean" value returned by "offer".,BUG
+java:S1181,258,258,MAJOR,Catch Exception instead of Throwable.,CODE_SMELL
+java:S1133,787,787,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S3776,844,844,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.,CODE_SMELL
+java:S2142,907,907,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG

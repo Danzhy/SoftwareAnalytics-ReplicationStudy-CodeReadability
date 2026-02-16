@@ -1,0 +1,20 @@
+rule key,start line,end line,severity,message,type
+java:S1192,73,73,CRITICAL,Define a constant instead of duplicating this literal "shoot" 4 times.,CODE_SMELL
+java:S1192,73,73,CRITICAL,Define a constant instead of duplicating this literal "toggleJoints" 3 times.,CODE_SMELL
+java:S1186,84,84,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1124,151,151,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL
+java:S106,179,179,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,180,180,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,181,181,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,182,182,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,183,183,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,184,184,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,185,185,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,186,186,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,187,187,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,188,188,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,189,189,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,190,190,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,191,191,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S106,192,192,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S125,206,206,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL

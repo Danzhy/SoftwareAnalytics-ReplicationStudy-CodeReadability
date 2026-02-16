@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S2293,55,55,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S125,59,59,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,258,258,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,350,350,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S2142,424,424,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2276,423,423,BLOCKER,Replace the call to "Thread.sleep(...)" with a call to "wait(...)".,BUG
+java:S1068,55,55,MAJOR,Remove this unused "assetRetrieveQueue" private field.,CODE_SMELL

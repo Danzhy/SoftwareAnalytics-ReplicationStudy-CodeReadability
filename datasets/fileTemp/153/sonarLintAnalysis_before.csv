@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1192,56,56,CRITICAL,Define a constant instead of duplicating this literal "The response SHOULD BE null" 3 times.,CODE_SMELL
+java:S1192,184,184,CRITICAL,Define a constant instead of duplicating this literal "unknown_exchange" 3 times.,CODE_SMELL
+java:S1481,102,102,MINOR,Remove this unused "durable" local variable.,CODE_SMELL
+java:S1481,126,126,MINOR,Remove this unused "durable" local variable.,CODE_SMELL

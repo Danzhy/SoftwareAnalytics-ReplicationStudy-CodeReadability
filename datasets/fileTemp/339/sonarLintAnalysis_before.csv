@@ -1,0 +1,52 @@
+rule key,start line,end line,severity,message,type
+java:S112,790,790,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S135,1069,1069,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,2070,2070,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1319,2197,2197,MINOR,The return type of this method should be an interface such as "List" rather than the implementation "ArrayList".,CODE_SMELL
+java:S1604,2199,2199,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1643,1307,1307,MINOR,Use a StringBuilder instead.,CODE_SMELL
+java:S1488,1629,1631,MINOR,Immediately return this expression instead of assigning it to the temporary variable "buf".,CODE_SMELL
+java:S3014,1452,1452,BLOCKER,Remove this use of "ThreadGroup". Prefer the use of "ThreadPoolExecutor".,CODE_SMELL
+java:S3014,1457,1457,BLOCKER,Remove this use of "ThreadGroup". Prefer the use of "ThreadPoolExecutor".,CODE_SMELL
+java:S1104,646,646,MINOR,Make DEBUG_YUI a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1444,193,193,MINOR,Make this "public static UI_REFRESH" field final,CODE_SMELL
+java:S1444,646,646,MINOR,Make this "public static DEBUG_YUI" field final,CODE_SMELL
+java:S3008,190,190,MINOR,Rename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,193,193,MINOR,Rename this field "UI_REFRESH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,646,646,MINOR,Rename this field "DEBUG_YUI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1186,195,195,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1133,218,218,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,218,218,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1872,219,219,MAJOR,Use an "instanceof" comparison instead.,BUG
+java:S3252,238,238,CRITICAL,Use static access with "java.text.DateFormat" for "getDateInstance".,CODE_SMELL
+java:S3252,238,238,CRITICAL,Use static access with "java.text.DateFormat" for "SHORT".,CODE_SMELL
+java:S1659,384,384,MINOR,Declare "l" on a separate line.,CODE_SMELL
+java:S1659,454,454,MINOR,Declare "base" and all following declarations on a separate line.,CODE_SMELL
+java:S1133,506,506,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,683,683,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,688,688,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,688,688,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S1133,980,980,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,991,991,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,1018,1018,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1854,1067,1067,MAJOR,Remove this useless assignment to local variable "r".,CODE_SMELL
+java:S1854,1066,1066,MAJOR,Remove this useless assignment to local variable "exts".,CODE_SMELL
+java:S1854,1070,1070,MAJOR,Remove this useless assignment to local variable "d".,CODE_SMELL
+java:S1854,1083,1083,MAJOR,Remove this useless assignment to local variable "answer".,CODE_SMELL
+java:S1133,1065,1065,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1133,1137,1137,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1135,1164,1164,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,1179,1179,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1210,1256,1256,MINOR,Override "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.,CODE_SMELL
+java:S3776,1358,1358,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL
+java:S1659,1463,1463,MINOR,Declare "tgb" on a separate line.,CODE_SMELL
+java:S1133,1506,1506,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S3776,1511,1511,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S1871,1547,1550,MAJOR,This case's code block is the same as the block for the case on line 1543.,CODE_SMELL
+java:S3776,1678,1678,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S1133,1763,1763,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1135,1859,1859,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1133,1903,1903,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1075,2018,2018,MINOR,Remove this hard-coded path-delimiter.,CODE_SMELL
+java:S3776,2054,2054,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S1133,2223,2223,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL

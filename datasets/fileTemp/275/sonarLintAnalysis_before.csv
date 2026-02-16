@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S117,264,264,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S116,43,43,MINOR,Rename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S107,93,93,MAJOR,Constructor has 8 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S1201,124,124,MAJOR,Either override Object.equals(Object), or rename the method to prevent any confusion.,BUG
+java:S1124,279,279,MINOR,Reorder the modifiers to comply with the Java Language Specification.,CODE_SMELL

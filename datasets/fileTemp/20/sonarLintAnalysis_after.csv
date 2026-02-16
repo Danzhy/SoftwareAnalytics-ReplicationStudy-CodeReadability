@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S1488,242,242,MINOR,Immediately return this expression instead of assigning it to the temporary variable "names".,CODE_SMELL
+java:S1488,260,260,MINOR,Immediately return this expression instead of assigning it to the temporary variable "names".,CODE_SMELL
+java:S1488,278,278,MINOR,Immediately return this expression instead of assigning it to the temporary variable "names".,CODE_SMELL
+java:S1611,158,158,MINOR,Remove the parentheses around the "tid" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1155,200,200,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL

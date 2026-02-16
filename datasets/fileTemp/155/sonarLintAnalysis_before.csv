@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1192,42,42,CRITICAL,Define a constant instead of duplicating this literal "Test Based" 3 times.,CODE_SMELL

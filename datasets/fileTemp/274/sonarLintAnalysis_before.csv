@@ -1,0 +1,245 @@
+rule key,start line,end line,severity,message,type
+java:S2293,160,160,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,162,162,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,163,163,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,165,165,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,166,166,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,168,168,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,172,172,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,173,173,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,175,175,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,178,178,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,179,179,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,180,180,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,204,204,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,517,517,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,982,982,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1371,1371,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1493,1493,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1494,1494,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1518,1518,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1547,1547,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1601,1601,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1609,1609,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,1617,1617,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2136,2136,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2146,2146,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2484,2484,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2485,2485,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2851,2851,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2855,2855,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2984,2984,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,2990,2990,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3002,3002,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3127,3127,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3130,3130,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3760,3760,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3779,3779,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3861,3861,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3920,3920,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,3941,3941,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4041,4041,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4052,4052,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4067,4067,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4081,4081,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4263,4263,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4293,4293,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4548,4548,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4549,4549,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4769,4769,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,4831,4831,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1192,3163,3163,CRITICAL,Define a constant instead of duplicating this literal "renderTokens:OnscreenCheck" 3 times.,CODE_SMELL
+java:S1192,4489,4489,CRITICAL,Define a constant instead of duplicating this literal "maybeOnsceen" 3 times.,CODE_SMELL
+java:S1192,502,502,CRITICAL,Define a constant instead of duplicating this literal "setup" 4 times.,CODE_SMELL
+java:S1192,3026,3026,CRITICAL,Define a constant instead of duplicating this literal "tokenlist-1.1" 3 times.,CODE_SMELL
+java:S135,2025,2025,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,2174,2174,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,2161,2161,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,2624,2624,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,3003,3003,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,3517,3517,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,3960,3960,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S135,4555,4555,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1066,2229,2229,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,2405,2405,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,3099,3099,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,3682,3682,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,4641,4641,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S117,2291,2291,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S117,3225,3225,MINOR,Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1104,4432,4432,MINOR,Make bounds a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4433,4433,MINOR,Make token a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4434,4434,MINOR,Make boundsCache a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4435,4435,MINOR,Make scaledHeight a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4436,4436,MINOR,Make scaledWidth a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4437,4437,MINOR,Make x a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4438,4438,MINOR,Make y a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4439,4439,MINOR,Make offsetX a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4440,4440,MINOR,Make offsetY a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4501,4501,MINOR,Make bounds a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1104,4502,4502,MINOR,Make label a static final constant or non-public and provide accessors if needed.,CODE_SMELL
+java:S1700,4263,4263,MAJOR,Rename field "selectionSet",CODE_SMELL
+java:S2184,2312,2312,MINOR,Cast one of the operands of this integer division to a "double".,BUG
+java:S2184,2317,2317,MINOR,Cast one of the operands of this integer division to a "double".,BUG
+java:S2184,3247,3247,MINOR,Cast one of the operands of this integer division to a "double".,BUG
+java:S2184,3252,3252,MINOR,Cast one of the operands of this integer division to a "double".,BUG
+java:S1199,1192,1192,MINOR,Extract this nested code block into a method.,CODE_SMELL
+java:S1199,1994,1994,MINOR,Extract this nested code block into a method.,CODE_SMELL
+java:S1186,4518,4518,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,4526,4526,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,4534,4534,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,4782,4782,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1210,4823,4823,MINOR,Override "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.,CODE_SMELL
+java:S1450,4880,4880,MINOR,Remove the "custom" field and declare it as a local variable in the relevant methods.,CODE_SMELL
+java:S1948,187,187,CRITICAL,Make "fogBuffer" transient or serializable.,CODE_SMELL
+java:S1948,195,195,CRITICAL,Make "exposedFogArea" transient or serializable.,CODE_SMELL
+java:S1948,197,197,CRITICAL,Make "miniImage" transient or serializable.,CODE_SMELL
+java:S1948,198,198,CRITICAL,Make "backbuffer" transient or serializable.,CODE_SMELL
+java:S1948,203,203,CRITICAL,Make "visibleScreenArea" transient or serializable.,CODE_SMELL
+java:S1948,1458,1458,CRITICAL,Make "renderedLightMap" transient or serializable.,CODE_SMELL
+java:S1948,1566,1566,CRITICAL,Make "renderedAuraMap" transient or serializable.,CODE_SMELL
+java:S1948,2699,2699,CRITICAL,Make "shape" transient or serializable.,CODE_SMELL
+java:S1948,2700,2700,CRITICAL,Make "shape2" transient or serializable.,CODE_SMELL
+java:S125,171,171,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,245,245,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1186,269,269,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S125,278,278,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,337,337,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,366,366,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,375,375,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,466,466,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 65 to the 15 allowed.,CODE_SMELL
+java:S1135,467,467,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1659,506,506,MINOR,Declare "tokenCell" on a separate line.,CODE_SMELL
+java:S1659,521,521,MINOR,Declare "offsetY" on a separate line.,CODE_SMELL
+java:S1659,539,539,MINOR,Declare "cellOffY" on a separate line.,CODE_SMELL
+java:S125,578,578,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,590,590,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,750,750,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,823,823,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1172,859,859,MAJOR,Remove this unused method parameter "size".,CODE_SMELL
+java:S125,860,860,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,961,961,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 46 to the 15 allowed.,CODE_SMELL
+java:S1135,972,972,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S131,1018,1018,CRITICAL,Add a default case to this switch.,CODE_SMELL
+java:S1135,1068,1068,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,1084,1084,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1087,1087,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1090,1090,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,1083,1083,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,1086,1086,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,1089,1089,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,1119,1119,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.,CODE_SMELL
+java:S125,1169,1169,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1226,1226,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1230,1230,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1241,1241,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1245,1245,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1293,1293,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1297,1297,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1301,1301,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1305,1305,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1324,1324,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1334,1334,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1394,1394,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1427,1427,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,1467,1467,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 46 to the 15 allowed.,CODE_SMELL
+java:S1135,1496,1496,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,1516,1516,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1119,1521,1521,MAJOR,Refactor the code to remove this label and the need for it.,CODE_SMELL
+java:S1155,1522,1522,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S1155,1539,1539,MINOR,Use isEmpty() to check whether the collection is empty or not.,CODE_SMELL
+java:S125,1694,1694,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1712,1712,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3252,1754,1754,CRITICAL,Use static access with "javax.swing.SwingConstants" for "CENTER".,CODE_SMELL
+java:S3776,1779,1779,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.,CODE_SMELL
+java:S125,1791,1791,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1845,1845,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1849,1849,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1873,1873,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1907,1907,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1947,1947,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1950,1950,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1172,1963,1963,MAJOR,Remove this unused method parameter "view".,CODE_SMELL
+java:S1172,1988,1988,MAJOR,Remove these unused method parameters "view", "softFog".,CODE_SMELL
+java:S125,1989,1989,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1996,1996,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,2003,2003,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1172,2056,2056,MAJOR,Remove this unused method parameter "view".,CODE_SMELL
+java:S125,2060,2060,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1172,2066,2066,MAJOR,Remove this unused method parameter "view".,CODE_SMELL
+java:S1172,2121,2121,MAJOR,Remove this unused method parameter "view".,CODE_SMELL
+java:S1172,2129,2129,MAJOR,Remove this unused method parameter "view".,CODE_SMELL
+java:S1172,2135,2135,MAJOR,Remove this unused method parameter "view".,CODE_SMELL
+java:S1172,2145,2145,MAJOR,Remove this unused method parameter "view".,CODE_SMELL
+java:S3776,2155,2155,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 210 to the 15 allowed.,CODE_SMELL
+java:S125,2226,2226,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,2238,2238,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,2253,2253,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,2458,2458,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.,CODE_SMELL
+java:S125,2473,2473,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,2503,2503,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1481,2523,2523,MINOR,Remove this unused "w" local variable.,CODE_SMELL
+java:S125,2644,2644,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,2690,2690,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1854,2742,2742,MAJOR,Remove this useless assignment to local variable "iheight".,CODE_SMELL
+java:S1854,2741,2741,MAJOR,Remove this useless assignment to local variable "iwidth".,CODE_SMELL
+java:S1481,2741,2741,MINOR,Remove this unused "iwidth" local variable.,CODE_SMELL
+java:S1481,2742,2742,MINOR,Remove this unused "iheight" local variable.,CODE_SMELL
+java:S1172,2752,2752,MAJOR,Remove this unused method parameter "angle".,CODE_SMELL
+java:S125,2835,2835,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,2903,2903,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,2921,2921,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,2939,2939,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,2961,2961,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 303 to the 15 allowed.,CODE_SMELL
+java:S1854,3298,3298,MAJOR,Remove this useless assignment to local variable "opacity".,CODE_SMELL
+java:S3626,3020,3020,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S3626,3100,3100,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S125,3000,3000,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,2993,2993,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,3047,3047,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,3109,3109,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,3118,3118,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,3124,3124,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,3266,3266,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,3346,3346,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,3351,3351,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S128,3381,3381,BLOCKER,End this switch case with an unconditional break, return or throw statement.,CODE_SMELL
+java:S1125,3358,3358,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,3382,3382,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,3410,3410,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,3420,3420,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,3509,3509,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,3524,3524,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,3611,3611,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3252,3647,3647,CRITICAL,Use static access with "javax.swing.SwingConstants" for "CENTER".,CODE_SMELL
+java:S3252,3656,3656,CRITICAL,Use static access with "javax.swing.SwingConstants" for "CENTER".,CODE_SMELL
+java:S3252,3670,3670,CRITICAL,Use static access with "javax.swing.SwingConstants" for "CENTER".,CODE_SMELL
+java:S1135,3681,3681,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1134,3682,3682,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S125,3700,3700,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1126,3730,3730,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S125,3787,3787,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,3931,3931,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1117,3952,3952,MAJOR,Rename "selectedTokenSet" which hides the field declared at line 163.,CODE_SMELL
+java:S1135,4033,4033,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1659,4191,4191,MINOR,Declare "height" on a separate line.,CODE_SMELL
+java:S3252,4203,4203,CRITICAL,Use static access with "javax.swing.SwingConstants" for "CENTER".,CODE_SMELL
+java:S131,4236,4236,CRITICAL,Add a default case to this switch.,CODE_SMELL
+java:S3252,4237,4237,CRITICAL,Use static access with "javax.swing.SwingConstants" for "CENTER".,CODE_SMELL
+java:S3252,4240,4240,CRITICAL,Use static access with "javax.swing.SwingConstants" for "RIGHT".,CODE_SMELL
+java:S3252,4243,4243,CRITICAL,Use static access with "javax.swing.SwingConstants" for "LEFT".,CODE_SMELL
+java:S125,4273,4273,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S2142,4329,4329,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1134,4404,4404,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL
+java:S125,4407,4407,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S107,4456,4456,MAJOR,Constructor has 9 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S3776,4544,4544,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.,CODE_SMELL
+java:S125,4846,4846,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,4863,4863,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,4871,4871,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S125,4895,4895,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,4922,4922,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3252,4932,4932,CRITICAL,Use static access with "javax.swing.SwingConstants" for "LEFT".,CODE_SMELL
+java:S125,4934,4934,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S108,4944,4944,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S1068,176,176,MAJOR,Remove this unused "showAllPaths" private field.,CODE_SMELL

@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S3740,165,165,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1141,363,363,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1643,602,602,MINOR,Use a StringBuilder instead.,CODE_SMELL
+java:S1149,39,39,MAJOR,Replace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".,CODE_SMELL
+java:S1874,65,65,MINOR,Remove this use of "newInstance"; it is deprecated.,CODE_SMELL
+java:S1874,218,218,MINOR,Remove this use of "newInstance"; it is deprecated.,CODE_SMELL
+java:S1874,228,228,MINOR,Remove this use of "newInstance"; it is deprecated.,CODE_SMELL
+java:S1874,320,320,MINOR,Remove this use of "newInstance"; it is deprecated.,CODE_SMELL
+java:S1874,457,457,MINOR,Remove this use of "newInstance"; it is deprecated.,CODE_SMELL
+java:S3776,538,538,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL

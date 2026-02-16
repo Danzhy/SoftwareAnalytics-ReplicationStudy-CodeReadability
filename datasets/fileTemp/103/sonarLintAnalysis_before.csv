@@ -1,0 +1,5 @@
+rule key,start line,end line,severity,message,type
+java:S1301,490,490,MINOR,Replace this "switch" statement by "if" statements to increase readability.,CODE_SMELL
+java:S1133,73,73,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S3776,147,147,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.,CODE_SMELL
+java:S3776,327,327,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL

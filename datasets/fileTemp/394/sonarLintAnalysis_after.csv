@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S112,93,93,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S2142,92,92,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S4276,130,130,MINOR,Refactor this code to use the more specialised Functional Interface 'ToLongFunction<List>',CODE_SMELL

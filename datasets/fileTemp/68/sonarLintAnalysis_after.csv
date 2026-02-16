@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S1192,122,122,CRITICAL,Define a constant instead of duplicating this literal "orcaOobUtil" 3 times.,CODE_SMELL
+java:S1604,169,169,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,280,280,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3776,199,199,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL
+java:S1135,247,247,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,397,397,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1134,497,497,MAJOR,Take the required action to fix the issue indicated by this comment.,CODE_SMELL

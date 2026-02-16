@@ -1,0 +1,4 @@
+rule key,start line,end line,severity,message,type
+java:S1659,178,178,MINOR,Declare "cfg2" on a separate line.,CODE_SMELL
+java:S1659,191,191,MINOR,Declare "cfg2" on a separate line.,CODE_SMELL
+java:S1659,208,208,MINOR,Declare "cfg2" on a separate line.,CODE_SMELL

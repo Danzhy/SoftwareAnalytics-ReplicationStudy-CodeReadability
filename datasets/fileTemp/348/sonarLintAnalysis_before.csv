@@ -1,0 +1,16 @@
+rule key,start line,end line,severity,message,type
+java:S1066,125,125,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1149,82,82,MAJOR,Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".,CODE_SMELL
+java:S1126,98,98,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S6353,39,39,MINOR,Use concise character class syntax '\\D' instead of '[^0-9]'.,CODE_SMELL
+java:S6353,45,45,MINOR,Use concise character class syntax '\\d' instead of '[0-9]'.,CODE_SMELL
+java:S6353,45,45,MINOR,Use concise quantifier syntax '+' instead of '{1,}'.,CODE_SMELL
+java:S6353,47,47,MINOR,Use concise quantifier syntax '+' instead of '{1,}'.,CODE_SMELL
+java:S6353,49,49,MINOR,Use concise quantifier syntax '+' instead of '{1,}'.,CODE_SMELL
+java:S5869,53,53,MAJOR,Remove duplicates in this character class.,CODE_SMELL
+java:S6353,53,53,MINOR,Use concise quantifier syntax '+' instead of '{1,}'.,CODE_SMELL
+java:S5869,56,56,MAJOR,Remove duplicates in this character class.,CODE_SMELL
+java:S1905,375,375,MINOR,Remove this unnecessary cast to "double".,CODE_SMELL
+java:S1126,418,418,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S1126,431,431,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S1126,444,444,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL

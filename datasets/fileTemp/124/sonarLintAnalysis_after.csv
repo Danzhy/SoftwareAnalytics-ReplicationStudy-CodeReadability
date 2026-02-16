@@ -1,0 +1,18 @@
+rule key,start line,end line,severity,message,type
+java:S3740,58,58,MAJOR,Provide the parametrized type for this generic.,CODE_SMELL
+java:S1192,75,75,CRITICAL,Define a constant instead of duplicating this literal "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" 3 times.,CODE_SMELL
+java:S1192,137,137,CRITICAL,Define a constant instead of duplicating this literal "      </ds:KeyInfo>" 4 times.,CODE_SMELL
+java:S1192,136,136,CRITICAL,Define a constant instead of duplicating this literal "        </ds:X509Data>" 3 times.,CODE_SMELL
+java:S1192,150,150,CRITICAL,Define a constant instead of duplicating this literal "          NameFormat=\"urn:oasis:names:tc:SAML:2.0:attrname-format:uri\"/>" 10 times.,CODE_SMELL
+java:S1192,88,88,CRITICAL,Define a constant instead of duplicating this literal "https://kibana.apps.hydra/" 3 times.,CODE_SMELL
+java:S1192,138,138,CRITICAL,Define a constant instead of duplicating this literal "    </md:KeyDescriptor>" 4 times.,CODE_SMELL
+java:S1192,148,148,CRITICAL,Define a constant instead of duplicating this literal "      <md:RequestedAttribute" 10 times.,CODE_SMELL
+java:S1192,176,176,CRITICAL,Define a constant instead of duplicating this literal "  </md:ContactPerson>" 4 times.,CODE_SMELL
+java:S1192,134,134,CRITICAL,Define a constant instead of duplicating this literal "        <ds:X509Data>" 3 times.,CODE_SMELL
+java:S1192,82,82,CRITICAL,Define a constant instead of duplicating this literal "</md:EntityDescriptor>" 3 times.,CODE_SMELL
+java:S1192,133,133,CRITICAL,Define a constant instead of duplicating this literal "      <ds:KeyInfo xmlns:ds=\"http://www.w3.org/2000/09/xmldsig#\">" 4 times.,CODE_SMELL
+java:S1192,101,101,CRITICAL,Define a constant instead of duplicating this literal "Hydra" 4 times.,CODE_SMELL
+java:S1611,58,58,MINOR,Remove the parentheses around the "cert" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1602,58,58,MINOR,Remove useless curly braces around statement and then remove useless return keyword (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1612,60,60,MINOR,Replace this lambda with method reference 'Object::getClass'. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1125,61,61,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL

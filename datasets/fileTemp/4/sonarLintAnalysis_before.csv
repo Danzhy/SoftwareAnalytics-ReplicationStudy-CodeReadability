@@ -1,0 +1,19 @@
+rule key,start line,end line,severity,message,type
+java:S112,239,239,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,256,256,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,265,265,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,356,356,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,437,437,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1141,338,338,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1604,274,274,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S2184,463,463,MINOR,Cast one of the operands of this multiplication operation to a "long".,BUG
+java:S1610,109,109,MINOR,Convert the abstract class "TestCallWithWriteLock" into an interface. (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3776,211,211,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S3626,237,237,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S3776,269,269,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.,CODE_SMELL
+java:S2142,291,291,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S2142,314,314,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S899,313,313,MINOR,Do something with the "boolean" value returned by "offer".,BUG
+java:S3776,375,375,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.,CODE_SMELL
+java:S1135,480,480,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1172,578,578,MAJOR,Remove this unused method parameter "tconf".,CODE_SMELL

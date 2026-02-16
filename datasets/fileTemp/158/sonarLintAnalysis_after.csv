@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S1144,100,100,MAJOR,Remove this unused private "splitEventsList" method.,CODE_SMELL

@@ -1,0 +1,19 @@
+rule key,start line,end line,severity,message,type
+java:S112,257,257,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,268,268,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,274,274,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,969,969,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1006,1006,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S112,1025,1025,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S135,871,871,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1135,80,80,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,136,136,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,208,208,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,226,226,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S6213,769,769,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S1135,792,792,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S6213,843,843,MAJOR,Rename this variable to not match a restricted identifier.,CODE_SMELL
+java:S3626,888,888,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S1135,872,872,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S4042,1078,1078,MAJOR,Use "java.nio.file.Files#delete" here for better messages on error conditions.,CODE_SMELL
+java:S1135,1089,1089,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

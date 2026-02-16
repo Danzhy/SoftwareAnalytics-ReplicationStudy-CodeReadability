@@ -1,0 +1,16 @@
+rule key,start line,end line,severity,message,type
+java:S1192,468,468,CRITICAL,Define a constant instead of duplicating this literal "[{}] {}" 4 times.,CODE_SMELL
+java:S1450,126,126,MINOR,Remove the "nodeDying" field and declare it as a local variable in the relevant methods.,CODE_SMELL
+java:S1125,178,178,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,319,319,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S1854,356,356,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,358,359,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,357,357,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1611,394,394,MINOR,Remove the parentheses around the "reason" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1602,457,457,MINOR,Remove useless curly braces around statement (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1602,508,508,MINOR,Remove useless curly braces around statement (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1854,518,518,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1125,560,560,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,597,597,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1611,684,684,MINOR,Remove the parentheses around the "reason" parameter (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1125,722,722,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL

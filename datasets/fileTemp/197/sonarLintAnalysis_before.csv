@@ -1,0 +1,19 @@
+rule key,start line,end line,severity,message,type
+java:S1604,392,392,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1604,444,444,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S3776,184,184,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.,CODE_SMELL
+java:S1854,207,207,MAJOR,Remove this useless assignment to local variable "finalDelayNanos".,CODE_SMELL
+java:S1854,214,214,MAJOR,Remove this useless assignment to local variable "finalAbortStatus".,CODE_SMELL
+java:S1854,216,216,MAJOR,Remove this useless assignment to local variable "finalAbortStatus".,CODE_SMELL
+java:S119,221,221,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,221,221,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S1135,228,228,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1135,260,260,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S119,380,380,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,380,380,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S1186,459,459,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,462,462,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,465,465,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,468,468,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S119,429,429,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL
+java:S119,429,429,MINOR,Rename this generic name to match the regular expression '^[A-Z][0-9]?$'.,CODE_SMELL

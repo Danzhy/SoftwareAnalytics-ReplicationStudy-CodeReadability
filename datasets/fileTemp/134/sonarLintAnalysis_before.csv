@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S2589,232,232,MAJOR,Remove this expression which always evaluates to "true",CODE_SMELL
+java:S3008,60,60,MINOR,Rename this field "FILE_TYPES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,63,63,MINOR,Rename this field "SIZE_FILTER_TYPES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,66,66,MINOR,Rename this field "SIZE_UNITS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S3008,69,69,MINOR,Rename this field "SORT_OPTIONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.,CODE_SMELL
+java:S1135,46,46,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S2696,96,96,CRITICAL,Make the enclosing method "static" or remove this set.,CODE_SMELL
+java:S2696,105,105,CRITICAL,Make the enclosing method "static" or remove this set.,CODE_SMELL
+java:S2696,115,115,CRITICAL,Make the enclosing method "static" or remove this set.,CODE_SMELL
+java:S2696,121,121,CRITICAL,Make the enclosing method "static" or remove this set.,CODE_SMELL

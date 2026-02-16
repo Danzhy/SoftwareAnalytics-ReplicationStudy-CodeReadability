@@ -1,0 +1,25 @@
+rule key,start line,end line,severity,message,type
+java:S1192,77,77,CRITICAL,Define a constant instead of duplicating this literal "Bottom-left should evaluate to zero" 4 times.,CODE_SMELL
+java:S1192,191,191,CRITICAL,Define a constant instead of duplicating this literal "Hilbert query at level " 4 times.,CODE_SMELL
+java:S1192,1107,1107,CRITICAL,Define a constant instead of duplicating this literal " should have width of " 3 times.,CODE_SMELL
+java:S1192,1107,1107,CRITICAL,Define a constant instead of duplicating this literal "Level " 6 times.,CODE_SMELL
+java:S1192,1108,1108,CRITICAL,Define a constant instead of duplicating this literal " should have max value of " 3 times.,CODE_SMELL
+java:S1192,142,142,CRITICAL,Define a constant instead of duplicating this literal "Max value at level " 3 times.,CODE_SMELL
+java:S1192,1046,1046,CRITICAL,Define a constant instead of duplicating this literal " should evaluate to " 3 times.,CODE_SMELL
+java:S1192,191,191,CRITICAL,Define a constant instead of duplicating this literal " took " 4 times.,CODE_SMELL
+java:S1643,1102,1102,MINOR,Use a StringBuilder instead.,CODE_SMELL
+java:S2184,913,913,MINOR,Cast one of the operands of this subtraction operation to a "double".,BUG
+java:S115,47,47,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S115,48,48,CRITICAL,Rename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.,CODE_SMELL
+java:S106,55,55,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S1135,54,54,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S106,64,64,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S1135,63,63,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,442,442,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.,CODE_SMELL
+java:S3457,550,550,MAJOR,%n should be used in place of \n to produce the platform-specific line separator.,CODE_SMELL
+java:S125,863,863,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,860,860,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S125,921,921,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1854,1092,1092,MAJOR,Remove this useless assignment to local variable "midX".,CODE_SMELL
+java:S1481,1092,1092,MINOR,Remove this unused "midX" local variable.,CODE_SMELL
+java:S1144,949,949,MAJOR,Remove this unused private "printMapping" method.,CODE_SMELL

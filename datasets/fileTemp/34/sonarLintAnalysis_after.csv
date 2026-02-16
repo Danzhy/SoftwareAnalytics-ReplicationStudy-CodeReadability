@@ -1,0 +1,24 @@
+rule key,start line,end line,severity,message,type
+java:S2293,48,48,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,56,56,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,57,57,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,164,164,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1488,164,164,MINOR,Immediately return this expression instead of assigning it to the temporary variable "list".,CODE_SMELL
+java:S1170,46,46,MINOR,Make this final field static too.,CODE_SMELL
+java:S1186,485,485,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,488,488,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,491,491,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,494,494,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,498,498,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,502,502,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,505,505,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,508,508,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1186,529,529,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1116,40,40,MINOR,Remove this empty statement.,CODE_SMELL
+java:S3776,187,187,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.,CODE_SMELL
+java:S1135,260,260,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1481,286,286,MINOR,Remove this unused "nameTooLong" local variable.,CODE_SMELL
+java:S106,318,318,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S2864,408,408,MAJOR,Iterate over the "entrySet" instead of the "keySet".,CODE_SMELL
+java:S125,469,469,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,517,517,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

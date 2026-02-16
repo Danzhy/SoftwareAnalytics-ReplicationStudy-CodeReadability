@@ -1,0 +1,82 @@
+rule key,start line,end line,severity,message,type
+java:S112,211,211,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1066,289,289,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,309,309,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,1462,1462,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,1498,1498,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,1534,1534,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,1570,1570,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,1595,1595,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,1653,1653,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1066,1671,1671,MAJOR,Merge this if statement with the enclosing one.,CODE_SMELL
+java:S1488,242,242,MINOR,Immediately return this expression instead of assigning it to the temporary variable "heightMap".,CODE_SMELL
+java:S1488,1089,1089,MINOR,Immediately return this expression instead of assigning it to the temporary variable "normal".,CODE_SMELL
+java:S1488,1463,1463,MINOR,Immediately return this expression instead of assigning it to the temporary variable "quad".,CODE_SMELL
+java:S1488,1499,1499,MINOR,Immediately return this expression instead of assigning it to the temporary variable "quad".,CODE_SMELL
+java:S1488,1535,1535,MINOR,Immediately return this expression instead of assigning it to the temporary variable "quad".,CODE_SMELL
+java:S1488,1571,1571,MINOR,Immediately return this expression instead of assigning it to the temporary variable "quad".,CODE_SMELL
+java:S2259,1559,1559,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1525,1525,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1493,1493,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1902,1902,MAJOR,A "NullPointerException" could be thrown; "ur" is nullable here.,BUG
+java:S2259,1453,1453,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1529,1529,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1914,1914,MAJOR,A "NullPointerException" could be thrown; "br" is nullable here.,BUG
+java:S2259,1523,1523,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1457,1457,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1449,1449,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1451,1451,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1521,1521,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1557,1557,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1485,1485,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1565,1565,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1561,1561,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1489,1489,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1487,1487,MAJOR,A "NullPointerException" could be thrown; "pQuad" is nullable here.,BUG
+java:S2259,1910,1910,MAJOR,A "NullPointerException" could be thrown; "bl" is nullable here.,BUG
+java:S1133,175,175,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,175,175,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S125,177,177,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1133,194,194,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S1123,194,194,MAJOR,Add the missing @deprecated Javadoc tag.,CODE_SMELL
+java:S125,196,196,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1135,253,253,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S3776,286,286,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S3776,366,366,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.,CODE_SMELL
+java:S3776,463,463,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.,CODE_SMELL
+java:S125,588,588,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,696,696,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,720,720,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,742,742,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,764,764,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,786,786,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,896,896,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.,CODE_SMELL
+java:S3776,941,941,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.,CODE_SMELL
+java:S1126,992,992,MINOR,Replace this if-then-else statement by a single return statement.,CODE_SMELL
+java:S3776,1013,1013,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.,CODE_SMELL
+java:S1854,1101,1101,MAJOR,Remove this useless assignment to local variable "onX".,CODE_SMELL
+java:S1481,1099,1099,MINOR,Remove this unused "onX" local variable.,CODE_SMELL
+java:S3776,1185,1185,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.,CODE_SMELL
+java:S1854,1224,1224,MAJOR,Remove this useless assignment to local variable "row".,CODE_SMELL
+java:S1854,1223,1223,MAJOR,Remove this useless assignment to local variable "col".,CODE_SMELL
+java:S3776,1435,1435,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S4201,1437,1437,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S3776,1471,1471,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S4201,1473,1473,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S3776,1507,1507,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S4201,1509,1509,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S3776,1543,1543,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.,CODE_SMELL
+java:S4201,1545,1545,MINOR,Remove this unnecessary null check; "instanceof" returns false for nulls.,CODE_SMELL
+java:S3776,1604,1604,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.,CODE_SMELL
+java:S3776,1668,1668,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.,CODE_SMELL
+java:S125,1720,1720,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1738,1738,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S125,1759,1759,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S2975,1764,1764,BLOCKER,Remove this "clone" implementation; use a copy constructor or copy factory instead.,CODE_SMELL
+java:S1182,1764,1764,MINOR,Use super.clone() to create and seed the cloned instance to be returned.,CODE_SMELL
+java:S1854,1786,1786,MAJOR,Remove this useless assignment to local variable "lodControl".,CODE_SMELL
+java:S125,1782,1782,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1481,1786,1786,MINOR,Remove this unused "lodControl" local variable.,CODE_SMELL
+java:S125,1789,1789,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S3776,1862,1862,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.,CODE_SMELL
+java:S1659,1870,1870,MINOR,Declare "ur" and all following declarations on a separate line.,CODE_SMELL

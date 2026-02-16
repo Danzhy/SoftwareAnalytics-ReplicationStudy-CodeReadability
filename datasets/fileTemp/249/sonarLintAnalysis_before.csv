@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S120,17,17,MINOR,Rename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.,CODE_SMELL

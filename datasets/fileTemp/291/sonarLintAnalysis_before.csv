@@ -1,0 +1,11 @@
+rule key,start line,end line,severity,message,type
+java:S2293,150,150,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S2293,151,151,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1186,179,179,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S4274,70,70,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1172,102,102,MAJOR,Remove this unused method parameter "collationList".,CODE_SMELL
+java:S1172,111,111,MAJOR,Remove this unused method parameter "collationList".,CODE_SMELL
+java:S4274,143,143,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,144,144,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S4274,169,169,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S1135,186,186,INFO,Complete the task associated to this TODO comment.,CODE_SMELL

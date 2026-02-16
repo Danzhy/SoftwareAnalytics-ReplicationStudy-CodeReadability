@@ -1,0 +1,29 @@
+rule key,start line,end line,severity,message,type
+java:S112,508,508,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1192,198,198,CRITICAL,Define a constant instead of duplicating this literal "peer-recovery" 5 times.,CODE_SMELL
+java:S135,780,780,MINOR,Reduce the total number of break and continue statements in this loop to use at most one.,CODE_SMELL
+java:S1141,229,229,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,251,251,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1141,529,529,MAJOR,Extract this nested try block into a separate method.,CODE_SMELL
+java:S1186,508,508,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S107,755,755,MAJOR,Method has 8 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S107,830,830,MAJOR,Method has 9 parameters, which is greater than 7 authorized.,CODE_SMELL
+java:S3776,144,144,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.,CODE_SMELL
+java:S1125,199,199,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,357,357,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1125,357,357,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,392,392,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,432,432,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,433,433,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1125,475,475,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,520,520,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.,CODE_SMELL
+java:S1125,543,543,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3346,613,613,MAJOR,Move this "assert" side effect to another statement.,BUG
+java:S1125,701,701,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S3776,755,755,CRITICAL,Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.,CODE_SMELL
+java:S1125,844,844,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL
+java:S1135,901,901,INFO,Complete the task associated to this TODO comment.,CODE_SMELL
+java:S1854,975,975,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,988,988,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1854,992,992,MAJOR,Remove this useless assignment to local variable "!unknown!".,CODE_SMELL
+java:S1125,1060,1060,MINOR,Remove the unnecessary boolean literal.,CODE_SMELL

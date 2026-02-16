@@ -1,0 +1,2 @@
+rule key,start line,end line,severity,message,type
+java:S107,124,124,MAJOR,Constructor has 20 parameters, which is greater than 7 authorized.,CODE_SMELL

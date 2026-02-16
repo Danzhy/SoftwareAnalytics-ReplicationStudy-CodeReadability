@@ -1,0 +1,8 @@
+rule key,start line,end line,severity,message,type
+java:S112,429,429,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1192,91,91,CRITICAL,Define a constant instead of duplicating this literal "source" 5 times.,CODE_SMELL
+java:S1192,103,103,CRITICAL,Define a constant instead of duplicating this literal "select * from t1" 11 times.,CODE_SMELL
+java:S1192,100,100,CRITICAL,Define a constant instead of duplicating this literal "insert into t1 select * from source" 5 times.,CODE_SMELL
+java:S1192,260,260,CRITICAL,Define a constant instead of duplicating this literal "insert into t1 values
+" 6 times.,CODE_SMELL
+java:S2142,428,428,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG

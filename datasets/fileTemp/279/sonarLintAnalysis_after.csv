@@ -1,0 +1,32 @@
+rule key,start line,end line,severity,message,type
+java:S1192,372,372,CRITICAL,Define a constant instead of duplicating this literal "MaxProducers: {} will set to the topic: {}" 3 times.,CODE_SMELL
+java:S1192,101,101,CRITICAL,Define a constant instead of duplicating this literal "Backlog quota {} get on topic: {}" 3 times.,CODE_SMELL
+java:S1192,191,191,CRITICAL,Define a constant instead of duplicating this literal "Retention: {} will set to the topic: {}" 4 times.,CODE_SMELL
+java:S1192,262,262,CRITICAL,Define a constant instead of duplicating this literal "PersistencePolicies: {} will set to the topic: {}" 7 times.,CODE_SMELL
+java:S1192,93,93,CRITICAL,Define a constant instead of duplicating this literal "Backlog quota: {} will set to the topic: {}" 6 times.,CODE_SMELL
+java:S1192,581,581,CRITICAL,Define a constant instead of duplicating this literal "test_subscription_rate" 3 times.,CODE_SMELL
+java:S2259,853,853,MAJOR,A "NullPointerException" could be thrown; "consumer2" is nullable here.,BUG
+java:S2259,917,917,MAJOR,A "NullPointerException" could be thrown; "consumer2" is nullable here.,BUG
+java:S2259,416,416,MAJOR,A "NullPointerException" could be thrown; "producer2" is nullable here.,BUG
+java:S2259,481,481,MAJOR,A "NullPointerException" could be thrown; "producer3" is nullable here.,BUG
+java:S2259,415,415,MAJOR,A "NullPointerException" could be thrown; "producer1" is nullable here.,BUG
+java:S2259,918,918,MAJOR,A "NullPointerException" could be thrown; "consumer3" is nullable here.,BUG
+java:S2259,480,480,MAJOR,A "NullPointerException" could be thrown; "producer2" is nullable here.,BUG
+java:S2259,852,852,MAJOR,A "NullPointerException" could be thrown; "consumer1" is nullable here.,BUG
+java:S2259,479,479,MAJOR,A "NullPointerException" could be thrown; "producer1" is nullable here.,BUG
+java:S1170,55,55,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,57,57,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,59,59,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,61,61,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,63,63,MINOR,Make this final field static too.,CODE_SMELL
+java:S3626,80,80,MINOR,Remove this redundant jump.,CODE_SMELL
+java:S2129,371,371,MAJOR,Remove this "Integer" constructor,CODE_SMELL
+java:S1874,371,371,MINOR,Remove this use of "Integer"; it is deprecated.,CODE_SMELL
+java:S1854,582,582,MAJOR,Remove this useless assignment to local variable "consumer".,CODE_SMELL
+java:S1481,582,582,MINOR,Remove this unused "consumer" local variable.,CODE_SMELL
+java:S1854,618,618,MAJOR,Remove this useless assignment to local variable "consumer".,CODE_SMELL
+java:S1481,618,618,MINOR,Remove this unused "consumer" local variable.,CODE_SMELL
+java:S1854,660,660,MAJOR,Remove this useless assignment to local variable "consumer".,CODE_SMELL
+java:S1481,660,660,MINOR,Remove this unused "consumer" local variable.,CODE_SMELL
+java:S2129,808,808,MAJOR,Remove this "Integer" constructor,CODE_SMELL
+java:S1874,808,808,MINOR,Remove this use of "Integer"; it is deprecated.,CODE_SMELL

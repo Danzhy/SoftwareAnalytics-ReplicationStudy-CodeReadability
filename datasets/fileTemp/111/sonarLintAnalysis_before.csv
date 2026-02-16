@@ -1,0 +1,21 @@
+rule key,start line,end line,severity,message,type
+java:S1192,190,190,CRITICAL,Define a constant instead of duplicating this literal "Endpoint returned Content-Type: " 3 times.,CODE_SMELL
+java:S1488,156,156,MINOR,Immediately return this expression instead of assigning it to the temporary variable "rs".,CODE_SMELL
+java:S4165,140,140,MAJOR,Remove this useless assignment; "httpHeaders" already holds the assigned value along all execution paths.,CODE_SMELL
+java:S1170,101,101,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,102,102,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,103,103,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,104,104,MINOR,Make this final field static too.,CODE_SMELL
+java:S1170,105,105,MINOR,Make this final field static too.,CODE_SMELL
+java:S1186,554,554,CRITICAL,Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.,CODE_SMELL
+java:S1133,70,70,INFO,Do not forget to remove this deprecated code someday.,CODE_SMELL
+java:S125,78,78,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1197,176,176,MINOR,Move the array designators [] to the type.,CODE_SMELL
+java:S106,178,178,MAJOR,Replace this use of System.out or System.err by a logger.,CODE_SMELL
+java:S125,419,419,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S108,421,421,MAJOR,Either remove or fill this block of code.,CODE_SMELL
+java:S1854,510,510,MAJOR,Remove this useless assignment to local variable "requestURL".,CODE_SMELL
+java:S1481,510,510,MINOR,Remove this unused "requestURL" local variable.,CODE_SMELL
+java:S125,512,512,MAJOR,This block of commented-out lines of code should be removed.,CODE_SMELL
+java:S1172,554,554,MAJOR,Remove these unused method parameters "queryString", "request".,CODE_SMELL
+java:S1144,436,436,MAJOR,Remove this unused private "asMillis" method.,CODE_SMELL

@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S112,599,599,MAJOR,Define and throw a dedicated exception instead of using a generic one.,CODE_SMELL
+java:S1117,256,256,MAJOR,Rename "state" which hides the field declared at line 165.,CODE_SMELL
+java:S4274,572,572,MAJOR,Replace this assert with a proper check.,CODE_SMELL
+java:S2142,634,634,MAJOR,Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.,BUG
+java:S1117,775,775,MAJOR,Rename "state" which hides the field declared at line 165.,CODE_SMELL

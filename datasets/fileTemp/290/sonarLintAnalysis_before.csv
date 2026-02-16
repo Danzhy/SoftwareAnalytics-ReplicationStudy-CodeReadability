@@ -1,0 +1,6 @@
+rule key,start line,end line,severity,message,type
+java:S2293,87,87,MINOR,Replace the type specification in this constructor call with the diamond operator ("<>"). (sonar.java.source not set. Assuming 7 or greater.),CODE_SMELL
+java:S1604,101,101,MAJOR,Make this anonymous inner class a lambda (sonar.java.source not set. Assuming 8 or greater.),CODE_SMELL
+java:S1854,87,87,MAJOR,Remove this useless assignment to local variable "typeNames".,CODE_SMELL
+java:S1172,75,75,MAJOR,Remove these unused method parameters "funcClass", "argTypeInfos".,CODE_SMELL
+java:S1481,87,87,MINOR,Remove this unused "typeNames" local variable.,CODE_SMELL
