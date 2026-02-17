@@ -1,0 +1,3 @@
+Before Error: None
+After Error: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /gradle/gradle/419b0b1c3848f1fbf6ea6410eac3df940725670b/subprojects/core/src/main/java/org/gradle/api/internal/tasks/execution/TaskExecution.java (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x105b22f10>: Failed to establish a new connection: [Errno 65] No route to host'))
+URL After: https://raw.githubusercontent.com/gradle/gradle/419b0b1c3848f1fbf6ea6410eac3df940725670b/subprojects/core/src/main/java/org/gradle/api/internal/tasks/execution/TaskExecution.java

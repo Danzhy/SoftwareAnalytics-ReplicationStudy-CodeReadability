@@ -1,0 +1,3 @@
+Before Error: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=15)
+After Error: None
+URL After: https://raw.githubusercontent.com/gdg-x/frisbee/87fa6fc73e3a99812de96337d98b78a68ee29de5/app/src/main/java/org/gdg/frisbee/android/eventseries/GdgEventListFragment.java

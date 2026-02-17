@@ -203,10 +203,12 @@ public class CountOccurrences {
 		System.out.println("Sonar Recomendou o readability improvement?");
 		//System.out.println("Code readability Improvements sugeridos pelo Sonar antes do commit");
 		//System.out.println("Code readability Improvements sugeridos pelo Sonar depois do commit");
-		File rootDir = new File("datasets/fileTemp");
+		File rootDir = new File("../../datasets/fileTemp");
 		File dirs[] = rootDir.listFiles();
 		for (int i = 2;i<= dirs.length+1;i++) {
 			File dir = getDir(i,dirs);
+			// Addding this for broken / unavailable files
+			if (dir == null) continue;
 			String name = dir.getName();
 			//System.out.println(name);
 			if (dir.listFiles().length == 0) {
@@ -367,8 +369,6 @@ public class CountOccurrences {
 		}
 		return null;
 	}
-
-
 
 	private static Set<String> getViolations(File file) throws Exception {
 		Set<String> violations = new LinkedHashSet<>();

@@ -1,0 +1,3 @@
+Before Error: None
+After Error: HTTP 404
+URL After: https://raw.githubusercontent.com/MovingBlocks/Terasology/d0782daeade373fecbe5d6b673dbb12aebf70682/engine/src/main/java/org/terasology/engine/rendering/cameras/SubmersibleCamera.java

@@ -1,0 +1,1 @@
+Process Error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/mockito/mockito/commits/814955a988167dd36a47c2ed5e6c0a388e9359ba (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x105b3a910>, 'Connection to api.github.com timed out. (connect timeout=15)'))

@@ -1,0 +1,1 @@
+Process Error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/apache/avro/commits/9791d0f68c264b636da97661d231997ea795dabd (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x103751090>, 'Connection to api.github.com timed out. (connect timeout=15)'))

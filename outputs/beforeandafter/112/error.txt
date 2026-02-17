@@ -1,0 +1,3 @@
+Before Error: HTTP 404
+After Error: None
+URL After: https://raw.githubusercontent.com/eclipse/jetty.project/b4bd5980aaf685503f953faa07ba3fe68ab81326/jetty-websocket/javax-websocket-client/src/main/java/org/eclipse/jetty/websocket/javax/client/DelegatedJavaxClientUpgradeRequest.java

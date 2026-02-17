@@ -1,0 +1,1 @@
+Process Error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/netty/netty/commits/d5b82cf0175df9437154e7a1ad0ec8ab10ba88dc (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1059e1390>, 'Connection to api.github.com timed out. (connect timeout=15)'))
