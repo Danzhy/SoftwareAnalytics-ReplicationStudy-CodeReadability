@@ -28,7 +28,12 @@ javac replication_scripts/RQ2/CountOccurrences.java
 
 then 
 
-java -cp replication_scripts/RQ2 CountOccurrence
+java -cp replication_scripts/RQ2 CountOccurrences
+
+To get a formatted table (and CSV) from the output, pipe to parseOutput.py:
+java -cp replication_scripts/RQ2 CountOccurrences | python3 replication_scripts/RQ2/parseOutput.py
+
+Or with saved output: python3 replication_scripts/RQ2/parseOutput.py < output.txt
 
 
 Acknowledge AI usage with the .sql files changes going from mysql specific to postgresql
@@ -118,4 +123,11 @@ FROM "pullRequests" WHERE state = 'merged' However, The state column is never po
 
 We had to change this:
 
+
+
+
+_________
+
+
+CountOccurrences.java - just outputs in terminal, doesn't create a neat table. 
 
