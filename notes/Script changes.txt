@@ -1,0 +1,14 @@
+Database migration (MySQL → PostgreSQL)
+The original study used MySQL; we switched to PostgreSQL. All Python scripts were updated to use psycopg2 instead of mysql.connector, and database credentials are read from a .env file instead of hardcoded values. The schema (script_schema.sql) was adapted for PostgreSQL: TINYINT(1) → SMALLINT, INSERT IGNORE → ON CONFLICT DO NOTHING, and mixed-case identifiers were quoted.
+Data and environment adjustments
+
+Reaper import: The reaper CSV sometimes contains the literal string "None" in numeric columns. A sanitize_value() helper was added to convert "None", "null", and empty strings to Python None before insert so PostgreSQL stores them as NULL.
+Boolean columns: The schema uses SMALLINT for isFork and site_admin, while the GitHub API returns booleans. We convert with 1 if value else 0 before writing to the database.
+Null handling: Some GraphQL responses have repository or repositoryOwner as null (deleted/renamed/private repos). Null checks were added before accessing nested fields to avoid TypeError: 'NoneType' object is not subscriptable.
+
+Repository limit: The original import processes all repositories. We added REPLICATION_REPO_COUNT = 5 and random.seed(43) to limit to 5 repos and keep the sample reproducible.
+state column: importPullRequests.py does not populate the state column. We run UPDATE "pullRequests" SET state = 'merged'; after import so queries that filter by state = 'merged' return results.
+
+New: parseOutput.py — Parses the raw output of CountOccurrences.java and produces a formatted table and CSV.
+Modified: CountOccurrences.java — Replaced the Windows path F:\... with the relative path datasets/fileTemp for cross-platform use.
+

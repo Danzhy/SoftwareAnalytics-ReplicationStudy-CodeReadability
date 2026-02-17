@@ -74,6 +74,9 @@ Scripts for the replication pipeline:
 - **RQ1/** — `README.md` With detailed steps of the replication	and results, `select10PRs.py` scrip used to get random prs for manual review and `compare_evaluations_10prs.py` to compare our close coding to original authors
 - **RQ2/** — `CountOccurrences.java` (counts SonarQube rule violations before/after), `parseOutput.py` (parses Java output into a table and CSV), `rq2_readability_issues.csv` (generated output), `download_before_and_after.py` Downloads before and after code files from github (our dataset inside outputs),`sonarlint-core-master` static analysis to suggested code improvements, `READE.md` Document the steps.
 
+
+Please find more detailed explanation of changes made to scripts in the `/notes/Script changes.txt`
+
 ### notes/
 
 - **NOTES.txt** — Notes taken while executing scripts, encountering errors, and applying fixes.
