@@ -26,7 +26,7 @@ This replication study reproduces the original research by validating the 26-typ
 ## 2. Repository Structure
 
 ```
-REPLICATION/
+root/
 ├── README.md
 ├── requirements.txt
 ├── .env                    # DB and GitHub credentials (create per Setup Instructions; not committed)
@@ -137,11 +137,11 @@ GITHUB_ACCESS_TOKEN=your_github_personal_access_token
 4. Create PostgreSQL database: `CREATE DATABASE gh_graphql_api;`
 5. Run schema: `psql -U postgres -d gh_graphql_api -f "replication_scripts/1.1 import reaper dataset/script_schema.sql"`
 6. Create `.env` with DB and GitHub credentials
-7. Place `reaper-dataset.csv` in `REPLICATION` for the import step (see `notes/SCRIPT_CHANGES.md` for full pipeline)
+7. Place `reaper-dataset.csv` in the root folder for the import step
 
 ### 3.6 Running scripts 
 
-Run all scripts **apart from RQ1** from the root folder (`REPLICATION`).
+Run all scripts **apart from RQ1** from the root folder.
 
 **Python scripts (steps 1.1–1.6):**
 ```bash
@@ -181,7 +181,7 @@ Either `cd` into `replication_scripts/RQ1/` first, or adjust the paths in those 
 
 - **Formatting documentation:** We used prompts like "how to create lists, how to create embedded code blocks, how to make text bold" to format `.md` files.
 
-- **Debugging errors:** When we encountered errors we asked Cursor and ChatGPT why those errors occurred. For example, we asked why we encountered "NoneType" and "DatatypeMismatch" ([Screenshot](/REPLICATION/logs/ERROR:%20repoInfo%20isFork%20field%20and%20NoneType.png)) errors when running `repoInfo.py` for the first time. Based on the output we changed how we handled missing values and `isFork` column values, which made the script run correctly.
+- **Debugging errors:** When we encountered errors we asked Cursor and ChatGPT why those errors occurred. For example, we asked why we encountered "NoneType" and "DatatypeMismatch" ([Screenshot](/logs/ERROR:%20repoInfo%20isFork%20field%20and%20NoneType.png)) errors when running `repoInfo.py` for the first time. Based on the output we changed how we handled missing values and `isFork` column values, which made the script run correctly.
 
 
 ## Grading Criteria for README
