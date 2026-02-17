@@ -25,21 +25,53 @@ This replication study reproduces the original research by validating the 26-typ
 
 ## 2. Repository Structure
 
-Document your repository structure clearly. Organize your repository using the following standard structure:
-
 ```
-README                    # Documentation for your repository
-datasets/                 # Subset of data you used (if any). If you used the whole dataset, include instructions on how to download it
-replication_scripts/      # Scripts used in your replication:
-                          #   - If you used scripts as-is: document which scripts you ran
-                          #   - If you modified scripts: include the modified scripts
-                          #   - If you created new scripts: include all new scripts
-outputs/                  # Your generated results only
-logs/                     # Console output, errors, screenshots
-notes/                    # Optional if you have any notes you took during reproduction (E.g., where you noted discrepencies etc)
+REPLICATION/
+├── README.md
+├── requirements.txt
+├── .env                    # DB and GitHub credentials (create per Setup Instructions; not committed)
+├── datasets/               # Datasets from the artifact
+│   └── fileTemp/           # SonarQube analysis results (before/after) for RQ2
+├── replication_scripts/    # Scripts for steps 1.1–1.7 and RQ1/RQ2
+├── outputs/                # Generated results
+├── logs/                   # Screenshots of errors and script outputs
+└── notes/                  # Notes taken during execution and fixes
 ```
 
-**For each folder and file, provide a brief description of what it contains.**
+### datasets/
+
+Contains datasets provided in the original artifact, **except** `reaper-dataset.csv`, which is provided separately because it is too large.
+
+- **fileTemp/** — Result of extracting code readability issues identified by SonarQube. Each subfolder (e.g., `2`, `16`, `95`) corresponds to a pull request and contains `sonarLintAnalysis_before.csv` and `sonarLintAnalysis_after.csv`. These were provided in the artifact and are used by the RQ2 `CountOccurrences.java` script.
+
+### logs/
+
+Contains screenshots of errors and outputs from running scripts in steps 1.1–1.6 and the RQ2 scripts. Examples include MySQL/PostgreSQL migration errors, `repoInfo.py` NoneType/DatatypeMismatch errors, and successful run outputs.
+
+### outputs/
+
+Generated results from the replication:
+
+- **RQ2 parsing** — Screenshot and CSV of the formatted table comparing SonarQube issues before vs. after commits (output of `parseOutput.py`).
+- **candidateMergedReadabilityPRs.csv** — Result of selecting 5 repos and mining their merged readability-related PRs (output of `query.sql` in step 1.7).
+
+### replication_scripts/
+
+Scripts for the replication pipeline:
+
+- **1.1 import reaper dataset/** — `importReaper_modified.py` (imports reaper CSV into PostgreSQL), `script_schema.sql` (database schema).
+- **1.2 import repository information/** — `repoInfo.py` (fetches repo metadata from GitHub GraphQL).
+- **1.3 import pull requests/** — `importPullRequests.py` (imports merged PRs matching readability keywords).
+- **1.4 changed files/** — `changedFiles.py` (fetches changed files per PR).
+- **1.5 collaborators/** — `collaborators.py` (fetches contributors per repo).
+- **1.6 reviews/** — `reviews.py` (fetches PR reviews).
+- **1.7 generate csv/** — `query.sql` (generates `candidateMergedReadabilityPRs.csv`).
+- **RQ1/** — *(Documented by teammate.)*
+- **RQ2/** — `CountOccurrences.java` (counts SonarQube rule violations before/after), `parseOutput.py` (parses Java output into a table and CSV), `rq2_readability_issues.csv` (generated output).
+
+### notes/
+
+- **NOTES.txt** — Notes taken while executing scripts, encountering errors, and applying fixes.
 
 ## 3. Setup Instructions
 
@@ -109,7 +141,33 @@ GITHUB_ACCESS_TOKEN=your_github_personal_access_token
 
 ### 3.6 Running scripts 
 
-**Run all scripts from the root folder.**
+Run all scripts **apart from RQ1** from the root folder (`REPLICATION`).
+
+**Python scripts (steps 1.1–1.6):**
+```bash
+python "replication_scripts/1.1 import reaper dataset/importReaper_modified.py"
+python "replication_scripts/1.2 import repository information/repoInfo.py"
+python "replication_scripts/1.3 import pull requests/importPullRequests.py"
+python "replication_scripts/1.4 changed files/changedFiles.py"
+python "replication_scripts/1.5 collaborators/collaborators.py"
+python "replication_scripts/1.6 reviews/reviews.py"
+```
+
+**Step 1.7 — Generate CSV based on `query.sql`:** Run via the `psql` terminal.
+
+1. From the root folder, connect to the database:
+   ```bash
+   psql -U postgres -d gh_graphql_api
+   ```
+
+
+2. To export the main query result to `candidateMergedReadabilityPRs.csv`, the `\copy` command is in the comment at the top of `query.sql`. Copy that full `\copy (SELECT ... ) TO 'candidateMergedReadabilityPRs.csv' CSV HEADER` line, paste it into the `psql` prompt, and run it. The CSV is written to the directory where you started `psql` (the root folder). To save it in `outputs/`, either `cd outputs` before starting `psql`, or move the file afterward.
+
+We couldn't figure out how to use the query.sql directly to export the results to csv file.
+Thus based on the query.sql the command \copy ... basically performs the same filtering and writes it onto csv.
+
+**For RQ1 scripts (compare_evaluations_10prs.py and select10PRs.py):**  
+Either `cd` into `replication_scripts/RQ1/` first, or adjust the paths in those scripts.
 
 
 
