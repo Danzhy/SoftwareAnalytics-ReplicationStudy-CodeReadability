@@ -1,0 +1,1 @@
+Process Error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/apache/accumulo/commits/1d94714bdc4e5e54432dfa8ca1c0a5efa1ce723d (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x105b12d50>, 'Connection to api.github.com timed out. (connect timeout=15)'))

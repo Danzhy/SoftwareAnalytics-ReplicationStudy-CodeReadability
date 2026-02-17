@@ -1,0 +1,3 @@
+Before Error: None
+After Error: HTTP 404
+URL After: https://raw.githubusercontent.com/crate/crate/c9082ed575b39eb40c01ddb92123a49b9504b800/sql/src/main/java/io/crate/expression/symbol/GroupBySemantics.java

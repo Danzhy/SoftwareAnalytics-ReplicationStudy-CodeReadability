@@ -1,0 +1,3 @@
+Before Error: None
+After Error: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+URL After: https://raw.githubusercontent.com/AxonFramework/AxonFramework/dd252ca15b0ee3c21665a05e753e397317d3c41a/axon-server-connector/src/main/java/org/axonframework/axonserver/connector/AxonServerConnectionManager.java

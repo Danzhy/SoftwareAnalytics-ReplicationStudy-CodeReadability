@@ -1,0 +1,1 @@
+Process Error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/linkedin/rest.li/commits/58ee644ea3a21900856c4386f17459cb1246fd4a (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x105b228d0>, 'Connection to api.github.com timed out. (connect timeout=15)'))

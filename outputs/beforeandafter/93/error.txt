@@ -1,0 +1,1 @@
+Process Error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/azkaban/azkaban/commits/65400fa97dcae8e91662cad8aed5fb2471fb6921 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x105b10e10>, 'Connection to api.github.com timed out. (connect timeout=15)'))

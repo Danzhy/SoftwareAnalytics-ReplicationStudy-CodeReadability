@@ -1,0 +1,3 @@
+Before Error: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /apache/roller/86eabeaaf07a913ac7af1d1fe18e3ea03c4b2af2/app/src/main/java/org/apache/roller/weblogger/business/jpa/JPAWeblogEntryManagerImpl.java (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1059e1010>: Failed to establish a new connection: [Errno 65] No route to host'))
+After Error: None
+URL After: https://raw.githubusercontent.com/apache/roller/083252695e6c494ecbd8b7fc95858a990f16dbfb/app/src/main/java/org/apache/roller/weblogger/business/jpa/JPAWeblogEntryManagerImpl.java

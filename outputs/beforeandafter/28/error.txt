@@ -1,0 +1,1 @@
+Process Error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/jacoco/jacoco/commits/970c42939ddb3bf3f509a7100795d8ca1ce738aa (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x105b2cdd0>, 'Connection to api.github.com timed out. (connect timeout=15)'))

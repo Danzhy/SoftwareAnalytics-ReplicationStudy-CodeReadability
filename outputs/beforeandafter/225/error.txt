@@ -1,0 +1,1 @@
+Process Error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/cgeo/cgeo/commits/c71daa1561b134172e400aac753f32208a11aaea (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1059e1bd0>, 'Connection to api.github.com timed out. (connect timeout=15)'))

@@ -1,0 +1,1 @@
+Process Error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/eclipse/jetty.project/commits/b13249fd14aded9f5e17fa8f30233a51fcadcf03 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x105b3a390>, 'Connection to api.github.com timed out. (connect timeout=15)'))

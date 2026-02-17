@@ -1,0 +1,3 @@
+Before Error: HTTP 404
+After Error: None
+URL After: https://raw.githubusercontent.com/elastic/elasticsearch/327baa0c14a0538732e52e868913779343275d96/client/rest-high-level/src/main/java/org/elasticsearch/client/ml/dataframe/evaluation/outlierdetection/OutlierDetection.java
