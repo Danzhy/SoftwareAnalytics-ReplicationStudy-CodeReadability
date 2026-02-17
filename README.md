@@ -43,6 +43,7 @@ root/
 Contains datasets provided in the original artifact, **except** `reaper-dataset.csv`, which is provided separately because it is too large.
 
 - **fileTemp/** — Result of extracting code readability issues identified by SonarQube. Each subfolder (e.g., `2`, `16`, `95`) corresponds to a pull request and contains `sonarLintAnalysis_before.csv` and `sonarLintAnalysis_after.csv`. These were provided in the artifact and are used by the RQ2 `CountOccurrences.java` script.
+- Excell sheets and csv files used in **RQ2**
 
 ### logs/
 
@@ -54,6 +55,10 @@ Generated results from the replication:
 
 - **RQ2 parsing** — Screenshot and CSV of the formatted table comparing SonarQube issues before vs. after commits (output of `parseOutput.py`).
 - **candidateMergedReadabilityPRs.csv** — Result of selecting 5 repos and mining their merged readability-related PRs (output of `query.sql` in step 1.7).
+- **BeforeandAfter** Code files we mines (Some are missing with error.txt messages due to broken github links or other reasons)
+- Excell sheets and csv files for evaluation of RQ1
+- ReadabilityIssues count from sonar analysis in a csv file
+
 
 ### replication_scripts/
 
@@ -66,8 +71,8 @@ Scripts for the replication pipeline:
 - **1.5 collaborators/** — `collaborators.py` (fetches contributors per repo).
 - **1.6 reviews/** — `reviews.py` (fetches PR reviews).
 - **1.7 generate csv/** — `query.sql` (generates `candidateMergedReadabilityPRs.csv`).
-- **RQ1/** — *(Documented by teammate.)*
-- **RQ2/** — `CountOccurrences.java` (counts SonarQube rule violations before/after), `parseOutput.py` (parses Java output into a table and CSV), `rq2_readability_issues.csv` (generated output).
+- **RQ1/** — `README.md` With detailed steps of the replication	and results, `select10PRs.py` scrip used to get random prs for manual review and `compare_evaluations_10prs.py` to compare our close coding to original authors
+- **RQ2/** — `CountOccurrences.java` (counts SonarQube rule violations before/after), `parseOutput.py` (parses Java output into a table and CSV), `rq2_readability_issues.csv` (generated output), `download_before_and_after.py` Downloads before and after code files from github (our dataset inside outputs),`sonarlint-core-master` static analysis to suggested code improvements, `READE.md` Document the steps.
 
 ### notes/
 
@@ -171,11 +176,9 @@ Either `cd` into `replication_scripts/RQ1/` first, or adjust the paths in those 
 
 
 
-
-
 ## 4. GenAI Usage
 
-**Cursor** and **ChatGPT** were used for understanding scripts and debugging, and basically as documentation assistants.
+**Cursor** , **ChatGPT** were used for understanding scripts and debugging, and basically as documentation assistants.
 
 - **Understanding and migrating SQL:** We used Cursor to explain what the unique MySQL syntax lines are in `.sql` queries and scripts. Cursor was then used as "documentation" to figure out how to replace MySQL-specific syntax in `.sql` files and DB connection logic in scripts. This way we were able to promptly ensure that scripts support PostgreSQL, not MySQL.
 
