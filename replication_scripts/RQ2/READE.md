@@ -77,7 +77,6 @@ The analysis engine will generate two key files inside each of the file:
 
 ```
 
-
 ---
 
 ### Part 3: Comparative Analysis & Table Generation
