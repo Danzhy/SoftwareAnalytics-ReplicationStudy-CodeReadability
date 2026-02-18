@@ -55,6 +55,7 @@ Generated results from the replication:
 
 - **RQ2 parsing** — Screenshot and CSV of the formatted table comparing SonarQube issues before vs. after commits (output of `parseOutput.py`).
 - **candidateMergedReadabilityPRs.csv** — Result of selecting 5 repos and mining their merged readability-related PRs (output of `query.sql` in step 1.7).
+- **Extended study - Classifications - Sheet1.csv** - Result of manualy analyzing merged readability-related PRs from candidateMergedReadabilityPRs.csv
 - **BeforeandAfter** Code files we mines (Some are missing with error.txt messages due to broken github links or other reasons)
 - Excell sheets and csv files for evaluation of RQ1
 - ReadabilityIssues count from sonar analysis in a csv file
@@ -64,7 +65,7 @@ Generated results from the replication:
 
 Scripts for the replication pipeline:
 
-- **1.1 import reaper dataset/** — `importReaper_modified.py` (imports reaper CSV into PostgreSQL), `script_schema.sql` (database schema).
+- **1.1 import reaper dataset/** — `importReaper_modified.py` (imports reaper CSV into PostgreSQL), `script_schema.sql` (database schema). We only imported approximately 30k repositories.
 - **1.2 import repository information/** — `repoInfo.py` (fetches repo metadata from GitHub GraphQL).
 - **1.3 import pull requests/** — `importPullRequests.py` (imports merged PRs matching readability keywords).
 - **1.4 changed files/** — `changedFiles.py` (fetches changed files per PR).
